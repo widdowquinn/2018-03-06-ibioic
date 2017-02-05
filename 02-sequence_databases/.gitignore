@@ -1,0 +1,11 @@
+# Exclude Emacs intermediate files
+*~
+
+# Exclude iPython/Jupyter intermediate files
+.ipynb_checkpoints/
+
+# Exclude virtualenvs
+venv-*
+
+# Exclude course output directories
+output/
