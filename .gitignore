@@ -9,3 +9,6 @@ venv-*
 
 # Exclude course output directories
 output/
+
+# Exclude OSX-specific files
+.DS_Store
