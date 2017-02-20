@@ -23,6 +23,8 @@ For the course VM, you will also need to install the VirtualBox Extension Pack, 
 
 In addition to the tools that were available with the base VM, we have installed:
 
+### Useful Linux tools
+
 #### `apt-get`
 
 `apt-get` was updated with
@@ -31,23 +33,13 @@ In addition to the tools that were available with the base VM, we have installed
 sudo apt-get update
 ```
 
+and the `aptitude` interface onto `apt=get`:
+
 ```
 sudo apt-get install aptitude
 ```
 
-#### `BLAST+`
-
-```
-sudo apt-get install ncbi-blast+
-```
-
-#### `HMMer`
-
-`HMMer` is a hidden Markov model-based tools for sequence profile generation and searching.
-
-```
-sudo apt-get install hmmer
-```
+* [`aptitude` wiki page](https://wiki.debian.org/Aptitude)
 
 #### `git`
 
@@ -56,6 +48,68 @@ sudo apt-get install hmmer
 ```
 sudo apt-get install git
 ```
+
+* [`git` homepage](https://git-scm.com/)
+
+#### Google Chrome
+
+This is our preferred browser for the course. The installation file for `google-chrome-stable` was downloaded from Google and installed directly.
+
+
+
+### Bioinformatics packages
+
+#### `Artemis`/`ACT`
+
+`Artemis` and `ACT` are widely-used genome annotation tools.
+
+* [`Artemis` homepage](http://www.sanger.ac.uk/science/tools/artemis)
+* [`ACT` homepage](http://www.sanger.ac.uk/science/tools/artemis)
+
+
+#### `BLAST+`
+
+`BLAST` is the ubiquitious tool used to search for similar sequences in a database. We install a local command-line version.
+
+```
+sudo apt-get install ncbi-blast+
+```
+
+* [`BLAST+` Homepage](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+* [`BLAST+` at NCBI](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+
+#### `clustal omega`
+
+`clustal omega` is a widely-used sequence alignment package
+
+```
+sudo apt-get install clustalo
+```
+
+* [`clustal omega` homepage](http://www.clustal.org/omega/)
+* [`clustal omega` at EMBL-EBI](http://www.ebi.ac.uk/Tools/msa/clustalo/)
+
+#### `HMMer`
+
+`HMMer` is a hidden Markov model-based tools for sequence profile generation and searching against databases.
+
+```
+sudo apt-get install hmmer
+```
+
+* [`HMMer` homepage](http://hmmer.org/)
+
+
+#### `muscle`
+
+`muscle` is a widely-used sequence alignment package
+
+```
+sudo apt-get install muscle
+```
+
+* [`muscle` homepage](http://drive5.com/muscle/)
+* [`muscle` at EMBL-EBI](http://www.ebi.ac.uk/Tools/msa/muscle/) 
 
 #### `python`
 
@@ -70,29 +124,11 @@ sudo apt-get install python3.6-dev
 sudo apt-get install virtualenv
 ```
 
-#### `muscle`
+* [`python` homepage](https://www.python.org/)
+* [`virtualenv` docs](https://virtualenv.pypa.io/en/stable/)
+* [introduction to virtual environments for non-programmers](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
+* [basic use of virtual environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
-`muscle` is a widely-used sequence alignment package
-
-```
-sudo apt-get install muscle
-```
-
-#### `clustal omega`
-
-`clustal omega` is a widely-used sequence alignment package
-
-```
-sudo apt-get install clustalo
-```
-
-#### `t-coffee`
-
-`t-coffee` is a widely-used sequence alignment package
-
-```
-sudo apt-get install t-coffee
-```
 
 #### `pymol`
 
@@ -102,6 +138,8 @@ sudo apt-get install t-coffee
 sudo apt-get install pymol
 ```
 
+* [`pymol` homepage](https://www.pymol.org/)
+
 #### `samtools`
 
 `samtools` is the standard package for converting and manipulating short-read sequencing data
@@ -110,15 +148,22 @@ sudo apt-get install pymol
 sudo apt-get install samtools
 ```
 
-#### `Artemis`/`ACT`
+* [`samtools`](http://samtools.sourceforge.net/)
 
-`Artemis` and `ACT` are widely-used genome annotation tools.
-
-
-#### Google Chrome
-
-This is our preferred browser. The installation file for `google-chrome-stable` was downloaded from Google and installed directly.
 
 #### `Tablet`
 
-Tablet is a widely-used sequence assembly visualisation tool. The installer is downloaded from 
+Tablet is a widely-used sequence assembly visualisation tool. The installer was downloaded from JHI.
+
+* [`tablet` homepage](https://ics.hutton.ac.uk/tablet/)
+
+#### `t-coffee`
+
+`t-coffee` is a widely-used sequence alignment package
+
+```
+sudo apt-get install t-coffee
+```
+
+* [`t-coffee` homepage](http://www.tcoffee.org/)
+* [`t-coffee` at EMBL-EBI](http://www.ebi.ac.uk/Tools/msa/tcoffee/)

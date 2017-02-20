@@ -12,3 +12,8 @@ output/
 
 # Exclude OSX-specific files
 .DS_Store
+
+# Exclude VMs
+*.7z
+*.vmd
+*.vmi
