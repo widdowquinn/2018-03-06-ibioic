@@ -33,7 +33,7 @@ In addition to the tools that were available with the base VM, we have installed
 sudo apt-get update
 ```
 
-and the `aptitude` interface onto `apt=get`:
+and the `aptitude` interface onto `apt-get`:
 
 ```
 sudo apt-get install aptitude
@@ -98,6 +98,16 @@ sudo apt-get install hmmer
 ```
 
 * [`HMMer` homepage](http://hmmer.org/)
+
+#### `JMol`
+
+`JMol` is a widely-used structural biology and protein structure visualisation tool
+
+```
+sudo apt-get install jmol
+```
+
+* [`JMol` homepage](https://www.pymol.org/)
 
 
 #### `muscle`
