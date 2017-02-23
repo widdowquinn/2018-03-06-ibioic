@@ -101,12 +101,15 @@ Once the job is complete, the results will be displayed as an interactive webpag
 We will use these outputs in later exercises.
 
 <img src="./images/exercise.png" style="width: 40px; float: left;">
+
 ## Exercise 01: Using the NCBI `BLAST` Website
 
 Using the NCBI `BLAST` website:
 
 * Conduct a `BLASTX` query with `data/kitastaospora/lantibiotic.fasta` against the `nr` database, restricting your results only to *Kitasatospora* spp. matches (taxid: 2063)
-* Save the results in `Text` and `Table(CSV)` format to `output/kitasatospora/ncbi_blastx_query_02.txt` and `output/kitasatospora/ncbi_blastx_query_02.csv`
+* Save the results in `Text` and `Table(CSV)` format to
+  * `output/kitasatospora/ncbi_blastx_query_02.txt`
+  * `output/kitasatospora/ncbi_blastx_query_02.csv`
 
 ### QUESTIONS
 
