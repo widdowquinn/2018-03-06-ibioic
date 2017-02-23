@@ -19,6 +19,52 @@ Once you have downloaded the application, please follow the instructions relevan
 
 For the course VM, you will also need to install the VirtualBox Extension Pack, available [here](https://www.virtualbox.org/wiki/Downloads).
 
+## `VirtualBox` local networking, and `ssh`
+
+For deployment testing, `openssh-server` is installed on the VM, and the networking is configured as follows:
+
+### On the host OS
+
+```
+VirtualBox -> Settings -> Network -> Add
+VM Settings -> System -> check "Enable I/O APIC"
+VM Settings -> Network -> Adapter 2 -> Host-only -> vboxnet0
+```
+
+The first action creates a new virtual network which will mediate between the VM and the host OS, called `vboxnet0`. The second and third actions configure a second network adapter on the VM, which will be used to connect to `vboxnet0`
+
+If the configuration is successful, issuing `ifconfig` in a terminal on the host OS will show an interface called `vboxnet0`
+
+### On the guest OS
+
+The `/etc/network/interfaces` file was edited to append the new interface:
+
+```
+auto enp0s8
+iface enp0s8 inet static
+address 192.168.56.101
+netmask 255.255.255.0
+```
+
+The interface was restarted with `sudo ifup enp0s8`, and it was then possible to `ssh` into the VM.
+
+### `Xforwarding` graphical applications
+
+`Xforwarding` was tested using `XQuartz` in the OSX terminal. 
+
+```
+$ ssh -XC ibioic@192.168.56.101
+ibioic@192.168.56.101's password: 
+Welcome to Ubuntu 16.10 (GNU/Linux 4.8.0-39-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 packages can be updated.
+0 updates are security updates.
+```
+
 ## Installed tools
 
 In addition to the tools that were available with the base VM, we have installed:
@@ -56,6 +102,16 @@ sudo apt-get install git
 This is our preferred browser for the course. The installation file for `google-chrome-stable` was downloaded from Google and installed directly.
 
 
+#### `openssh-server`
+
+`openssh-server` enables secure remote logins
+
+```
+sudo apt-get install openssh-server
+```
+
+* [`git` homepage](https://git-scm.com/)
+* 
 
 ### Bioinformatics packages
 
