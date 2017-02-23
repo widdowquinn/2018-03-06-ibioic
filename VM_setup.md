@@ -110,8 +110,19 @@ This is our preferred browser for the course. The installation file for `google-
 sudo apt-get install openssh-server
 ```
 
-* [`git` homepage](https://git-scm.com/)
-* 
+* [`OPenSSH` homepage](https://www.openssh.com/)
+
+#### `pandoc`
+
+`pandoc` converts markup documents between formats, and is used to produce course output from the markdown source
+
+```
+sudo apt-get install pandoc
+```
+
+* [`pandoc` homepage](http://pandoc.org/)
+
+
 
 ### Bioinformatics packages
 
