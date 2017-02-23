@@ -33,7 +33,7 @@ Each of the interfaces has advantages and disadvantages that should help you dec
 ## Using the NCBI website
 
 
-* Open Google Chrome and navigate to the [NCBI `BLAST` webpage](https://blast.ncbi.nlm.nih.gov/Blast.cgi). You can use the NCBI-BLAST bookmark for this.
+* Open Google Chrome with the command `google-chrome` and navigate to the [NCBI `BLAST` webpage](https://blast.ncbi.nlm.nih.gov/Blast.cgi). You can use the NCBI-BLAST bookmark for this.
 
 ![NCBI BLAST landing page](./images/01-01_ncbi_landing.png)
 

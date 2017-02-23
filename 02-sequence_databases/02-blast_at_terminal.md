@@ -14,11 +14,11 @@ The `BLAST/BLAST+` package can be installed on your own machine (desktop or lapt
 
 ## Using `BLAST+` in the terminal
 
-* Open a terminal window in the virtual machine (VM)
+* If necessary, open a terminal window in the virtual machine (VM)
 
 ![Empty terminal window](./images/02-01_empty_terminal.png)
 
-* Change directory to the `02-sequence_databases` lesson directory:
+* Change directory to the `~IBioIC/Teaching-IBioIC-Intro-to-Bioinformatics/02-sequence_databases` lesson directory:
 
 ```
 cd IBioIC/Teaching-IBioIC-Intro-to-Bioinformatics/02-sequence-databases
