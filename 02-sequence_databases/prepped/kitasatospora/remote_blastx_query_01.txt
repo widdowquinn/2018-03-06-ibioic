@@ -1,0 +1,2160 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTX 2.6.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: B3FVC93A015
+
+
+Database: PDB protein database
+           89,617 sequences; 22,378,349 total letters
+Query= lcl|LISX01000001.1_cds_OKJ16671.1_31 [locus_tag=AMK19_00175]
+[protein=penicillin-binding protein] [protein_id=OKJ16671.1]
+[location=39730..41184]
+
+Length=1455
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+3UN7_A  Chain A, Crystal Structure Of Pbpa From Mycobacterium ...  297     1e-95
+3LO7_A  Chain A, Crystal Structure Of Pbpa From Mycobacterium ...  295     1e-94
+4MNR_A  Chain A, Crystal Structure Of D,d-transpeptidase Domai...  216     2e-64
+4RA7_A  Chain A, Structure Of A Putative Peptidoglycan Glycosy...  128     6e-32
+4N1X_A  Chain A, Structure Of A Putative Peptidoglycan Glycosy...  128     8e-32
+4JBF_A  Chain A, Crystal Structure Of Peptidoglycan Glycosyltr...  128     8e-32
+5E31_A  Chain A, 2.3 Angstrom Crystal Structure Of The Monomer...  115     4e-27
+4CPK_A  Chain A, Crystal Structure Of Pbp2a Double Clinical Mu...  114     1e-26
+1VQQ_A  Chain A, Structure Of Penicillin Binding Protein 2a Fr...  114     1e-26
+4BL2_A  Chain A, Crystal Structure Of Pbp2a Clinical Mutant E1...  114     1e-26
+3ZG5_A  Chain A, Crystal Structure Of Pbp2a From Mrsa In Compl...  114     1e-26
+4BL3_A  Chain A, Crystal Structure Of Pbp2a Clinical Mutant N1...  112     4e-26
+1MWS_A  Chain A, Structure Of Nitrocefin Acyl-Penicillin Bindi...  112     5e-26
+1MWR_A  Chain A, Structure Of Semet Penicillin Binding Protein...  108     7e-25
+3UE3_A  Chain A, Crystal Structure Of Acinetobacter Baumanni Pbp3  93.2    8e-20
+5TRO_A  Chain A, 1.8 Angstrom Resolution Crystal Structure Of ...  91.7    3e-19
+3EQV_A  Chain A, Crystal Structure Of Penicillin-Binding Prote...  87.8    4e-18
+3EQU_A  Chain A, Crystal Structure Of Penicillin-Binding Prote...  87.0    8e-18
+4L0L_A  Chain A, Crystal Structure Of P.aeruginosa Pbp3 In Com...  78.2    5e-15
+3PBN_A  Chain A, Crystal Structure Of Apo Pbp3 From Pseudomona...  77.8    6e-15
+4BJP_A  Chain A, Crystal Structure Of E. Coli Penicillin Bindi...  77.8    7e-15
+4FSF_A  Chain A, Crystal Structure Of Pseudomonas Aeruginosa P...  77.8    7e-15
+4WEK_A  Chain A, Crystal Structure Of Pseudomonas Aeruginosa P...  77.8    7e-15
+3OC2_A  Chain A, Crystal Structure Of Penicillin-binding Prote...  77.8    8e-15
+4ZTK_A  Chain A, Transpeptidase Domain Of Ftsi4 D,d-transpepti...  64.3    5e-11
+4OVD_A  Chain A, Crystal Structure Of A Putative Peptidoglycan...  65.5    6e-11
+4U3T_A  Chain A, Crystal Structure Of The Transpeptidase Domai...  60.1    2e-09
+3ZG8_B  Chain B, Crystal Structure Of Penicillin Binding Prote...  60.5    2e-09
+2WAF_A  Chain A, Penicillin-binding Protein 2b (pbp-2b) From S...  58.2    1e-08
+2V2F_F  Chain F, Crystal Structure Of Pbp1a From Drug-resistan...  57.8    1e-08
+2C5W_B  Chain B, Penicillin-Binding Protein 1a (Pbp-1a) Acyl-E...  55.8    5e-08
+2ZC5_B  Chain B, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-E...  55.1    9e-08
+2C6W_B  Chain B, Penicillin-Binding Protein 1a (Pbp-1a) From S...  54.7    1e-07
+3ZG7_B  Chain B, Crystal Structure Of Penicillin-binding Prote...  53.9    3e-07
+2WAD_A  Chain A, Penicillin-binding Protein 2b (pbp-2b) From S...  53.5    4e-07
+2WAE_A  Chain A, Penicillin-binding Protein 2b (pbp-2b) From S...  53.1    5e-07
+3UDF_A  Chain A, Crystal Structure Of Apo Pbp1a From Acinetoba...  50.8    3e-06
+1K25_A  Chain A, Pbp2x From A Highly Penicillin-Resistant Stre...  49.7    5e-06
+5U47_A  Chain A, 1.95 Angstrom Resolution Crystal Structure Of...  48.9    1e-05
+1RP5_A  Chain A, Pbp2x From Streptococcus Pneumoniae Strain 52...  47.4    3e-05
+4OON_A  Chain A, Crystal Structure Of Pbp1a In Complex With Co...  46.6    6e-05
+1PYY_A  Chain A, Double Mutant Pbp2x T338aM339F FROM STREPTOCO...  43.9    3e-04
+1PMD_A  Chain A, Penicillin-Binding Protein 2x (Pbp-2x)            43.5    5e-04
+1QME_A  Chain A, Penicillin-binding Protein 2x (pbp-2x)            43.1    6e-04
+4YE5_A  Chain A, The Crystal Structure Of A Peptidoglycan Synt...  42.7    7e-04
+3DWK_A  Chain A, Identification Of Dynamic Structural Motifs I...  42.4    0.001
+2Z2L_B  Chain B, Penicillin-Binding Protein 2x (Pbp2x) From St...  40.4    0.004
+2OLU_A  Chain A, Structural Insight Into The Transglycosylatio...  40.0    0.005
+2Y2G_A  Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Com...  39.7    0.007
+5FGZ_A  Chain A, E. Coli Pbp1b In Complex With Fpi-1465            39.7    0.009
+
+ALIGNMENTS
+>3UN7_A Chain A, Crystal Structure Of Pbpa From Mycobacterium Tuberculosis
+ 3UN7_B Chain B, Crystal Structure Of Pbpa From Mycobacterium Tuberculosis
+ 3UPN_A Chain A, Structure Of Penicillin-Binding Protein A From M. Tuberculosis: 
+Imipenem Acyl-Enzyme Complex
+ 3UPN_B Chain B, Structure Of Penicillin-Binding Protein A From M. Tuberculosis: 
+Imipenem Acyl-Enzyme Complex
+ 3UPO_A Chain A, Structure Of Penicillin-Binding Protein A From M. Tuberculosis: 
+Penicillin G Acyl-Enzyme Complex
+ 3UPO_B Chain B, Structure Of Penicillin-Binding Protein A From M. Tuberculosis: 
+Penicillin G Acyl-Enzyme Complex
+ 3UPP_A Chain A, Structure Of Penicillin-Binding Protein A From M. Tuberculosis: 
+Ceftrixaone Acyl-Enzyme Complex
+ 3UPP_B Chain B, Structure Of Penicillin-Binding Protein A From M. Tuberculosis: 
+Ceftrixaone Acyl-Enzyme Complex
+Length=462
+
+ Score = 297 bits (760),  Expect = 1e-95, Method: Compositional matrix adjust.
+ Identities = 192/461 (42%), Positives = 265/461 (57%), Gaps = 25/461 (5%)
+ Frame = +1
+
+Query  109   NPHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTY  288
+             +P N R   D+Y+  RG I  GGQ +  S   +G R+++ R + +  +YAPVTG+ S  Y
+Sbjct  8     DPRNQRVLLDEYSRQRGQITAGGQLLAYSVATDG-RFRFLRVYPNPEVYAPVTGFYSLRY  66
+
+Query  289   DASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGL-----  453
+              ++ LE+ ED IL+G+D RLF R   D  TG+  +GG+V TTI+P++Q+AG++ +     
+Sbjct  67    SSTALERAEDPILNGSDRRLFGRRLADFFTGRDPRGGNVDTTINPRIQQAGWDAMQQGCY  126
+
+Query  454   GNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDE-KAWTALDSDPNKPMLNRALR  630
+             G  KGA VA++P TG IL LVS+PSYDP   A    + + +AW  L  +P  P+ NRA+ 
+Sbjct  127   GPCKGAVVALEPSTGKILALVSSPSYDPNLLASHNPEVQAQAWQRLGDNPASPLTNRAIS  186
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLIN--ASPTEDCGNAT  804
+             ETYPPGSTFK++T A A   G  ++   +T  P    LPG++  L N   +P  D    +
+Sbjct  187   ETYPPGSTFKVITTAAALAAGATET-EQLTAAPT-IPLPGSTAQLENYGGAPCGDEPTVS  244
+
+Query  805   VQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTA-  981
+             ++ A   SCNT F ++G   G D LR+ A  FG +     P     +    G  PD  A 
+Sbjct  245   LREAFVKSCNTAFVQLGIRTGADALRSMARAFGLDSPPR-PTPLQVAESTVGPIPDSAAL  303
+
+Query  982   -MDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQAVS  1155
+              M +IGQ D   TPL  A +AA IAN G  M PYLV   +G     IST   +Q  +AVS
+Sbjct  304   GMTSIGQKDVALTPLANAEIAATIANGGITMRPYLVGSLKGPDLANISTTVRYQQRRAVS  363
+
+Query  1156  PATAQKLQQLM---ESVVQHGTGTNAKIPGVTVGGKTGTAQHGQD-NSGLPFAWFVSYAK  1323
+             P  A KL +LM   E V Q        IPGV +  KTGTA+HG D     P AW++++A 
+Sbjct  364   PQVAAKLTELMVGAEKVAQQ----KGAIPGVQIASKTGTAEHGTDPRHTPPHAWYIAFAP  419
+
+Query  1324  GQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL  1446
+              Q  K VAVAV+VE+G+      +GG+LAAPI +A+++AAL
+Sbjct  420   AQAPK-VAVAVLVENGADRLSA-TGGALAAPIGRAVIEAAL  458
+
+
+>3LO7_A Chain A, Crystal Structure Of Pbpa From Mycobacterium Tuberculosis
+ 3LO7_B Chain B, Crystal Structure Of Pbpa From Mycobacterium Tuberculosis
+Length=483
+
+ Score = 295 bits (755),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 192/461 (42%), Positives = 265/461 (57%), Gaps = 25/461 (5%)
+ Frame = +1
+
+Query  109   NPHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTY  288
+             +P N R   D+Y+  RG I  GGQ +  S   +G R+++ R + +  +YAPVTG+ S  Y
+Sbjct  29    DPRNQRVLLDEYSRQRGQITAGGQLLAYSVATDG-RFRFLRVYPNPEVYAPVTGFYSLRY  87
+
+Query  289   DASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGL-----  453
+              ++ LE+ ED IL+G+D RLF R   D  TG+  +GG+V TTI+P++Q+AG++ +     
+Sbjct  88    SSTALERAEDPILNGSDRRLFGRRLADFFTGRDPRGGNVDTTINPRIQQAGWDAMQQGCY  147
+
+Query  454   GNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDE-KAWTALDSDPNKPMLNRALR  630
+             G  KGA VA++P TG IL LVS+PSYDP   A    + + +AW  L  +P  P+ NRA+ 
+Sbjct  148   GPCKGAVVALEPSTGKILALVSSPSYDPNLLASHNPEVQAQAWQRLGDNPASPLTNRAIS  207
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLIN--ASPTEDCGNAT  804
+             ETYPPGSTFK++T A A   G  ++   +T  P    LPG++  L N   +P  D    +
+Sbjct  208   ETYPPGSTFKVITTAAALAAGATET-EQLTAAPT-IPLPGSTAQLENYGGAPCGDEPTVS  265
+
+Query  805   VQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTA-  981
+             ++ A   SCNT F ++G   G D LR+ A  FG +     P     +    G  PD  A 
+Sbjct  266   LREAFVKSCNTAFVQLGIRTGADALRSMARAFGLDSPPR-PTPLQVAESTVGPIPDSAAL  324
+
+Query  982   -MDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQAVS  1155
+              M +IGQ D   TPL  A +AA IAN G  M PYLV   +G     IST   +Q  +AVS
+Sbjct  325   GMTSIGQKDVALTPLANAEIAATIANGGITMRPYLVGSLKGPDLANISTTVGYQQRRAVS  384
+
+Query  1156  PATAQKLQQLM---ESVVQHGTGTNAKIPGVTVGGKTGTAQHGQD-NSGLPFAWFVSYAK  1323
+             P  A KL +LM   E V Q        IPGV +  KTGTA+HG D     P AW++++A 
+Sbjct  385   PQVAAKLTELMVGAEKVAQQ----KGAIPGVQIASKTGTAEHGTDPRHTPPHAWYIAFAP  440
+
+Query  1324  GQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL  1446
+              Q  K VAVAV+VE+G+      +GG+LAAPI +A+++AAL
+Sbjct  441   AQAPK-VAVAVLVENGADRLSA-TGGALAAPIGRAVIEAAL  479
+
+
+>4MNR_A Chain A, Crystal Structure Of D,d-transpeptidase Domain Of Peptidoglycan 
+Glycosyltransferase From Eggerthella Lenta
+Length=457
+
+ Score = 216 bits (550),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 167/457 (37%), Positives = 236/457 (52%), Gaps = 54/457 (12%)
+ Frame = +1
+
+Query  85    VQASTWANNPHNDRTKYDKYAYPRGNI-----IVGGQAVTKSDFVNGLRYKYKRSWVDGP  249
+             VQA  + N P N+ T   +    RG I     +V  ++V + D        Y+R +  G 
+Sbjct  4     VQADYYQNXPGNNHTLAKEARSERGTIATYDGVVLARSVKEEDGT------YEREYPAGD  57
+
+Query  250   MYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKV  429
+             + + V GYSS  +  S +EK  +  L G ++   + + L+   G    G DV  T++ K+
+Sbjct  58    LASHVVGYSSPQFGNSGIEKAYNDTLKGEENFASWTDVLNSFAGIGTAGNDVTLTLNSKI  117
+
+Query  430   QKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKP  609
+             Q+A  + L  +KGA V  DP TGAIL   S P+Y+   FA      E+A    +++P+  
+Sbjct  118   QQAAQDALAGRKGACVVXDPDTGAILAXASAPTYNAADFAAVI---EQA----NANPDDS  170
+
+Query  610   ML-NRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTE  786
+              L +RA    Y PGSTFK+VT ATA E        DV      +  PGT   + NA+ + 
+Sbjct  171   TLVDRAAGSLYAPGSTFKIVTLATALE-------DDVAGEDTVFSSPGTXE-IGNATVSN  222
+
+Query  787   ----DCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP  954
+                 + G+ T+  A +LS NTVFG++G E G DKL A AE FGFNKE+  P+    S  P
+Sbjct  223   FNKANYGSLTLAQATELSSNTVFGQLGVEXGADKLVAGAESFGFNKEIDFPLYTPESLXP  282
+
+Query  955   SGS----KPDGTAMDAIGQ--HDT-----------RATPLQMAMVAAAIANNGSLMEPYL  1083
+             S       P   A  A G+   DT           +AT L+ A V  AIAN+G + +PYL
+Sbjct  283   SAEDLQKSPWELAWAAAGEPVGDTTRPGRESPAGPQATVLEXAXVGTAIANDGVIXQPYL  342
+
+Query  1084  VAQEGSA-GNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTG  1260
+             V    +A G    + +  +L QAVS  TA +++ ++  VVQ+GTGT A IPG+ V GKTG
+Sbjct  343   VDSVNNANGERSFSASPTKLXQAVSKTTAGRVRDVLLGVVQNGTGTAAAIPGIDVAGKTG  402
+
+Query  1261  TAQHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDG  1371
+             TA+    N     +WFV  A  +D  +V VA+V+EDG
+Sbjct  403   TAEKENGND----SWFVGXAPAED-PRVVVAIVIEDG  434
+
+
+>4RA7_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Nafcillin
+ 4RA7_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Nafcillin
+Length=453
+
+ Score = 128 bits (321),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 131/434 (30%), Positives = 196/434 (45%), Gaps = 40/434 (9%)
+ Frame = +1
+
+Query  112   PHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYD  291
+             P N+ T   K AY +   I+    VT ++ V      Y R++      +   GY S  Y 
+Sbjct  13    PTNNHT-IAKSAYVQRGAIITSDGVTLAESVKQDDGTYVRNYPHDGXASHTVGYISTQYG  71
+
+Query  292   ASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGA  471
+              + +E   +  L+G      +R+ L    G    G  VV TI+ + Q      L    G+
+Sbjct  72    TAGIESSXNETLTGHADHSDWRSALYSXAGINTTGSSVVLTINSQXQAVAEAALQGYSGS  131
+
+Query  472   AVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGS  651
+              V  DP TGA+L   S+PSY                T ++S     +++R  +  Y PGS
+Sbjct  132   IVVXDPSTGAVLAKASSPSYTHAELG----------TIIESGTGSQLVDRTTQALYSPGS  181
+
+Query  652   TFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTST---PLINASPTEDCGNATVQHAMD  822
+             +FK VT A   +T K       T     Y  PGT       I+    ED G   ++ A  
+Sbjct  182   SFKTVTLAAGIDTHK-------TTLDTTYSAPGTXEIGGGTIHNYANEDXGTIPLREAFA  234
+
+Query  823   LSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPD------GTAM  984
+              S NT   ++G  LG D L + A  FG+   +        S  P+ ++         +  
+Sbjct  235   RSSNTALAQLGVALGADNLVSYARAFGYGTALGQDFSTTPSLXPNPAEXTTWELAWASCG  294
+
+Query  985   DAIGQHDTRATP----LQMAMVAAAIANNGSLMEPYLVAQEGS-AGNVISTHTEHQLSQA  1149
+               +G+H + A P     Q A++AAAIAN G +  PY+V +  S  G V+ST +   L QA
+Sbjct  295   LPVGEHASPAGPQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAVVSTTSPKSLGQA  354
+
+Query  1150  VSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTA--QHGQDNSGLPFAWFVSYAK  1323
+             VS  TA ++++    VV+ GTG  A++PGV + GKTGTA  ++G  NS     +F+ +A 
+Sbjct  355   VSADTAAQVREAXLGVVESGTGXGARVPGVKIAGKTGTADVENGNFNS-----FFIGFAP  409
+
+Query  1324  GQDGKQVAVAVVVE  1365
+               D   + V+VV+E
+Sbjct  410   -YDHPTLVVSVVIE  422
+
+
+>4N1X_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Penicillin G
+ 4N1X_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Penicillin G
+Length=472
+
+ Score = 128 bits (321),  Expect = 8e-32, Method: Compositional matrix adjust.
+ Identities = 132/445 (30%), Positives = 201/445 (45%), Gaps = 40/445 (9%)
+ Frame = +1
+
+Query  79    QGVQASTWANNPHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYA  258
+             +G +   + +N  N+ T   K AY +   I+    VT ++ V      Y R++      +
+Sbjct  21    KGTENLYFQSNATNNHT-IAKSAYVQRGAIITSDGVTLAESVKQDDGTYVRNYPHDGXAS  79
+
+Query  259   PVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKA  438
+                GY S  Y  + +E   +  L+G      +R+ L    G    G  VV TI+ + Q  
+Sbjct  80    HTVGYISTQYGTAGIESSXNETLTGHADHSDWRSALYSXAGINTTGSSVVLTINSQXQAV  139
+
+Query  439   GFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLN  618
+                 L    G+ V  DP TGA+L   S+PSY                T ++S     +++
+Sbjct  140   AEAALQGYSGSIVVXDPSTGAVLAKASSPSYTHAELG----------TIIESGTGSQLVD  189
+
+Query  619   RALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTST---PLINASPTED  789
+             R  +  Y PGS+FK VT A   +T K       T     Y  PGT       I+    ED
+Sbjct  190   RTTQALYSPGSSFKTVTLAAGIDTHK-------TTLDTTYSAPGTXEIGGGTIHNYANED  242
+
+Query  790   CGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKP  969
+              G   ++ A   S NT   ++G  LG D L + A  FG+   +        S  P+ ++ 
+Sbjct  243   XGTIPLREAFARSSNTALAQLGVALGADNLVSYARAFGYGTALGQDFSTTPSLXPNPAEX  302
+
+Query  970   D------GTAMDAIGQHDTRATP----LQMAMVAAAIANNGSLMEPYLVAQEGS-AGNVI  1116
+                     +    +G+H + A P     Q A++AAAIAN G +  PY+V +  S  G V+
+Sbjct  303   TTWELAWASCGLPVGEHASPAGPQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAVV  362
+
+Query  1117  STHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTA--QHGQDNSG  1290
+             ST +   L QAVS  TA ++++    VV+ GTG  A++PGV + GKTGTA  ++G  NS 
+Sbjct  363   STTSPKSLGQAVSADTAAQVREAXLGVVESGTGXGARVPGVKIAGKTGTADVENGNFNS-  421
+
+Query  1291  LPFAWFVSYAKGQDGKQVAVAVVVE  1365
+                 +F+ +A   D   + V+VV+E
+Sbjct  422   ----FFIGFAP-YDHPTLVVSVVIE  441
+
+
+>4JBF_A Chain A, Crystal Structure Of Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum Dsm 20469.
+ 4JBF_B Chain B, Crystal Structure Of Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum Dsm 20469.
+ 4QJG_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Penicillin V
+ 4QJG_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Penicillin V
+ 4R0Q_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Cephalothin
+ 4R0Q_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Cephalothin
+ 4R1G_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Cloxacillin
+ 4R1G_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Cloxacillin
+ 4R23_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Dicloxacillin
+ 4R23_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Dicloxacillin
+ 4R3J_A Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Cefapirin
+ 4R3J_B Chain B, Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum In Complex With Cefapirin
+Length=482
+
+ Score = 128 bits (321),  Expect = 8e-32, Method: Compositional matrix adjust.
+ Identities = 131/434 (30%), Positives = 196/434 (45%), Gaps = 40/434 (9%)
+ Frame = +1
+
+Query  112   PHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYD  291
+             P N+ T   K AY +   I+    VT ++ V      Y R++      +   GY S  Y 
+Sbjct  42    PTNNHT-IAKSAYVQRGAIITSDGVTLAESVKQDDGTYVRNYPHDGXASHTVGYISTQYG  100
+
+Query  292   ASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGA  471
+              + +E   +  L+G      +R+ L    G    G  VV TI+ + Q      L    G+
+Sbjct  101   TAGIESSXNETLTGHADHSDWRSALYSXAGINTTGSSVVLTINSQXQAVAEAALQGYSGS  160
+
+Query  472   AVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGS  651
+              V  DP TGA+L   S+PSY                T ++S     +++R  +  Y PGS
+Sbjct  161   IVVXDPSTGAVLAKASSPSYTHAELG----------TIIESGTGSQLVDRTTQALYSPGS  210
+
+Query  652   TFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTST---PLINASPTEDCGNATVQHAMD  822
+             +FK VT A   +T K       T     Y  PGT       I+    ED G   ++ A  
+Sbjct  211   SFKTVTLAAGIDTHK-------TTLDTTYSAPGTXEIGGGTIHNYANEDXGTIPLREAFA  263
+
+Query  823   LSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPD------GTAM  984
+              S NT   ++G  LG D L + A  FG+   +        S  P+ ++         +  
+Sbjct  264   RSSNTALAQLGVALGADNLVSYARAFGYGTALGQDFSTTPSLXPNPAEXTTWELAWASCG  323
+
+Query  985   DAIGQHDTRATP----LQMAMVAAAIANNGSLMEPYLVAQEGS-AGNVISTHTEHQLSQA  1149
+               +G+H + A P     Q A++AAAIAN G +  PY+V +  S  G V+ST +   L QA
+Sbjct  324   LPVGEHASPAGPQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAVVSTTSPKSLGQA  383
+
+Query  1150  VSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTA--QHGQDNSGLPFAWFVSYAK  1323
+             VS  TA ++++    VV+ GTG  A++PGV + GKTGTA  ++G  NS     +F+ +A 
+Sbjct  384   VSADTAAQVREAXLGVVESGTGXGARVPGVKIAGKTGTADVENGNFNS-----FFIGFAP  438
+
+Query  1324  GQDGKQVAVAVVVE  1365
+               D   + V+VV+E
+Sbjct  439   -YDHPTLVVSVVIE  451
+
+
+>5E31_A Chain A, 2.3 Angstrom Crystal Structure Of The Monomeric Form 
+Of Penicillin Binding Protein 2 Prime From Enterococcus Faecium.
+Length=644
+
+ Score = 115 bits (289),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 98/343 (29%), Positives = 158/343 (46%), Gaps = 29/343 (8%)
+ Frame = +1
+
+Query  319   GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTG  498
+             G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG
+Sbjct  283   GKLSITDADGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTG  340
+
+Query  499   AILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAAT  678
+              +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK +TAA 
+Sbjct  341   DLLALASSPSYDPNKXTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKXITAAI  397
+
+Query  679   AFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGA  858
+               + G    P++V           +S      +   D     ++ A+  S N    +   
+Sbjct  398   GLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSQVDLKTALIYSDNIYXAQETL  456
+
+Query  859   ELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAI------GQHDTRATP  1020
+             + G  K R   +KF F +++ +PI  + +     S  D    D +      GQ +    P
+Sbjct  457   KXGEKKFRTGLDKFIFGEDLDLPISXNPAQI---SNEDSFNSDILLADTGYGQGELLINP  513
+
+Query  1021  LQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMES  1194
+             +Q A   +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ 
+Sbjct  514   IQQAAXYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQD  565
+
+Query  1195  VVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSY  1317
+             V  +GT  +    G+ +  KTGTA+    QD  G   ++  ++
+Sbjct  566   V--NGTAHSLSALGIPLAAKTGTAEIKEKQDEKGKENSFLFAF  606
+
+
+>4CPK_A Chain A, Crystal Structure Of Pbp2a Double Clinical Mutant N146k- 
+E150k From Mrsa
+ 4CPK_B Chain B, Crystal Structure Of Pbp2a Double Clinical Mutant N146k- 
+E150k From Mrsa
+Length=643
+
+ Score = 114 bits (285),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 107/384 (28%), Positives = 165/384 (43%), Gaps = 59/384 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  258   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  314
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+             + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  315   MKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQ  371
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PGST K++TA            +   D    Y + G       S    N +  E  
+Sbjct  372   ITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  424
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  425   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQ  477
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVIST  1122
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T
+Sbjct  478   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DT  528
+
+Query  1123  HTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLP  1296
+               +      +S      L   M+ VV      +       + GK+GTA+    Q  +G  
+Sbjct  529   KNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQ  588
+
+Query  1297  FAWFVSYAKGQDGKQVAVAVVVED  1368
+               WF+SY K  D   + +A+ V+D
+Sbjct  589   IGWFISYDK--DNPNMMMAINVKD  610
+
+
+>1VQQ_A Chain A, Structure Of Penicillin Binding Protein 2a From Methicillin 
+Resistant Staphylococcus Aureus Strain 27r At 1.80 A 
+Resolution.
+ 1VQQ_B Chain B, Structure Of Penicillin Binding Protein 2a From Methicillin 
+Resistant Staphylococcus Aureus Strain 27r At 1.80 A 
+Resolution.
+ 1MWU_A Chain A, Structure Of Methicillin Acyl-Penicillin Binding Protein 
+2a From Methicillin Resistant Staphylococcus Aureus Strain 
+27r At 2.60 A Resolution.
+ 1MWU_B Chain B, Structure Of Methicillin Acyl-Penicillin Binding Protein 
+2a From Methicillin Resistant Staphylococcus Aureus Strain 
+27r At 2.60 A Resolution.
+ 4DKI_A Chain A, Structural Insights Into The Anti- Methicillin-Resistant 
+Staphylococcus Aureus (Mrsa) Activity Of Ceftobiprole
+ 4DKI_B Chain B, Structural Insights Into The Anti- Methicillin-Resistant 
+Staphylococcus Aureus (Mrsa) Activity Of Ceftobiprole
+Length=646
+
+ Score = 114 bits (285),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 107/384 (28%), Positives = 165/384 (43%), Gaps = 59/384 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  261   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  317
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+             + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  318   MKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQ  374
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PGST K++TA            +   D    Y + G       S    N +  E  
+Sbjct  375   ITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  427
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  428   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQ  480
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVIST  1122
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T
+Sbjct  481   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DT  531
+
+Query  1123  HTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLP  1296
+               +      +S      L   M+ VV      +       + GK+GTA+    Q  +G  
+Sbjct  532   KNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQ  591
+
+Query  1297  FAWFVSYAKGQDGKQVAVAVVVED  1368
+               WF+SY K  D   + +A+ V+D
+Sbjct  592   IGWFISYDK--DNPNMMMAINVKD  613
+
+
+>4BL2_A Chain A, Crystal Structure Of Pbp2a Clinical Mutant E150k From 
+Mrsa
+ 4BL2_B Chain B, Crystal Structure Of Pbp2a Clinical Mutant E150k From 
+Mrsa
+Length=643
+
+ Score = 114 bits (285),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 107/384 (28%), Positives = 165/384 (43%), Gaps = 59/384 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  258   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  314
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+             + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  315   MKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQ  371
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PGST K++TA            +   D    Y + G       S    N +  E  
+Sbjct  372   ITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  424
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  425   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQ  477
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVIST  1122
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T
+Sbjct  478   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DT  528
+
+Query  1123  HTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLP  1296
+               +      +S      L   M+ VV      +       + GK+GTA+    Q  +G  
+Sbjct  529   KNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQ  588
+
+Query  1297  FAWFVSYAKGQDGKQVAVAVVVED  1368
+               WF+SY K  D   + +A+ V+D
+Sbjct  589   IGWFISYDK--DNPNMMMAINVKD  610
+
+
+>3ZG5_A Chain A, Crystal Structure Of Pbp2a From Mrsa In Complex With 
+Peptidoglycan Analogue At Allosteric
+ 3ZG5_B Chain B, Crystal Structure Of Pbp2a From Mrsa In Complex With 
+Peptidoglycan Analogue At Allosteric
+ 3ZG0_A Chain A, Crystal Structure Of Ceftaroline Acyl-pbp2a From Mrsa 
+With Non-covalently Bound Ceftaroline And Muramic Acid At 
+Allosteric Site Obtained By Cocrystallization
+ 3ZG0_B Chain B, Crystal Structure Of Ceftaroline Acyl-pbp2a From Mrsa 
+With Non-covalently Bound Ceftaroline And Muramic Acid At 
+Allosteric Site Obtained By Cocrystallization
+ 3ZFZ_A Chain A, Crystal Structure Of Ceftaroline Acyl-pbp2a From Mrsa 
+With Non-covalently Bound Ceftaroline And Muramic Acid At 
+Allosteric Site Obtained By Soaking
+ 3ZFZ_B Chain B, Crystal Structure Of Ceftaroline Acyl-pbp2a From Mrsa 
+With Non-covalently Bound Ceftaroline And Muramic Acid At 
+Allosteric Site Obtained By Soaking
+ 4CJN_A Chain A, Crystal Structure Of Pbp2a From Mrsa In Complex With 
+Quinazolinone Ligand
+ 4CJN_B Chain B, Crystal Structure Of Pbp2a From Mrsa In Complex With 
+Quinazolinone Ligand
+ 5M18_A Chain A, Crystal Structure Of Pbp2a From Mrsa In The Presence 
+Of Cefepime Ligand
+ 5M18_B Chain B, Crystal Structure Of Pbp2a From Mrsa In The Presence 
+Of Cefepime Ligand
+ 5M19_A Chain A, Crystal Structure Of Pbp2a From Mrsa In The Presence 
+Of Oxacillin Ligand
+ 5M19_B Chain B, Crystal Structure Of Pbp2a From Mrsa In The Presence 
+Of Oxacillin Ligand
+ 5M1A_A Chain A, Crystal Structure Of Pbp2a From Mrsa In The Presence 
+Of Ceftazidime Ligand
+ 5M1A_B Chain B, Crystal Structure Of Pbp2a From Mrsa In The Presence 
+Of Ceftazidime Ligand
+Length=642
+
+ Score = 114 bits (285),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 107/384 (28%), Positives = 165/384 (43%), Gaps = 59/384 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  257   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  313
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+             + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  314   MKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQ  370
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PGST K++TA            +   D    Y + G       S    N +  E  
+Sbjct  371   ITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  423
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  424   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQ  476
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVIST  1122
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T
+Sbjct  477   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DT  527
+
+Query  1123  HTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLP  1296
+               +      +S      L   M+ VV      +       + GK+GTA+    Q  +G  
+Sbjct  528   KNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQ  587
+
+Query  1297  FAWFVSYAKGQDGKQVAVAVVVED  1368
+               WF+SY K  D   + +A+ V+D
+Sbjct  588   IGWFISYDK--DNPNMMMAINVKD  609
+
+
+>4BL3_A Chain A, Crystal Structure Of Pbp2a Clinical Mutant N146k From 
+Mrsa
+ 4BL3_B Chain B, Crystal Structure Of Pbp2a Clinical Mutant N146k From 
+Mrsa
+Length=640
+
+ Score = 112 bits (281),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 106/382 (28%), Positives = 163/382 (43%), Gaps = 58/382 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  258   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  314
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+             + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  315   MKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQ  371
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PGST K++TA            +   D    Y + G       S    N +  E  
+Sbjct  372   ITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  424
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  425   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQ  477
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVIST  1122
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T
+Sbjct  478   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DT  528
+
+Query  1123  HTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSGLPFA  1302
+               +      +S      L   M+ VV      +       + GK+GTA+      G    
+Sbjct  529   KNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKM-KQGRQIG  587
+
+Query  1303  WFVSYAKGQDGKQVAVAVVVED  1368
+             WF+SY K  D   + +A+ V+D
+Sbjct  588   WFISYDK--DNPNMMMAINVKD  607
+
+
+>1MWS_A Chain A, Structure Of Nitrocefin Acyl-Penicillin Binding Protein 
+2a From Methicillin Resistant Staphylococcus Aureus Strain 
+27r At 2.00 A Resolution.
+ 1MWS_B Chain B, Structure Of Nitrocefin Acyl-Penicillin Binding Protein 
+2a From Methicillin Resistant Staphylococcus Aureus Strain 
+27r At 2.00 A Resolution.
+ 1MWT_A Chain A, Structure Of Penicillin G Acyl-Penicillin Binding Protein 
+2a From Methicillin Resistant Staphylococcus Aureus Strain 
+27r At 2.45 A Resolution.
+ 1MWT_B Chain B, Structure Of Penicillin G Acyl-Penicillin Binding Protein 
+2a From Methicillin Resistant Staphylococcus Aureus Strain 
+27r At 2.45 A Resolution.
+Length=646
+
+ Score = 112 bits (280),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 106/384 (28%), Positives = 164/384 (43%), Gaps = 59/384 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  261   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  317
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+             + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  318   MKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQ  374
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PG T K++TA            +   D    Y + G       S    N +  E  
+Sbjct  375   ITTSPGXTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  427
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  428   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQ  480
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVIST  1122
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T
+Sbjct  481   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DT  531
+
+Query  1123  HTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLP  1296
+               +      +S      L   M+ VV      +       + GK+GTA+    Q  +G  
+Sbjct  532   KNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQ  591
+
+Query  1297  FAWFVSYAKGQDGKQVAVAVVVED  1368
+               WF+SY K  D   + +A+ V+D
+Sbjct  592   IGWFISYDK--DNPNMMMAINVKD  613
+
+
+>1MWR_A Chain A, Structure Of Semet Penicillin Binding Protein 2a From 
+Methicillin Resistant Staphylococcus Aureus Strain 27r (Trigonal 
+Form) At 2.45 A Resolution.
+ 1MWR_B Chain B, Structure Of Semet Penicillin Binding Protein 2a From 
+Methicillin Resistant Staphylococcus Aureus Strain 27r (Trigonal 
+Form) At 2.45 A Resolution.
+Length=646
+
+ Score = 108 bits (271),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 105/387 (27%), Positives = 165/387 (43%), Gaps = 71/387 (18%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEG  450
+             LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  
+Sbjct  261   LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNN  317
+
+Query  451   LGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALR  630
+               N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  +
+Sbjct  318   XKNDYGSGTAIHPQTGELLALVSTPSYDVYPFXYGXSNEE--YNKLTEDKKEPLLNK-FQ  374
+
+Query  631   ETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC  792
+              T  PGST K++TA            +   D    Y + G       S    N +  E  
+Sbjct  375   ITTSPGSTQKILTAXIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVV  427
+
+Query  793   -GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP-----  954
+              GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P     
+Sbjct  428   NGNIDLKQAIESSDNIFFARVALELGSKKFEKGXKKLGVGEDI-------PSDYPFYNAQ  480
+
+Query  955   -SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGS---AGNV  1113
+              S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+    +     N+
+Sbjct  481   ISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLKDTKNKVWKKNI  540
+
+Query  1114  ISTHTEHQLS----QAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HG  1275
+             IS    + L+    Q V+    + + +   +++                GK+GTA+    
+Sbjct  541   ISKENINLLTDGXQQVVNKTHKEDIYRSYANLI----------------GKSGTAELKXK  584
+
+Query  1276  QDNSGLPFAWFVSYAKGQDGKQVAVAV  1356
+             Q  +G    WF+SY K       A+ V
+Sbjct  585   QGETGRQIGWFISYDKDNPNXXXAINV  611
+
+
+>3UE3_A Chain A, Crystal Structure Of Acinetobacter Baumanni Pbp3
+Length=554
+
+ Score = 93.2 bits (230),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 104/372 (28%), Positives = 163/372 (44%), Gaps = 55/372 (15%)
+ Frame = +1
+
+Query  388   KQGGDVVTTIDPKVQKAGFE-----GLGN--KKGAAVAIDPKTGAILGLVSTPSYDPGTF  546
+             + G ++  +ID ++Q   +      G+ N  +   A+A+D KTG IL + S PSY+P   
+Sbjct  200   ESGENITLSIDSRLQYIMYRELTAAGVANNARSATAIAVDVKTGEILAMTSWPSYNPNDK  259
+
+Query  547   AGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDT  726
+              G +  D              M NR   + + PGST K  T A A E+G+Y +P+ + +T
+Sbjct  260   GGLSNKDA-------------MRNRGAIDMFEPGSTMKPFTVAAALESGQY-TPNSIVNT  305
+
+Query  727   PDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGF  906
+                 +  G  T       T + G  T+   +  S N    K+   L  + L +   + GF
+Sbjct  306   APGTMRLGWHT----IRDTHNYGALTLTGIIVKSSNVGSAKLALSLPKEALPSFFRRAGF  361
+
+Query  907   NKEVTIPIRAD-ASHFPSGSKPDGTAMDAIGQ-HDTRATPLQMAMVAAAIANNGSLMEPY  1080
+              +   +    + A    S  K + + +  +   +   AT LQ+A   A +AN+G  M   
+Sbjct  362   GQSSDVKFPGESAGLLYSADKLNSSQLGTMAYGYGLNATILQLAQGYAMLANHGVEMP--  419
+
+Query  1081  LVAQEGSAGNVISTHTEHQL---SQAVSPATAQKLQQLMESV-VQHGTGTNAKIPGVTVG  1248
+                        +S H   Q+    Q + P  A ++  ++E V +  GT   A IPG  VG
+Sbjct  420   -----------LSLHKLDQVPEGRQVLDPKIADQVLMMLEQVTLPGGTAKQAVIPGYRVG  468
+
+Query  1249  GKTGTA------QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLA  1410
+             GKTGTA      + G  NS    A F   A   D + +A+ VVVE+      +  GG +A
+Sbjct  469   GKTGTAHKLRADRKGYSNSEY-RALFAGVAPVSDPR-LAMIVVVENPQG---RYYGGLVA  523
+
+Query  1411  APIAKAMMQAAL  1446
+             AP+   +MQ +L
+Sbjct  524   APVFAKIMQESL  535
+
+
+>5TRO_A Chain A, 1.8 Angstrom Resolution Crystal Structure Of Dimerization 
+And Transpeptidase Domains (residues 39-608) Of Penicillin-binding 
+Protein 1 From Staphylococcus Aureus.
+ 5TRO_B Chain B, 1.8 Angstrom Resolution Crystal Structure Of Dimerization 
+And Transpeptidase Domains (residues 39-608) Of Penicillin-binding 
+Protein 1 From Staphylococcus Aureus.
+Length=573
+
+ Score = 91.7 bits (226),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 117/438 (27%), Positives = 178/438 (41%), Gaps = 67/438 (15%)
+ Frame = +1
+
+Query  226   KRSWVDGPMYAPVTGYSSQTYDASQL------EKLEDGILSGTDSRLFFRNTL-------  366
+             +R + +G   + + G + +  D  +L      EK+ D  LSG+   L + + +       
+Sbjct  133   ERFYPNGNFASHLIGRAQKNPDTGELKGALGVEKIFDSYLSGSKGSLRYIHDIWGYIAPN  192
+
+Query  367   DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTP  525
+                  +PK+G DV  TID  +Q    E L         K   AV  D KTG IL     P
+Sbjct  193   TKKEKQPKRGDDVHLTIDSNIQVFVEEALDGXVERYQPKDLFAVVXDAKTGEILAYSQRP  252
+
+Query  526   SYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQS  705
+             +++P T     KD  K W            N   + TY PGSTFK    A A + G +  
+Sbjct  253   TFNPET----GKDFGKKWA-----------NDLYQNTYEPGSTFKSYGLAAAIQEGAFD-  296
+
+Query  706   PSDVTDTPDQYILPGTSTPLINASPTED-----CGNATVQHAMDLSCNTVFGKMGAELGG  870
+                    PD+    G     I  S   D      G          S NT+   +   +G 
+Sbjct  297   -------PDKKYKSGHRD--IXGSRISDWNRVGWGEIPXSLGFTYSSNTLXXHLQDLVGA  347
+
+Query  871   DKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAI  1050
+             DK ++  E+FGF K        +A      S        + GQ  T  TP+Q     +A 
+Sbjct  348   DKXKSWYERFGFGKSTKGXFDGEAPGQIGWSNELQQKTSSFGQ-STTVTPVQXLQAQSAF  406
+
+Query  1051  ANNGSLMEPYLVAQEGSAGNVISTHT----EHQLS-QAVSPATAQKLQQLMESVV--QHG  1209
+              N+G+ ++P+ V    S  N +S       + Q++ + ++  TA+K+++ ++ VV  +  
+Sbjct  407   FNDGNXLKPWFV---NSVENPVSKRQFYKGQKQIAGKPITKDTAEKVEKQLDLVVNSKKS  463
+
+Query  1210  TGTNAKIPGVTVGGKTGTAQHGQDNSG----LPFAWFVSYAKGQDGKQVAVAVVVEDGSS  1377
+                N +I G  V GKTGTAQ    N G     P  +FVS+    D  +    V+V  G S
+Sbjct  464   HAANYRIDGYEVEGKTGTAQVAAPNGGGYVKGPNPYFVSFX--GDAPKKNPKVIVYAGXS  521
+
+Query  1378  EAQQISGGSLAAPIAKAM  1431
+              AQ+    +    ++KA 
+Sbjct  522   LAQKNDQEAYELGVSKAF  539
+
+
+>3EQV_A Chain A, Crystal Structure Of Penicillin-Binding Protein 2 From 
+Neisseria Gonorrhoeae Containing Four Mutations Associated 
+With Penicillin Resistance
+ 3EQV_B Chain B, Crystal Structure Of Penicillin-Binding Protein 2 From 
+Neisseria Gonorrhoeae Containing Four Mutations Associated 
+With Penicillin Resistance
+Length=542
+
+ Score = 87.8 bits (216),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 117/457 (26%), Positives = 191/457 (42%), Gaps = 81/457 (18%)
+ Frame = +1
+
+Query  178   QAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQ-LE-KLEDGILSGTDSRLF  351
+             +A+   +FV     + KR +  G ++A V G++       + LE  LED +     + + 
+Sbjct  113   KALGLENFV--FEKELKRHYPMGNLFAHVIGFTDIDGKGQEGLELSLEDSLYGEDGAEVV  170
+
+Query  352   FR----NTLDML----TGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAID  486
+              R    N +D L       P+ G D++ ++D ++Q   +E L         K G  V +D
+Sbjct  171   LRDRQGNIVDSLDSPRNKAPQNGKDIILSLDQRIQTLAYEELNKAVEYHQAKAGTVVVLD  230
+
+Query  487   PKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLV  666
+              +TG IL L +TP+YDP     G  D E+              NRA+ +   PGS  K  
+Sbjct  231   ARTGEILALANTPAYDPNR--PGRADSEQRR------------NRAVTDMIEPGSAIKPF  276
+
+Query  667   TAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG---NATVQHAMDLSCNT  837
+               A A + GK      +   P +          I  SP  D     +  V+  M  S N 
+Sbjct  277   VIAKALDAGKTDLNERLNTQPYK----------IGPSPVRDTHVYPSLDVRGIMQKSSNV  326
+
+Query  838   VFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGS----------KPDGTAMD  987
+                K+ A  G +      E + F  E+ I +R   S FP  +          +P   A  
+Sbjct  327   GTSKLSARFGAE------EMYDFYHELGIGVRMH-SGFPGETAGLLRNWRRWRPIEQATM  379
+
+Query  988   AIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATA  1167
+             + G +  + + LQ+A    A+ ++G L+ P    ++  A          Q  +     TA
+Sbjct  380   SFG-YGLQLSLLQLARAYTALTHDGVLL-PLSFEKQAVA---------PQGKRIFKEXTA  428
+
+Query  1168  QKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDG  1335
+             ++++ LM SV +  GTGT   + G  VG KTGTA+   +G+         F+ +A  ++ 
+Sbjct  429   REVRNLMVSVTEPGGTGTAGAVDGFDVGAKTGTARKLVNGRYVDNKHVGTFIGFAPAKN-  487
+
+Query  1336  KQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL  1446
+              +V VAV +++ +  A    GG +A    K +M  +L
+Sbjct  488   PRVIVAVTIDEPT--AHGYYGGVVAGSPFKKIMGGSL  522
+
+
+>3EQU_A Chain A, Crystal Structure Of Penicillin-Binding Protein 2 From 
+Neisseria Gonorrhoeae
+ 3EQU_B Chain B, Crystal Structure Of Penicillin-Binding Protein 2 From 
+Neisseria Gonorrhoeae
+Length=542
+
+ Score = 87.0 bits (214),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 116/457 (25%), Positives = 190/457 (42%), Gaps = 81/457 (18%)
+ Frame = +1
+
+Query  178   QAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQ-LE-KLEDGILSGTDSRLF  351
+             +A+   +FV     + KR +  G ++A V G++       + LE  LED +     + + 
+Sbjct  113   KALGLENFV--FEKELKRHYPXGNLFAHVIGFTDIDGKGQEGLELSLEDSLYGEDGAEVV  170
+
+Query  352   FR----NTLDML----TGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAID  486
+              R    N +D L       P+ G D++ ++D ++Q   +E L         K G  V +D
+Sbjct  171   LRDRQGNIVDSLDSPRNKAPQNGKDIILSLDQRIQTLAYEELNKAVEYHQAKAGTVVVLD  230
+
+Query  487   PKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLV  666
+              +TG IL L +TP+YDP     G  D E+              NRA+ +   PGS  K  
+Sbjct  231   ARTGEILALANTPAYDPNR--PGRADSEQ------------RRNRAVTDXIEPGSAIKPF  276
+
+Query  667   TAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG---NATVQHAMDLSCNT  837
+               A A + GK      +   P +          I  SP  D     +  V+     S N 
+Sbjct  277   VIAKALDAGKTDLNERLNTQPYK----------IGPSPVRDTHVYPSLDVRGIXQKSSNV  326
+
+Query  838   VFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGS----------KPDGTAMD  987
+                K+ A  G +      E + F  E+ I +R   S FP  +          +P   A  
+Sbjct  327   GTSKLSARFGAE------EXYDFYHELGIGVRXH-SGFPGETAGLLRNWRRWRPIEQATX  379
+
+Query  988   AIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATA  1167
+             + G +  + + LQ+A    A+ ++G L+ P    ++  A          Q  +     TA
+Sbjct  380   SFG-YGLQLSLLQLARAYTALTHDGVLL-PLSFEKQAVA---------PQGKRIFKEXTA  428
+
+Query  1168  QKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDG  1335
+             ++++ L  SV +  GTGT   + G  VG KTGTA+   +G+       A F+ +A  ++ 
+Sbjct  429   REVRNLXVSVTEPGGTGTAGAVDGFDVGAKTGTARKFVNGRYADNKHVATFIGFAPAKN-  487
+
+Query  1336  KQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL  1446
+              +V VAV +++ +  A    GG +A P  K +   +L
+Sbjct  488   PRVIVAVTIDEPT--AHGYYGGVVAGPPFKKIXGGSL  522
+
+
+>4L0L_A Chain A, Crystal Structure Of P.aeruginosa Pbp3 In Complex With 
+Compound 4
+Length=537
+
+ Score = 78.2 bits (191),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 96/382 (25%), Positives = 170/382 (45%), Gaps = 64/382 (17%)
+ Frame = +1
+
+Query  373   LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSY  531
+             +T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y
+Sbjct  167   VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTY  226
+
+Query  532   DPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPS  711
+             +P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PS
+Sbjct  227   NPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PS  271
+
+Query  712   DVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGD  873
+             D+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G +
+Sbjct  272   DIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAE  322
+
+Query  874   KLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAA  1044
+              + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   A
+Sbjct  323   SIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYA  381
+
+Query  1045  AIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-N  1221
+             A+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   
+Sbjct  382   ALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFR  431
+
+Query  1222  AKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSE  1380
+             A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S  
+Sbjct  432   AQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKA  488
+
+Query  1381  AQQISGGSLAAPIAKAMMQAAL  1446
+                  GG ++AP+   +M  AL
+Sbjct  489   G--YFGGLVSAPVFSKVMAGAL  508
+
+
+>3PBN_A Chain A, Crystal Structure Of Apo Pbp3 From Pseudomonas Aeruginosa
+ 3PBO_A Chain A, Crystal Structure Of Pbp3 Complexed With Ceftazidime
+ 3PBQ_A Chain A, Crystal Structure Of Pbp3 Complexed With Imipenem
+ 3PBR_A Chain A, Crystal Structure Of Pbp3 Complexed With Meropenem
+ 3PBS_A Chain A, Crystal Structure Of Pbp3 Complexed With Aztreonam
+ 3PBT_A Chain A, Crystal Structure Of Pbp3 Complexed With Mc-1
+ 4OOL_A Chain A, Crystal Structure Of Pbp3 In Complex With Compound 14 
+((2e)-2-({[(2s)- 2-{[(2z)-2-(2-amino-1,3-thiazol-4-yl)-2-{[(1,5-dihydroxy-4-oxo-1,4- 
+Dihydropyridin-2-yl)methoxy]imino}acetyl]amino}-3- 
+Oxopropyl]oxy}imino)pentanedioic Acid)
+ 4OOM_A Chain A, Crystal Structure Of Pbp3 In Complex With Bal30072 ((2z)-2-(2-amino-1, 
+3-thiazol-4-yl)-2-{[(1,5-dihydroxy-4-oxo-1,4-dihydropyridin-2-yl) 
+Methoxy]imino}-n-{(2s)-1-hydroxy-3-methyl-3-[(sulfooxy)amino]butan-2- 
+Yl}ethanamide)
+ 4WEJ_A Chain A, Crystal Structure Of Pseudomonas Aeruginosa Pbp3 With 
+A R4 Substituted Allyl Monocarbam
+ 4WEL_A Chain A, Crystal Structure Of Pseudomonas Aeruginosa Pbp3 With 
+Smc-3176
+Length=538
+
+ Score = 77.8 bits (190),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 96/382 (25%), Positives = 170/382 (45%), Gaps = 64/382 (17%)
+ Frame = +1
+
+Query  373   LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSY  531
+             +T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y
+Sbjct  168   VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTY  227
+
+Query  532   DPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPS  711
+             +P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PS
+Sbjct  228   NPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PS  272
+
+Query  712   DVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGD  873
+             D+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G +
+Sbjct  273   DIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAE  323
+
+Query  874   KLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAA  1044
+              + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   A
+Sbjct  324   SIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYA  382
+
+Query  1045  AIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-N  1221
+             A+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   
+Sbjct  383   ALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFR  432
+
+Query  1222  AKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSE  1380
+             A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S  
+Sbjct  433   AQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKA  489
+
+Query  1381  AQQISGGSLAAPIAKAMMQAAL  1446
+                  GG ++AP+   +M  AL
+Sbjct  490   G--YFGGLVSAPVFSKVMAGAL  509
+
+
+>4BJP_A Chain A, Crystal Structure Of E. Coli Penicillin Binding Protein 
+3
+Length=511
+
+ Score = 77.8 bits (190),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 102/440 (23%), Positives = 177/440 (40%), Gaps = 70/440 (16%)
+ Frame = +1
+
+Query  211   LRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLE---DGILSGTDSRLFFRN------T  363
+             LR + +R +  G + A + G+++   D+  +E +E   D  L+G       R        
+Sbjct  95    LREESRRYYPSGEVTAHLIGFTN--VDSQGIEGVEKSFDKWLTGQPGERIVRKDRYGRVI  152
+
+Query  364   LDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVST  522
+              D+ +   +   ++  +ID ++Q   +  L N       + G+AV +D  TG +L + ++
+Sbjct  153   EDISSTDSQAAHNLALSIDERLQALVYRELNNAVAFNKAESGSAVLVDVNTGEVLAMANS  212
+
+Query  523   PSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQ  702
+             PSY+P   +G               P + M NR + + + PGST K +   TA + G  +
+Sbjct  213   PSYNPNNLSG--------------TPKEAMRNRTITDVFEPGSTVKPMVVMTALQRGVVR  258
+
+Query  703   SPSDVTDTPDQYILPGTSTPLINASPTEDCGN---ATVQHAMDLSCNTVFGKMGAELGGD  873
+               S +   P +          IN    +D       T+   +  S N    K+   +   
+Sbjct  259   ENSVLNTIPYR----------INGHEIKDVARYSELTLTGVLQKSSNVGVSKLALAMPSS  308
+
+Query  874   KLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQ------HDTRATPLQMAM  1035
+              L     +FG  K   + +  +     SG  P       I +      +    TPLQ+A 
+Sbjct  309   ALVDTYSRFGLGKATNLGLVGER----SGLYPQKQRWSDIERATFSFGYGLMVTPLQLAR  364
+
+Query  1036  VAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESV-VQHGT  1212
+             V A I + G +  P  + +            E    +++     + +  +MESV +  G 
+Sbjct  365   VYATIGSYG-IYRPLSITKVDP-----PVPGERVFPESI----VRTVVHMMESVALPGGG  414
+
+Query  1213  GTNAKIPGVTVGGKTGTAQH-GQDNSGLPFAWFVSYAKG-QDGKQVAVAVVVEDGSSEAQ  1386
+             G  A I G  +  KTGTA+  G D  G     +++Y  G     Q   A+VV     +A 
+Sbjct  415   GVKAAIKGYRIAIKTGTAKKVGPD--GRYINKYIAYTAGVAPASQPRFALVVVINDPQAG  472
+
+Query  1387  QISGGSLAAPIAKAMMQAAL  1446
+             +  GG+++AP+  A+M   L
+Sbjct  473   KYYGGAVSAPVFGAIMGGVL  492
+
+
+>4FSF_A Chain A, Crystal Structure Of Pseudomonas Aeruginosa Pbp3 Complexed 
+With Compound 14
+Length=536
+
+ Score = 77.8 bits (190),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 96/382 (25%), Positives = 170/382 (45%), Gaps = 64/382 (17%)
+ Frame = +1
+
+Query  373   LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSY  531
+             +T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y
+Sbjct  166   VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTY  225
+
+Query  532   DPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPS  711
+             +P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PS
+Sbjct  226   NPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PS  270
+
+Query  712   DVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGD  873
+             D+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G +
+Sbjct  271   DIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAE  321
+
+Query  874   KLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAA  1044
+              + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   A
+Sbjct  322   SIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYA  380
+
+Query  1045  AIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-N  1221
+             A+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   
+Sbjct  381   ALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFR  430
+
+Query  1222  AKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSE  1380
+             A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S  
+Sbjct  431   AQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKA  487
+
+Query  1381  AQQISGGSLAAPIAKAMMQAAL  1446
+                  GG ++AP+   +M  AL
+Sbjct  488   G--YFGGLVSAPVFSKVMAGAL  507
+
+
+>4WEK_A Chain A, Crystal Structure Of Pseudomonas Aeruginosa Pbp3 With 
+A R4 Substituted Vinyl Monocarbam
+Length=538
+
+ Score = 77.8 bits (190),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 96/382 (25%), Positives = 170/382 (45%), Gaps = 64/382 (17%)
+ Frame = +1
+
+Query  373   LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSY  531
+             +T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y
+Sbjct  168   VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTY  227
+
+Query  532   DPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPS  711
+             +P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PS
+Sbjct  228   NPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PS  272
+
+Query  712   DVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGD  873
+             D+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G +
+Sbjct  273   DIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAE  323
+
+Query  874   KLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAA  1044
+              + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   A
+Sbjct  324   SIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYA  382
+
+Query  1045  AIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-N  1221
+             A+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   
+Sbjct  383   ALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFR  432
+
+Query  1222  AKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSE  1380
+             A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S  
+Sbjct  433   AQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKA  489
+
+Query  1381  AQQISGGSLAAPIAKAMMQAAL  1446
+                  GG ++AP+   +M  AL
+Sbjct  490   G--YFGGLVSAPVFSKVMAGAL  509
+
+
+>3OC2_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa
+ 3OCL_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Carbenicillin
+ 3OCN_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Ceftazidime
+ 4KQO_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Piperacillin
+ 4KQO_B Chain B, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Piperacillin
+ 4KQQ_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With (5s)-penicilloic Acid
+ 4KQQ_B Chain B, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With (5s)-penicilloic Acid
+ 4KQR_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With (5s)-penicilloic Acid
+ 4KQR_B Chain B, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With (5s)-penicilloic Acid
+ 5DF7_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Azlocillin
+ 5DF7_B Chain B, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Azlocillin
+ 5DF8_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Cefoperazone
+ 5DF8_B Chain B, Crystal Structure Of Penicillin-binding Protein 3 From 
+Pseudomonas Aeruginosa In Complex With Cefoperazone
+ 5DF9_A Chain A, Crystal Structure Of Penicillin-binding Protein 3 In 
+Complex With Deacylated Product Of Cefoperazone
+Length=564
+
+ Score = 77.8 bits (190),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 96/382 (25%), Positives = 170/382 (45%), Gaps = 64/382 (17%)
+ Frame = +1
+
+Query  373   LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSY  531
+             +T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y
+Sbjct  194   VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTY  253
+
+Query  532   DPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPS  711
+             +P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PS
+Sbjct  254   NPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PS  298
+
+Query  712   DVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGD  873
+             D+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G +
+Sbjct  299   DIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAE  349
+
+Query  874   KLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAA  1044
+              + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   A
+Sbjct  350   SIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYA  408
+
+Query  1045  AIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-N  1221
+             A+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   
+Sbjct  409   ALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFR  458
+
+Query  1222  AKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSE  1380
+             A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S  
+Sbjct  459   AQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKA  515
+
+Query  1381  AQQISGGSLAAPIAKAMMQAAL  1446
+                  GG ++AP+   +M  AL
+Sbjct  516   G--YFGGLVSAPVFSKVMAGAL  535
+
+
+>4ZTK_A Chain A, Transpeptidase Domain Of Ftsi4 D,d-transpeptidase From 
+Legionella Pneumophila.
+Length=316
+
+ Score = 64.3 bits (155),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 77/295 (26%), Positives = 126/295 (43%), Gaps = 53/295 (18%)
+ Frame = +1
+
+Query  589   DSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLI  768
+             +S  NK + +   R  + PGST K   AA A  +G   S +   D    Y + G +    
+Sbjct  61    ESSKNKGLESWKSR-IFSPGSTIKPFIAAAAINSGN-SSETKNYDCHSPYYIAGKTFTNY  118
+
+Query  769   NASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASH  948
+             N+    +  +A++  A+  S N    ++  E G   +R +  +FGF          D + 
+Sbjct  119   NS----NVESASLADAIAKSINVCLIRVSQEAGVPVIRKKLTEFGF----------DXNS  164
+
+Query  949   FPSGSKPDGT--AMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPY-LVAQEGSA---GN  1110
+             +    + D    A  A+G++     P+ +           SL++ Y ++A +G +   GN
+Sbjct  165   WWQADQSDDLQLAXAALGEN----IPVTIE----------SLIKSYAILANKGHSFDRGN  210
+
+Query  1111  VISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSG  1290
+                       S  +S  +   +   +E+ V +GTG  A IPGV+V GKTGT     D   
+Sbjct  211   ----------SAIISETSTNSINHXLENAVTNGTGKLAVIPGVSVAGKTGTVIENNDKYL  260
+
+Query  1291  LPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQ---QISGGSLAAPIAKAMMQAAL  1446
+               FA +V      D  +  + VV+E+G         +SGG LAAP+ + +   AL
+Sbjct  261   ALFAGYVP----ADNPRYVLLVVIEEGYFSKNGKTLVSGGELAAPVFRNVAXDAL  311
+
+
+>4OVD_A Chain A, Crystal Structure Of A Putative Peptidoglycan Glycosyltransferase 
+From Atopobium Parvulum Dsm 20469
+Length=564
+
+ Score = 65.5 bits (158),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 102/396 (26%), Positives = 160/396 (40%), Gaps = 71/396 (18%)
+ Frame = +1
+
+Query  199   FVNGLRYKYKRSWVDGPMYAPVTGY-SSQTYDASQLEKLEDGILSGTDSRLFFRNTLDML  375
+             FVN      KR +  G +   + G+ ++    AS LE   + IL+GT+            
+Sbjct  146   FVNNT----KRVYPYGNVGVQILGFVNADNEGASGLEYYYNDILAGTNGHXIVETGAG--  199
+
+Query  376   TGKPKQGG-----------DVVTTIDPKVQKAGFEGL--------GNKKGAAVAIDPKTG  498
+              G P  GG           D+V +ID ++QK   E L          + G+  A +P+TG
+Sbjct  200   -GTPIAGGTSNITEAQNGQDIVLSIDIELQKKAEEQLTAAVKDFEAKQGGSIXAXNPRTG  258
+
+Query  499   AILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLN-RALRETYPPGSTFKLVTAA  675
+              I    S P  D  +               D+  +   LN + +   Y PGS FK++T +
+Sbjct  259   EIYAAASYPLPDFES---------------DNGVDYESLNLKLVSSIYEPGSVFKVITTS  303
+
+Query  676   TAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMG  855
+                +   +  P+   + P +  L      + +        + +V+  +  S N     + 
+Sbjct  304   IGVDNNLF-GPNSTFNIPTE--LQVGDNKVTDDDWRTSAXDXSVREXLRRSSNVGXAFLE  360
+
+Query  856   AELGGDKLRAQA-EKFG--------FNKEVTIPIRA-DASHFPSGSKPDGTAMDAIGQHD  1005
+              +L GDK  A+  +KFG        F  E T  +R+ D    P+G         A GQ  
+Sbjct  361   TQLIGDKRFAEGIDKFGIGHTTGIDFPGEATGIVRSLDQYEGPTGGNX------AFGQG-  413
+
+Query  1006  TRATP-LQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQ  1182
+               A P +Q+     A+AN G+ + P+    +G  G  +S  T+      +S +TA     
+Sbjct  414   -LAIPFIQVIRAYTAVANKGTXVTPHFXVSKG--GQEVSWPTK----DVISSSTASAELD  466
+
+Query  1183  LMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSG  1290
+                +VV+ GTG  A I G TV GKTGT Q   + +G
+Sbjct  467   XXTTVVKEGTGVRAGIYGYTVAGKTGTGQQVVEETG  502
+
+
+>4U3T_A Chain A, Crystal Structure Of The Transpeptidase Domain Of Neisseria 
+Gonorrhoeae Penicillin-binding Protein 2 Derived From 
+The Penicillin- Resistant Strain 6140
+ 4U3T_B Chain B, Crystal Structure Of The Transpeptidase Domain Of Neisseria 
+Gonorrhoeae Penicillin-binding Protein 2 Derived From 
+The Penicillin- Resistant Strain 6140
+Length=330
+
+ Score = 60.1 bits (144),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 91/374 (24%), Positives = 146/374 (39%), Gaps = 92/374 (25%)
+ Frame = +1
+
+Query  412   TIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDE  570
+             ++D ++Q   +E L         K G  V +D +TG IL L +TP               
+Sbjct  7     SLDQRIQTLAYEELNKAVEYHQAKAGTVVVLDARTGEILALANTPGR-------------  53
+
+Query  571   KAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG  750
+                            NRA+ +   PGS  K    A A + GK      +   P +     
+Sbjct  54    ---------------NRAVTDMIEPGSAIKPFVIAKALDAGKTDLNERLNTQPYK-----  93
+
+Query  751   TSTPLINASPTEDCGNAT----VQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEV  918
+                  I  SP  D  +      V+  M  S N    K+ A  G +      E + F  E+
+Sbjct  94    -----IGPSPVRDDTHVYPSLDVRGIMQKSSNVGTSKLSARFGAE------EMYDFYHEL  142
+
+Query  919   TIPIRADASHFPSGS----------KPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSL  1068
+              I +R   S FP  +          +P   A  + G +  + + LQ+A    A+ ++G L
+Sbjct  143   GIGVRMH-SGFPGETAGLLRNWRRWRPIEQATMSFG-YGLQLSLLQLARAYTALTHDGVL  200
+
+Query  1069  M----EPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIP  1233
+             +    E   VA +G               +    +TA++++ LM SV +  GTGT   + 
+Sbjct  201   LPLSFEKQAVAPQGK--------------RIFKESTAREVRNLMVSVTEPGGTGTAGAVD  246
+
+Query  1234  GVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGS  1404
+             G  VG KTGTA+   +G+         F+ +A  ++  +V VAV +++ +  A    GG 
+Sbjct  247   GFDVGAKTGTARKLVNGRYVDNKHVGTFIGFAPAKN-PRVIVAVTIDEPT--AHGYYGGV  303
+
+Query  1405  LAAPIAKAMMQAAL  1446
+             +A    K +M  +L
+Sbjct  304   VAGSPFKKIMGGSL  317
+
+
+>3ZG8_B Chain B, Crystal Structure Of Penicillin Binding Protein 4 From 
+Listeria Monocytogenes In The Ampicillin Bound Form
+ 3ZGA_B Chain B, Crystal Structure Of Peniscillin-binding Protein 4 From 
+Listeria Monocytogenes In The Carbenicillin Bound Form
+ 3ZG9_B Chain B, Crystal Structure Of Penicillin-binding Protein 4 From 
+Listeria Monocytogenes In The Cefuroxime Bound Form
+Length=537
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 79/285 (28%), Positives = 116/285 (41%), Gaps = 47/285 (16%)
+ Frame = +1
+
+Query  472   AVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGS  651
+             AV +DP TG I  LV         F G                     NRA +    PGS
+Sbjct  180   AVLMDPATGGIRALVG--GRGEHVFRG--------------------FNRATQMKAQPGS  217
+
+Query  652   TFK-LVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLS  828
+             T K L     A ++G Y   S + D    Y   G  TP  N       G   +  A+  S
+Sbjct  218   TMKPLAVYTPALQSG-YDVDSMLKDEKITY--KGNYTP-TNVGGVY-SGEVPMYKAVANS  272
+
+Query  829   CNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDT  1008
+              N     +  ++G DK     EKFG    +T+P            + D T   A+G    
+Sbjct  273   INAPAVWLLDQIGIDKGVKSVEKFG----ITVP------------EKDRTLGLALGGMSK  316
+
+Query  1009  RATPLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQAVSPATAQKLQQL  1185
+              A+P++MA   A  ANNG+  E +++ +    +GN +  +   +  Q +S   + ++  +
+Sbjct  317   GASPVEMATAYATFANNGAKPESHIITKIVDPSGNTVYENVP-KTKQIISETVSNEMTSM  375
+
+Query  1186  MESVVQHGTGTNAKIPGVTVGGKTGTAQ-HGQDNSGLPFAWFVSY  1317
+             +  V+  GTG +A + G  + GKTG+ Q    D SG    WFV Y
+Sbjct  376   LLDVINTGTGQSAAVSGHEMAGKTGSTQVPFDDTSGTKDQWFVGY  420
+
+
+>2WAF_A Chain A, Penicillin-binding Protein 2b (pbp-2b) From Streptococcus 
+Pneumoniae (strain R6)
+Length=682
+
+ Score = 58.2 bits (139),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 94/333 (28%), Positives = 140/333 (42%), Gaps = 64/333 (19%)
+ Frame = +1
+
+Query  472   AVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGS  651
+             AVA++PKTGA+L +             G K D K    L  D    + N      + PGS
+Sbjct  345   AVALNPKTGAVLSM------------SGIKHDLKTG-ELTPDSLGTVTN-----VFVPGS  386
+
+Query  652   TFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGN--ATVQHAMDL  825
+               K  T ++ +E G       +TD   Q I+   S P IN+  T+  G+   T   A++ 
+Sbjct  387   VVKAATISSGWENGVLSGNQTLTD---QSIVFQGSAP-INSWYTQAYGSFPITAVQALEY  442
+
+Query  826   SCNT-----VFGKMG-------------AELGGDKLRAQAEKFGFNKEVTIPIRADASHF  951
+             S NT       G MG              E   +KLR+   ++G      I +  +++ F
+Sbjct  443   SSNTYMVQTALGLMGQTYQPNMFVGTSNLESAMEKLRSTFGEYGLGTATGIDLPDESTGF  502
+
+Query  952   -PSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVA------QEGSAGN  1110
+              P          +A GQ D   TP+Q+A   A IANNG  + P +V        +G  G+
+Sbjct  503   VPKEYSFANYITNAFGQFDNY-TPMQLAQYVATIANNGVRVAPRIVEGIYGNNDKGGLGD  561
+
+Query  1111  VISTHTEHQLSQA-VSPATAQKLQQLMESVVQHGTG--------TNAKIPGVTVGGKTGT  1263
+             +I      ++++  +S +    L Q    V  HGT         +N  +  V++ GKTGT
+Sbjct  562   LIQQLQPTEMNKVNISDSDMSILHQGFYQVA-HGTSGLTTGRAFSNGAL--VSISGKTGT  618
+
+Query  1264  AQ-HGQDNSGLPFAWFVSYAKGQDGKQVAVAVV  1359
+             A+ +  D         V+YA   D  Q+AVAVV
+Sbjct  619   AESYVADGQQATNTNAVAYAPS-DNPQIAVAVV  650
+
+
+>2V2F_F Chain F, Crystal Structure Of Pbp1a From Drug-resistant Strain 
+5204 From Streptococcus Pneumoniae
+Length=390
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 71/251 (28%), Positives = 111/251 (44%), Gaps = 35/251 (14%)
+ Frame = +1
+
+Query  616   NRALRETYPPGSTFKLVT-AATAFETGKYQSPSD-VTDTPDQYILPGTSTPLINASPTED  789
+             N+A+      GS  K +T  A A E G Y S +  V D P  Y  PGTSTP+ N      
+Sbjct  96    NQAVETNRDWGSAMKPITDYAPAIEYGVYDSTATMVNDIPYNY--PGTSTPVYNWDRAY-  152
+
+Query  790   CGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKP  969
+              GN T+Q+A+  S N    +   ++G D+ +      G +        A +S+    +K 
+Sbjct  153   FGNITLQYALQQSRNVTAVETLNKVGLDRAKTFLNGLGIDYPSMHYANAISSNTTESNKQ  212
+
+Query  970   DGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLS--  1143
+              G            A+  +MA   AA AN G   +P  + +      V S  ++ + S  
+Sbjct  213   YG------------ASSEKMAAAYAAFANGGIYHKPMYINKV-----VFSDGSKKEFSDV  255
+
+Query  1144  --QAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQD-------NSGL-  1293
+               +A+   TA  + ++M++V+ +GTG  A +P +   GKTGT+ +  D       N+G  
+Sbjct  256   GTRAMKETTAYMMTEMMKTVLAYGTGRGAYLPWLAQAGKTGTSNYTDDEIEKHIKNTGYV  315
+
+Query  1294  -PFAWFVSYAK  1323
+              P   FV Y +
+Sbjct  316   APDEMFVGYTR  326
+
+
+>2C5W_B Chain B, Penicillin-Binding Protein 1a (Pbp-1a) Acyl-Enzyme Complex 
+(Cefotaxime) From Streptococcus Pneumoniae
+Length=385
+
+ Score = 55.8 bits (133),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 63/226 (28%), Positives = 105/226 (46%), Gaps = 26/226 (12%)
+ Frame = +1
+
+Query  613   LNRALRETYPPGSTFKLVT-AATAFETGKYQSPSDVT-DTPDQYILPGTSTPLINASPTE  786
+             +N+A+      GST K +T  A A E G Y+S + +  D P  Y  PGT+TP+ N     
+Sbjct  93    INQAVETNRDWGSTMKPITDYAPALEYGVYESTATIVHDEPYNY--PGTNTPVYNWDRGY  150
+
+Query  787   DCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSK  966
+               GN T+Q+A+  S N    +   ++G ++ +      G        I   + H+ +   
+Sbjct  151   -FGNITLQYALQQSRNVPAVETLNKVGLNRAKTFLNGLG--------IDYPSIHYSNAIS  201
+
+Query  967   PDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLS-  1143
+              + T  D        A+  +MA   AA AN G+  +P  + +      V S  +E + S 
+Sbjct  202   SNTTESDK----KYGASSEKMAAAYAAFANGGTYYKPMYIHKV-----VFSDGSEKEFSN  252
+
+Query  1144  ---QAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQH  1272
+                +A+   TA  +  +M++V+ +GTG NA +  +   GKTGT+ +
+Sbjct  253   VGTRAMKETTAYMMTDMMKTVLTYGTGRNAYLAWLPQAGKTGTSNY  298
+
+
+>2ZC5_B Chain B, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-Enzyme Complex 
+(Biapenem) From Streptococcus Pneumoniae
+ 2ZC5_D Chain D, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-Enzyme Complex 
+(Biapenem) From Streptococcus Pneumoniae
+ 2ZC6_B Chain B, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-Enzyme Complex 
+(Tebipenem) From Streptococcus Pneumoniae
+ 2ZC6_D Chain D, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-Enzyme Complex 
+(Tebipenem) From Streptococcus Pneumoniae
+Length=390
+
+ Score = 55.1 bits (131),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 63/226 (28%), Positives = 104/226 (46%), Gaps = 26/226 (12%)
+ Frame = +1
+
+Query  613   LNRALRETYPPGSTFKLVT-AATAFETGKYQSPSDVT-DTPDQYILPGTSTPLINASPTE  786
+             +N+A+      GST K +T  A A E G Y S + +  D P  Y  PGT+TP+ N     
+Sbjct  95    INQAVETNRDWGSTMKPITDYAPALEYGVYDSTATIVHDEPYNY--PGTNTPVYNWDRGY  152
+
+Query  787   DCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSK  966
+               GN T+Q+A+  S N    +   ++G ++ +      G        I   + H+ +   
+Sbjct  153   -FGNITLQYALQQSRNVPAVETLNKVGLNRAKTFLNGLG--------IDYPSIHYSNAIS  203
+
+Query  967   PDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLS-  1143
+              + T  D        A+  +MA   AA AN G+  +P  + +      V S  +E + S 
+Sbjct  204   SNTTESDK----KYGASSEKMAAAYAAFANGGTYYKPMYIHKV-----VFSDGSEKEFSN  254
+
+Query  1144  ---QAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQH  1272
+                +A+   TA  +  +M++V+ +GTG NA +  +   GKTGT+ +
+Sbjct  255   VGTRAMKETTAYMMTDMMKTVLSYGTGQNAYLAWLPQAGKTGTSNY  300
+
+
+>2C6W_B Chain B, Penicillin-Binding Protein 1a (Pbp-1a) From Streptococcus 
+Pneumoniae
+Length=384
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 63/226 (28%), Positives = 104/226 (46%), Gaps = 26/226 (12%)
+ Frame = +1
+
+Query  613   LNRALRETYPPGSTFKLVT-AATAFETGKYQSPSDVT-DTPDQYILPGTSTPLINASPTE  786
+             +N+A+      GST K +T  A A E G Y S + +  D P  Y  PGT+TP+ N     
+Sbjct  92    INQAVETNRDWGSTMKPITDYAPALEYGVYDSTATIVHDEPYNY--PGTNTPVYNWDRGY  149
+
+Query  787   DCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSK  966
+               GN T+Q+A+  S N    +   ++G ++ +      G        I   + H+ +   
+Sbjct  150   -FGNITLQYALQQSRNVPAVETLNKVGLNRAKTFLNGLG--------IDYPSIHYSNAIS  200
+
+Query  967   PDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLS-  1143
+              + T  D        A+  +MA   AA AN G+  +P  + +      V S  +E + S 
+Sbjct  201   SNTTESDK----KYGASSEKMAAAYAAFANGGTYYKPMYIHKV-----VFSDGSEKEFSN  251
+
+Query  1144  ---QAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQH  1272
+                +A+   TA  +  +M++V+ +GTG NA +  +   GKTGT+ +
+Sbjct  252   VGTRAMKETTAYMMTDMMKTVLTYGTGRNAYLAWLPQAGKTGTSNY  297
+
+
+>3ZG7_B Chain B, Crystal Structure Of Penicillin-binding Protein 4 From 
+Listeria Monocytogenes In The Apo Form
+Length=537
+
+ Score = 53.9 bits (128),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 67/238 (28%), Positives = 99/238 (42%), Gaps = 25/238 (11%)
+ Frame = +1
+
+Query  613   LNRALRETYPPGSTFK-LVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTED  789
+              NRA +    PGST K L     A ++G Y   S + D    Y   G  TP  N      
+Sbjct  205   FNRATQXKAQPGSTXKPLAVYTPALQSG-YDVDSXLKDEKITY--KGNYTP-TNVGGVY-  259
+
+Query  790   CGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKP  969
+              G      A+  S N     +  ++G DK     EKFG    +T+P            + 
+Sbjct  260   SGEVPXYKAVANSINAPAVWLLDQIGIDKGVKSVEKFG----ITVP------------EK  303
+
+Query  970   DGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQ  1146
+             D T   A+G     A+P++ A   A  ANNG+  E +++ +    +GN +  +   +  Q
+Sbjct  304   DRTLGLALGGXSKGASPVEXATAYATFANNGAKPESHIITKIVDPSGNTVYENVP-KTKQ  362
+
+Query  1147  AVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ-HGQDNSGLPFAWFVSY  1317
+              +S   + +    +  V+  GTG +A + G    GKTG+ Q    D SG    WFV Y
+Sbjct  363   IISETVSNEXTSXLLDVINTGTGQSAAVSGHEXAGKTGSTQVPFDDTSGTKDQWFVGY  420
+
+
+>2WAD_A Chain A, Penicillin-binding Protein 2b (pbp-2b) From Streptococcus 
+Pneumoniae (strain 5204)
+ 2WAD_B Chain B, Penicillin-binding Protein 2b (pbp-2b) From Streptococcus 
+Pneumoniae (strain 5204)
+ 2WAD_C Chain C, Penicillin-binding Protein 2b (pbp-2b) From Streptococcus 
+Pneumoniae (strain 5204)
+Length=680
+
+ Score = 53.5 bits (127),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 88/330 (27%), Positives = 133/330 (40%), Gaps = 58/330 (18%)
+ Frame = +1
+
+Query  472   AVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGS  651
+             AVA++P+TGA+L +             G K D K    L  D    + N      + PGS
+Sbjct  345   AVALNPQTGAVLSM------------SGLKHDLKTG-ELTPDSLGTVTN-----VFVPGS  386
+
+Query  652   TFKLVTAATAFETGKYQSPSDVTDTP----------DQYILPGTSTPLINASPTEDCGNA  801
+               K  T ++ +E G       +TD P            Y L   S P+      E   NA
+Sbjct  387   VVKAATISSGWENGVLSGNQTLTDQPIVFQGSAPIYSWYKLAYGSFPITAVEALEYSSNA  446
+
+Query  802   -TVQHAMDL-----SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHF-PSG  960
+               VQ A+ +       N   G    E    KLR+   ++G      I +  +++   P  
+Sbjct  447   YVVQTALGIMGQTYQPNMFVGTSNLESAMGKLRSTFGEYGLGSATGIDLPDESTGLVPKE  506
+
+Query  961   SKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVA------QEGSAGNVIST  1122
+                     +A GQ D   TP+Q+A   A IANNG  + P++V        +G  G +I  
+Sbjct  507   YNFANFITNAFGQFDNY-TPMQLAQYVATIANNGVRLAPHIVEGIYDNNDKGGLGELIQA  565
+
+Query  1123  HTEHQLSQA-VSPATAQKLQQLMESVVQHGTG--TNAKI----PGVTVGGKTGTAQH---  1272
+                 ++++  +S +    L Q     V HGT   T  +       V++ GKTGT +    
+Sbjct  566   IDTKEINKVNISESDMAILHQGFYQ-VSHGTSPLTTGRAFSDGATVSISGKTGTGESYVA  624
+
+Query  1273  -GQDNSGLPFAWFVSYAKGQDGKQVAVAVV  1359
+              GQ+ +       V+YA  ++  Q+AVAVV
+Sbjct  625   GGQEATN---TNAVAYAPTEN-PQIAVAVV  650
+
+
+>2WAE_A Chain A, Penicillin-binding Protein 2b (pbp-2b) From Streptococcus 
+Pneumoniae (strain 5204)
+Length=680
+
+ Score = 53.1 bits (126),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 88/330 (27%), Positives = 133/330 (40%), Gaps = 58/330 (18%)
+ Frame = +1
+
+Query  472   AVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGS  651
+             AVA++P+TGA+L +             G K D K    L  D    + N      + PGS
+Sbjct  345   AVALNPQTGAVLSM------------SGLKHDLKTG-ELTPDSLGTVTN-----VFVPGS  386
+
+Query  652   TFKLVTAATAFETGKYQSPSDVTDTP----------DQYILPGTSTPLINASPTEDCGNA  801
+               K  T ++ +E G       +TD P            Y L   S P+      E   NA
+Sbjct  387   VVKAATISSGWENGVLSGNQTLTDQPIVFQGSAPIYSWYKLAYGSFPITAVEALEYSSNA  446
+
+Query  802   -TVQHAMDL-----SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHF-PSG  960
+               VQ A+ +       N   G    E    KLR+   ++G      I +  +++   P  
+Sbjct  447   YVVQTALGIMGQTYQPNMFVGTSNLESAMGKLRSTFGEYGLGSATGIDLPDESTGLVPKE  506
+
+Query  961   SKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVA------QEGSAGNVIST  1122
+                     +A GQ D   TP+Q+A   A IANNG  + P++V        +G  G +I  
+Sbjct  507   YNFANFITNAFGQFDNY-TPMQLAQYVATIANNGVRLAPHIVEGIYDNNDKGGLGELIQA  565
+
+Query  1123  HTEHQLSQA-VSPATAQKLQQLMESVVQHGTG--TNAKI----PGVTVGGKTGTAQH---  1272
+                 ++++  +S +    L Q     V HGT   T  +       V++ GKTGT +    
+Sbjct  566   IDTKEINKVNISESDMAILHQGFYQ-VSHGTSPLTTGRAFSDGATVSISGKTGTGESYVA  624
+
+Query  1273  -GQDNSGLPFAWFVSYAKGQDGKQVAVAVV  1359
+              GQ+ +       V+YA  ++  Q+AVAVV
+Sbjct  625   GGQEANN---TNAVAYAPTEN-PQIAVAVV  650
+
+
+>3UDF_A Chain A, Crystal Structure Of Apo Pbp1a From Acinetobacter Baumannii
+ 3UDF_B Chain B, Crystal Structure Of Apo Pbp1a From Acinetobacter Baumannii
+ 3UDI_A Chain A, Crystal Structure Of Acinetobacter Baumannii Pbp1a In 
+Complex With Penicillin G
+ 3UDI_B Chain B, Crystal Structure Of Acinetobacter Baumannii Pbp1a In 
+Complex With Penicillin G
+ 3UDX_A Chain A, Crystal Structure Of Acinetobacter Baumannii Pbp1a In 
+Complex With Imipenem
+ 3UDX_B Chain B, Crystal Structure Of Acinetobacter Baumannii Pbp1a In 
+Complex With Imipenem
+ 3UE0_A Chain A, Crystal Structure Of Acinetobacter Baumannii Pbp1a In 
+Complex With Aztreonam
+ 3UE0_B Chain B, Crystal Structure Of Acinetobacter Baumannii Pbp1a In 
+Complex With Aztreonam
+ 3UE1_A Chain A, Crystal Strucuture Of Acinetobacter Baumanni Pbp1a In 
+Complex With Mc- 1
+ 3UE1_B Chain B, Crystal Strucuture Of Acinetobacter Baumanni Pbp1a In 
+Complex With Mc- 1
+Length=731
+
+ Score = 50.8 bits (120),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 103/421 (24%), Positives = 153/421 (36%), Gaps = 130/421 (31%)
+ Frame = +1
+
+Query  367   DMLTGKPKQGGDVVTTID-PKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGT  543
+             D++  +P +     + +  PKVQ           G  +AI+P  G+I  +V   ++    
+Sbjct  365   DIVRLRPNEAKTAWSLVQVPKVQ-----------GQLIAINPNDGSIEAIVGGYNFYQSK  413
+
+Query  544   FAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSP-SDVT  720
+             F                       NRAL+    PGST K    A A E G   +P S V 
+Sbjct  414   F-----------------------NRALQGWRQPGSTIKPFLYALALERG--MTPYSMVN  448
+
+Query  721   DTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKF  900
+             D+P   I  G  TP    S     G   ++ A+ LS NTV  ++   +G ++ R     F
+Sbjct  449   DSP---ITIGKWTP--KNSDGRYLGMIPLRRALYLSRNTVSVRLLQTVGIERTRQLFMDF  503
+
+Query  901   GFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPY  1080
+             G  +E  IP                     I     +  P+QMA   A  AN G  ++P+
+Sbjct  504   GL-QEDQIPRNY-----------------TIALGTPQVLPIQMATGYATFANGGYRVQPH  545
+
+Query  1081  LVAQ-EGSAGNVIS-----------------------THTEHQLSQAVSPATAQK-----  1173
+              + + E + G VI                        T  + Q+ +  +    QK     
+Sbjct  546   FIQRIEDAYGKVIYEAKPEYACIPCINAPETTDDAQVTTPDDQVVEVTNKELEQKEKTTK  605
+
+Query  1174  ----------------LQQLMES------------VVQHGTGTNA-KIPGVTVGGKTGTA  1266
+                              Q++++S            V++HGTG  A KI    +GGKTGT 
+Sbjct  606   QLNLKQTDKNNSQYRQAQRILKSSSAYDMANILRDVIEHGTGRAALKIGRSDLGGKTGTT  665
+
+Query  1267  QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVV-VEDGSSEAQQISGGSLAAPIAKAMMQAA  1443
+                +D      AWF     G +GK V V  V  +  ++  ++  GG  A PI    M  A
+Sbjct  666   NDAKD------AWFA----GFNGKLVTVTWVGFDQPTTLGRREYGGIAALPIWINFMGQA  715
+
+Query  1444  L  1446
+             L
+Sbjct  716   L  716
+
+
+>1K25_A Chain A, Pbp2x From A Highly Penicillin-Resistant Streptococcus 
+Pneumoniae Clinical Isolate
+ 1K25_B Chain B, Pbp2x From A Highly Penicillin-Resistant Streptococcus 
+Pneumoniae Clinical Isolate
+ 1K25_C Chain C, Pbp2x From A Highly Penicillin-Resistant Streptococcus 
+Pneumoniae Clinical Isolate
+ 1K25_D Chain D, Pbp2x From A Highly Penicillin-Resistant Streptococcus 
+Pneumoniae Clinical Isolate
+Length=685
+
+ Score = 49.7 bits (117),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 88/379 (23%), Positives = 141/379 (37%), Gaps = 83/379 (22%)
+ Frame = +1
+
+Query  295   SQLEKLEDGILSGTDSRLFFRNT--------LDMLTGKPKQGGDVVTTIDPKVQK-----  435
+             S +E   + IL+GTD  + +            ++++ +   G DV TT+   +Q      
+Sbjct  152   SGMESSLNSILAGTDGIITYEKDRVGNIVPGTELVSQQTVDGKDVYTTLSSPLQSFMETQ  211
+
+Query  436   --AGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKP  609
+               A  E +  K   A  +  KTG IL     P+++  T  G T+D    W  +    N  
+Sbjct  212   MDAFLEKVKGKYMTATLVSAKTGEILATTQRPTFNADTKEGITED--FVWRDILYQSN--  267
+
+Query  610   MLNRALRETYPPGSTFKLVTAATA-----FETGKYQSPSDV----TDTPDQYILPGTSTP  762
+                      Y PGS  K++T A++     F +G+Y + S++      T D  +  G +T 
+Sbjct  268   ---------YEPGSAMKVMTLASSIDNNTFPSGEYFNSSELKIADATTRDWDVNEGLTT-  317
+
+Query  763   LINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADA  942
+                       G  T       S N     +  ++G        ++F F     +P R   
+Sbjct  318   ---------GGMMTFLQGFAHSSNVGMSLLEQKMGDATWLDYLKRFKFG----VPTRFGL  364
+
+Query  943   SHFPSGSKPD----GTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLV--------  1086
+             +   +G  P       A  + GQ     T  QM     AIAN+G ++EP  +        
+Sbjct  365   TDEYAGQLPADNIVSIAQSSFGQ-GISVTQTQMLRAFTAIANDGVMLEPKFISAIYDTNN  423
+
+Query  1087  -----AQEGSAGNVI-----STHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIP  1233
+                  +Q+   GN +     ST   H +     P        L  ++  H TG     +P
+Sbjct  424   QSVRKSQKEIVGNPVSKEAASTTRNHMILVGTDP--------LYGTMYNHYTGKPIITVP  475
+
+Query  1234  GVTVGGKTGTAQHGQDNSG  1290
+             G  V  K+GTAQ   + +G
+Sbjct  476   GQNVAVKSGTAQIADEKNG  494
+
+
+>5U47_A Chain A, 1.95 Angstrom Resolution Crystal Structure Of Penicillin 
+Binding Protein 2x From Streptococcus Thermophilus
+Length=707
+
+ Score = 48.9 bits (115),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 91/364 (25%), Positives = 141/364 (39%), Gaps = 56/364 (15%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFR-----NTL---DMLTGKPKQGGDVVTTIDPKVQK-------  435
+             LE+  + +L+GTD    +      NTL   + +T +   G ++ TT+   +Q        
+Sbjct  176   LERSLNSLLTGTDGEAIYEKDKDGNTLLGTETITKEAIDGKNIYTTLSAPLQTFLETQMD  235
+
+Query  436   AGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPML  615
+                E       +A  ++ KTG IL     P+Y+  T  G  K     W           +
+Sbjct  236   TFMEQTKGINASATVVNAKTGEILATTQRPTYNSDTLEGQAKKGYD-W-----------V  283
+
+Query  616   NRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG  795
+             NR     Y PGST K++  + A   G +    + T +    I  G    + + S  E   
+Sbjct  284   NRLYEAQYEPGSTMKVMLLSAAINNGSFN--PNATYSNANGIKVG-DVEINDWSINEGIS  340
+
+Query  796   NA-TVQHAMDLSCNTVFG-KMGAELGGDKLRAQ---AEKFGFNKEVTIPIRADASHFPSG  960
+                T+  A   S ++  G  M  +  GDK+ +      KFG      IP R       SG
+Sbjct  341   KGRTMSFAQGFSYSSNVGMTMLEQAMGDKVWSNYLSLYKFG------IPTRFGMVGESSG  394
+
+Query  961   SKPDGT---AMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGN-VISTHT  1128
+                  +   A  + GQ     T +QM     AI+NNG ++EP  + Q        + T  
+Sbjct  395   IVSQNSVNIAQSSFGQG-ISVTQVQMLRAFTAISNNGIMLEPQFIKQVADTNKGTVRTAK  453
+
+Query  1129  EHQLSQAVSPATAQKLQQLMESV---VQHGTGTNAK--IPGVTVGG-----KTGTAQHGQ  1278
+             +  + + VS   A + +  M SV    + GT  N     P + VG      K+GTAQ   
+Sbjct  454   KEVIGKPVSKQAASETRNYMISVGTDPEFGTLYNKSEGSPIIQVGNNDVTVKSGTAQVPD  513
+
+Query  1279  DNSG  1290
+             + +G
+Sbjct  514   EKTG  517
+
+
+>1RP5_A Chain A, Pbp2x From Streptococcus Pneumoniae Strain 5259 With 
+Reduced Susceptibility To Beta-Lactam Antibiotics
+ 1RP5_B Chain B, Pbp2x From Streptococcus Pneumoniae Strain 5259 With 
+Reduced Susceptibility To Beta-Lactam Antibiotics
+Length=702
+
+ Score = 47.4 bits (111),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 89/374 (24%), Positives = 138/374 (37%), Gaps = 73/374 (20%)
+ Frame = +1
+
+Query  295   SQLEKLEDGILSGTDSRLFFRNT--------LDMLTGKPKQGGDVVTTIDPKVQK-----  435
+             S +E   + IL+GTD  + +            + ++ +   G DV TTI   +Q      
+Sbjct  169   SGMESSLNSILAGTDGIITYEKDRLGNIVPGTEQVSQQTVDGKDVYTTISSPLQSFMETQ  228
+
+Query  436   --AGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKP  609
+               A  E +  K   A  +  KTG IL     P++D  T  G T+D    W  +    N  
+Sbjct  229   MDAFQEKVKGKYMTATLVSAKTGEILATTQRPTFDADTKEGITED--FVWRDILYQSN--  284
+
+Query  610   MLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPL-INASPTE  786
+                      Y PGST K++  A A +   +    +V ++ +  I   T     +N   T 
+Sbjct  285   ---------YEPGSTMKVMMLAAAIDNNTFPG-GEVFNSSELKIADATIRDWDVNEGLTG  334
+
+Query  787   DCGNATVQ---HAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPS  957
+                    Q   H+ ++    +  KMG     D L     +F F     +P R   +   +
+Sbjct  335   GRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLN----RFKFG----VPTRFGLTDEYA  386
+
+Query  958   GSKPD----GTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLV-------------  1086
+             G  P       AM A GQ     T  QM     AIAN+G ++EP  +             
+Sbjct  387   GQLPADNIVNIAMSAFGQ-GISVTQTQMLRAFTAIANDGVMLEPKFISALYDPNDQSVRK  445
+
+Query  1087  AQEGSAGNVISTHT-----EHQLSQAVSPATAQKLQQLMESVVQHGTG-TNAKIPGVTVG  1248
+             +Q+   GN +S        +H +     P           ++  H TG     +PG  V 
+Sbjct  446   SQKEIVGNPVSKEAASVTRDHMVMVGTDPTYG--------TMYNHSTGKATVNVPGQNVA  497
+
+Query  1249  GKTGTAQHGQDNSG  1290
+              K+GTA+   + +G
+Sbjct  498   LKSGTAEIADEKNG  511
+
+
+>4OON_A Chain A, Crystal Structure Of Pbp1a In Complex With Compound 
+17 ((4z,8s,11e, 14s)-5-(2-amino-1,3-thiazol-4-yl)-14-(5,6-dihydroxy-1,3-dioxo-1,3- 
+Dihydro-2h-isoindol-2-yl)-8-formyl-2-methyl-6-oxo-3,10-dioxa-4,7,11- 
+Triazatetradeca-4,11-diene-2,12,14-tricarboxylic 
+Acid)
+Length=795
+
+ Score = 46.6 bits (109),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 94/401 (23%), Positives = 150/401 (37%), Gaps = 87/401 (22%)
+ Frame = +1
+
+Query  385   PKQGGDVVTTIDP-KVQKA-----GFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTF  546
+             P+Q  DV    D  +VQ+       F  +   + A +++DPK GAI  LV   S++   +
+Sbjct  363   PRQPADVAQAGDQIRVQRQEDGTLRFVQIPAAQSALISLDPKDGAIRSLVGGFSFEQSNY  422
+
+Query  547   AGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDT  726
+                                    NRA++    PGS+FK    + A + G + + S V D 
+Sbjct  423   -----------------------NRAIQAKRQPGSSFKPFIYSAALDNG-FTAASLVNDA  458
+
+Query  727   P----DQYI----LPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLR  882
+             P    D+Y+     P   T           G   ++ A+  S N V  ++   LG ++  
+Sbjct  459   PIVFVDEYLDKVWRPKNDTNTF-------LGPIPLREALYKSRNMVSIRVLQGLGIERAI  511
+
+Query  883   AQAEKFGFNKE---------------VTIPIRADASHFPSGS-KPDGTAMDAI----GQH  1002
+             +   KFGF ++                 + I    S F +G  K +   ++ I    GQ 
+Sbjct  512   SYITKFGFQRDELPRNFSLALGTATVTPMEIAGAWSVFANGGYKVNPYVIERIESRDGQV  571
+
+Query  1003  DTRATP------LQMAMVAAAIANNGSLMEPYLVAQEGS------AGNVISTHTEHQLSQ  1146
+               +A P       Q+A  A    N G    P     EGS      A    +T       +
+Sbjct  572   LYQANPPRVPVEEQVAADAEDAGNPGDPEHPESAEGEGSIEAQQVAAKAQTTFEPTPAER  631
+
+Query  1147  AVSPATAQKLQQLMESVVQHGTGTNA-KIPGVTVGGKTGTAQHGQDNSGLPFAWFVSYAK  1323
+              +   TA  +  +++ V++ GTG  A  +    + GKTGT    +D       WF  Y  
+Sbjct  632   IIDARTAYIMTSMLQDVIKRGTGRRALALKRTDLAGKTGTTNDSKD------GWFSGY--  683
+
+Query  1324  GQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL  1446
+                    +V V  +   +  ++  GG++A PI    M  AL
+Sbjct  684   -NSDYVTSVWVGFDQPETLGRREYGGTVALPIWIRYMGFAL  723
+
+
+>1PYY_A Chain A, Double Mutant Pbp2x T338aM339F FROM STREPTOCOCCUS PNEUMONIAE 
+STRAIN R6 At 2.4 A Resolution
+Length=702
+
+ Score = 43.9 bits (102),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 86/366 (23%), Positives = 138/366 (38%), Gaps = 57/366 (16%)
+ Frame = +1
+
+Query  295   SQLEKLEDGILSGTDSRLFFRNT--------LDMLTGKPKQGGDVVTTIDPKVQK-----  435
+             S +E   + IL+GTD  + +            + ++ +   G DV TTI   +Q      
+Sbjct  169   SGMESSLNSILAGTDGIITYEKDRLGNIVPGTEQVSQRTMDGKDVYTTISSPLQSFMETQ  228
+
+Query  436   --AGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKP  609
+               A  E +  K   A  +  KTG IL     P++D  T  G T+D    W  +    N  
+Sbjct  229   MDAFQEKVKGKYMTATLVSAKTGEILATTQRPTFDADTKEGITED--FVWRDILYQSN--  284
+
+Query  610   MLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPL-INASPTE  786
+                      Y PGS FK++  A A +   +    +V ++ +  I   T     +N   T 
+Sbjct  285   ---------YEPGSAFKVMMLAAAIDNNTFPG-GEVFNSSELKIADATIRDWDVNEGLTG  334
+
+Query  787   DCGNATVQ---HAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPS  957
+                    Q   H+ ++    +  KMG     D L     +F F     +P R   +   +
+Sbjct  335   GRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLN----RFKFG----VPTRFGLTDEYA  386
+
+Query  958   GSKPD----GTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTH  1125
+             G  P       A  + GQ     T  QM     AIAN+G ++EP  ++      +  +  
+Sbjct  387   GQLPADNIVNIAQSSFGQ-GISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARK  445
+
+Query  1126  TEHQL-SQAVSPATAQKLQQLME---------SVVQHGTGT-NAKIPGVTVGGKTGTAQH  1272
+             ++ ++    VS   A   +  M          ++  H TG     +PG  V  K+GTAQ 
+Sbjct  446   SQKEIVGNPVSKDAASLTRTNMVLVGTDPVYGTMYNHSTGKPTVTVPGQNVALKSGTAQI  505
+
+Query  1273  GQDNSG  1290
+               + +G
+Sbjct  506   ADEKNG  511
+
+
+>1PMD_A Chain A, Penicillin-Binding Protein 2x (Pbp-2x)
+Length=675
+
+ Score = 43.5 bits (101),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 86/366 (23%), Positives = 138/366 (38%), Gaps = 57/366 (16%)
+ Frame = +1
+
+Query  295   SQLEKLEDGILSGTDSRLFFRNT--------LDMLTGKPKQGGDVVTTIDPKVQK-----  435
+             S +E   + IL+GTD  + +            + ++ +   G DV TTI   +Q      
+Sbjct  142   SGMESSLNSILAGTDGIITYEKDRLGNIVPGTEQVSQRTMDGKDVYTTISSPLQSFMETQ  201
+
+Query  436   --AGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKP  609
+               A  E +  K   A  +  KTG IL     P++D  T  G T+D    W  +    N  
+Sbjct  202   MDAFQEKVKGKYMTATLVSAKTGEILATTQRPTFDADTKEGITED--FVWRDILYQSN--  257
+
+Query  610   MLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPL-INASPTE  786
+                      Y PGST K++  A A +   +    +V ++ +  I   T     +N   T 
+Sbjct  258   ---------YEPGSTMKVMMLAAAIDNNTFPG-GEVFNSSELKIADATIRDWDVNEGLTG  307
+
+Query  787   DCGNATVQ---HAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPS  957
+                    Q   H+ ++    +  KMG     D L     +F F     +P R   +   +
+Sbjct  308   GRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLN----RFKFG----VPTRFGLTDEYA  359
+
+Query  958   GSKPD----GTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTH  1125
+             G  P       A  + GQ     T  QM     AIAN+G ++EP  ++      +  +  
+Sbjct  360   GQLPADNIVNIAQSSFGQG-ISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARK  418
+
+Query  1126  TEHQL-SQAVSPATAQKLQQLME---------SVVQHGTGT-NAKIPGVTVGGKTGTAQH  1272
+             ++ ++    VS   A   +  M          ++  H TG     +PG  V  K+GTAQ 
+Sbjct  419   SQKEIVGNPVSKDAASLTRTNMVLVGTDPVYGTMYNHSTGKPTVTVPGQNVALKSGTAQI  478
+
+Query  1273  GQDNSG  1290
+               + +G
+Sbjct  479   ADEKNG  484
+
+
+>1QME_A Chain A, Penicillin-binding Protein 2x (pbp-2x)
+ 1QMF_A Chain A, Penicillin-binding Protein 2x (pbp-2x) Acyl-enzyme Complex
+Length=702
+
+ Score = 43.1 bits (100),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 86/366 (23%), Positives = 138/366 (38%), Gaps = 57/366 (16%)
+ Frame = +1
+
+Query  295   SQLEKLEDGILSGTDSRLFFRNT--------LDMLTGKPKQGGDVVTTIDPKVQK-----  435
+             S +E   + IL+GTD  + +            + ++ +   G DV TTI   +Q      
+Sbjct  169   SGMESSLNSILAGTDGIITYEKDRLGNIVPGTEQVSQRTMDGKDVYTTISSPLQSFMETQ  228
+
+Query  436   --AGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKP  609
+               A  E +  K   A  +  KTG IL     P++D  T  G T+D    W  +    N  
+Sbjct  229   MDAFQEKVKGKYMTATLVSAKTGEILATTQRPTFDADTKEGITED--FVWRDILYQSN--  284
+
+Query  610   MLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPL-INASPTE  786
+                      Y PGST K++  A A +   +    +V ++ +  I   T     +N   T 
+Sbjct  285   ---------YEPGSTMKVMMLAAAIDNNTFPG-GEVFNSSELKIADATIRDWDVNEGLTG  334
+
+Query  787   DCGNATVQ---HAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPS  957
+                    Q   H+ ++    +  KMG     D L     +F F     +P R   +   +
+Sbjct  335   GRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLN----RFKFG----VPTRFGLTDEYA  386
+
+Query  958   GSKPD----GTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTH  1125
+             G  P       A  + GQ     T  QM     AIAN+G ++EP  ++      +  +  
+Sbjct  387   GQLPADNIVNIAQSSFGQ-GISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARK  445
+
+Query  1126  TEHQL-SQAVSPATAQKLQQLME---------SVVQHGTGT-NAKIPGVTVGGKTGTAQH  1272
+             ++ ++    VS   A   +  M          ++  H TG     +PG  V  K+GTAQ 
+Sbjct  446   SQKEIVGNPVSKDAASLTRTNMVLVGTDPVYGTMYNHSTGKPTVTVPGQNVALKSGTAQI  505
+
+Query  1273  GQDNSG  1290
+               + +G
+Sbjct  506   ADEKNG  511
+
+
+>4YE5_A Chain A, The Crystal Structure Of A Peptidoglycan Synthetase 
+From Bifidobacterium Adolescentis Atcc 15703
+ 4YE5_B Chain B, The Crystal Structure Of A Peptidoglycan Synthetase 
+From Bifidobacterium Adolescentis Atcc 15703
+Length=566
+
+ Score = 42.7 bits (99),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 85/405 (21%), Positives = 158/405 (39%), Gaps = 55/405 (14%)
+ Frame = +1
+
+Query  301   LEKLEDGILSGTDSRLFFR--NTLDMLTGKPKQ------GGDVVTTIDPKVQKAGFEGLG  456
+             +E+ E+  L+G D    ++  N+   + G   +      G DV  TID  VQ    + L 
+Sbjct  173   IEQXENKTLTGRDGYQVYQQGNSGVEIPGTXTESKDAVNGSDVTLTIDRDVQWYTEKVLS  232
+
+Query  457   NKK-------GAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPML  615
+             + +       G A   D ++G IL L  + + + G                 SD  K   
+Sbjct  233   DSENKYHSAWGIAXVQDVQSGDILALADSDTTEAG-----------------SDQAKXGA  275
+
+Query  616   NRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG  795
+             +RA+ ET+ PGS  K++  +   + G ++         D++ +P T T  +     +D  
+Sbjct  276   SRAVSETFEPGSIGKVLAXSGXLQLGLHK-------IDDKFTVPNTVT--VEGQTYKDAV  326
+
+Query  796   NATVQHAMDLSCNTVFGKMGAELGGDKLRAQAE-----KFGFNKE--VTIPIRADASHFP  954
+             +   +H            +G  + GDK   +       KFG  +   + +P  ++    P
+Sbjct  327   DHGNEHWTLAGILEQSSNVGXVIAGDKXTNEQRYNFISKFGIGQATGLNLPGESEGVLHP  386
+
+Query  955   SGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQE--GSAGNVISTHT  1128
+             S S    T    +          Q+    + IAN G + +P  + +    +AG+V    +
+Sbjct  387   SDSWDRRTRNTVLFGQGYTVNVXQLTNAISVIANKG-VKKPQRIIKSITDTAGHVEEQQS  445
+
+Query  1129  EHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSGLPFAWF  1308
+             + + ++ +  + A +     ES  +H   T  K+ G     K+GTA+    N  L  +  
+Sbjct  446   KGEATRVIDESVASQXLNAXESSAEH-YNTFVKVDGYRXAAKSGTAEVAGANGQLT-SII  503
+
+Query  1309  VSYAK--GQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQ  1437
+               Y+     D  +  + VV++D       ++ G + A I + + Q
+Sbjct  504   SDYSTIIPADNPRFVITVVLKDPQGSFGGLTAGPVTAEIGEFLXQ  548
+
+
+>3DWK_A Chain A, Identification Of Dynamic Structural Motifs Involved 
+In Peptidoglycan Glycosyltransfer
+ 3DWK_B Chain B, Identification Of Dynamic Structural Motifs Involved 
+In Peptidoglycan Glycosyltransfer
+ 3DWK_C Chain C, Identification Of Dynamic Structural Motifs Involved 
+In Peptidoglycan Glycosyltransfer
+ 3DWK_D Chain D, Identification Of Dynamic Structural Motifs Involved 
+In Peptidoglycan Glycosyltransfer
+Length=625
+
+ Score = 42.4 bits (98),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 69/303 (23%), Positives = 120/303 (40%), Gaps = 61/303 (20%)
+ Frame = +1
+
+Query  400   DVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAW  579
+             DV  T+   V    F    +++  A  +D KTG ++ +             G +D     
+Sbjct  271   DVQKTLQNDVDNGSFYKNKDQQVGATILDSKTGGLVAI------------SGGRD-----  313
+
+Query  580   TALDSDPNKPMLNR-ALRETYPPGSTFK-LVTAATAFETGKYQSPSDVTDTPDQYILPGT  753
+                     K ++NR    + +P GS+ K  +    A E  K+ +   + D    Y + G+
+Sbjct  314   -------FKDVVNRNQATDPHPTGSSLKPFLAYGPAIENMKWATNHAIQDES-SYQVDGS  365
+
+Query  754   STPLINASPTEDCGNATVQHAMDLSCNT----VFGKMGAELGGDKLRAQAEKFGFNKEVT  921
+             +        T+  G  ++  A+  S N      +  +    G D  +  A K G N E  
+Sbjct  366   T---FRNYDTKSHGTVSIYDALRQSFNIPALKAWQSVKQNAGNDAPKKFAAKLGLNYEGD  422
+
+Query  922   IPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPY----LVA  1089
+             I         PS         + +G   +  +P Q+A   AAIAN G+    +    +V 
+Sbjct  423   IG--------PS---------EVLGGSASEFSPTQLASAFAAIANGGTYNNAHSIQKVVT  465
+
+Query  1090  QEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTA  1266
+             ++G    +   HT H   +A+S  TA  L ++++   + +G+     + GV +G KTGT 
+Sbjct  466   RDGET--IEYDHTSH---KAMSDYTAYMLAEMLKGTFKPYGSAYGHGVSGVNMGAKTGTG  520
+
+Query  1267  QHG  1275
+              +G
+Sbjct  521   TYG  523
+
+
+>2Z2L_B Chain B, Penicillin-Binding Protein 2x (Pbp2x) From Streptococcus 
+Pneumoniae
+ 2Z2L_E Chain E, Penicillin-Binding Protein 2x (Pbp2x) From Streptococcus 
+Pneumoniae
+ 2Z2M_B Chain B, Cefditoren-Acylated Penicillin-Binding Protein 2x (Pbp2x) 
+From Streptococcus Pneumoniae
+ 2Z2M_E Chain E, Cefditoren-Acylated Penicillin-Binding Protein 2x (Pbp2x) 
+From Streptococcus Pneumoniae
+ 2ZC3_B Chain B, Penicillin-Binding Protein 2x (Pbp 2x) Acyl-Enzyme Complex 
+(Biapenem) From Streptococcus Pneumoniae
+ 2ZC3_E Chain E, Penicillin-Binding Protein 2x (Pbp 2x) Acyl-Enzyme Complex 
+(Biapenem) From Streptococcus Pneumoniae
+ 2ZC4_B Chain B, Penicillin-Binding Protein 2x (Pbp 2x) Acyl-Enzyme Complex 
+(Tebipenem) From Streptococcus Pneumoniae
+ 2ZC4_E Chain E, Penicillin-Binding Protein 2x (Pbp 2x) Acyl-Enzyme Complex 
+(Tebipenem) From Streptococcus Pneumoniae
+Length=385
+
+ Score = 40.4 bits (93),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 79/334 (24%), Positives = 126/334 (38%), Gaps = 49/334 (15%)
+ Frame = +1
+
+Query  367   DMLTGKPKQGGDVVTTIDPKVQK-------AGFEGLGNKKGAAVAIDPKTGAILGLVSTP  525
+             + ++ +   G DV TTI   +Q        A  E +  K   A  +  KTG IL     P
+Sbjct  9     EQVSQRTMDGKDVYTTISSPLQSFMETQMDAFQEKVKGKYMTATLVSAKTGEILATTQRP  68
+
+Query  526   SYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQS  705
+             ++D  T  G T+D    W  +    N           Y PGST K++  A A +   +  
+Sbjct  69    TFDADTKEGITED--FVWRDILYQSN-----------YEPGSTMKVMMLAAAIDNNTFPG  115
+
+Query  706   PSDVTDTPDQYILPGTSTPL-INASPTEDCGNATVQ---HAMDLSCNTVFGKMGAELGGD  873
+               +V ++ +  I   T     +N   T        Q   H+ ++    +  KMG     D
+Sbjct  116   -GEVFNSSELKIADATIRDWDVNEGLTGGRMMTFSQGFAHSSNVGMTLLEQKMGDATWLD  174
+
+Query  874   KLRAQAEKFGFNKEVTIPIRADASHFPSGSKPD----GTAMDAIGQHDTRATPLQMAMVA  1041
+              L     +F F     +P R   +   +G  P       A  + GQ     T  QM    
+Sbjct  175   YLN----RFKFG----VPTRFGLTDEYAGQLPADNIVNIAQSSFGQG-ISVTQTQMIRAF  225
+
+Query  1042  AAIANNGSLMEPYLVAQEGSAGNVISTHTEHQL-SQAVSPATAQKLQQLME---------  1191
+              AIAN+G ++EP  ++      +  +  ++ ++    VS   A   +  M          
+Sbjct  226   TAIANDGVMLEPKFISAIYDPNDQTARKSQKEIVGNPVSKDAASLTRTNMVLVGTDPVYG  285
+
+Query  1192  SVVQHGTGT-NAKIPGVTVGGKTGTAQHGQDNSG  1290
+             ++  H TG     +PG  V  K+GTAQ   + +G
+Sbjct  286   TMYNHSTGKPTVTVPGQNVALKSGTAQIADEKNG  319
+
+
+>2OLU_A Chain A, Structural Insight Into The Transglycosylation Step 
+Of Bacterial Cell Wall Biosynthesis : Apoenzyme
+ 2OLV_A Chain A, Structural Insight Into The Transglycosylation Step 
+Of Bacterial Cell Wall Biosynthesis : Donor Ligand Complex
+ 2OLV_B Chain B, Structural Insight Into The Transglycosylation Step 
+Of Bacterial Cell Wall Biosynthesis : Donor Ligand Complex
+Length=669
+
+ Score = 40.0 bits (92),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 69/303 (23%), Positives = 117/303 (39%), Gaps = 61/303 (20%)
+ Frame = +1
+
+Query  400   DVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAW  579
+             DV  T+   V    F    +++  A  +D KTG ++ +             G +D     
+Sbjct  280   DVQKTLQNDVDNGSFYKNKDQQVGATILDSKTGGLVAI------------SGGRD-----  322
+
+Query  580   TALDSDPNKPMLNR-ALRETYPPGSTFK-LVTAATAFETGKYQSPSDVTDTPDQYILPGT  753
+                     K ++NR    + +P GS+ K  +    A E  K+ +   + D    Y + G+
+Sbjct  323   -------FKDVVNRNQATDPHPTGSSLKPFLAYGPAIENXKWATNHAIQDES-SYQVDGS  374
+
+Query  754   STPLINASPTEDCGNATVQHAMDLSCN----TVFGKMGAELGGDKLRAQAEKFGFNKEVT  921
+             +        T+  G  ++  A+  S N      +  +    G D  +  A K G N E  
+Sbjct  375   T---FRNYDTKSHGTVSIYDALRQSFNIPALKAWQSVKQNAGNDAPKKFAAKLGLNYEGD  431
+
+Query  922   IPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPY----LVA  1089
+             I         PS         + +G   +  +P Q+A   AAIAN G+    +    +V 
+Sbjct  432   IG--------PS---------EVLGGSASEFSPTQLASAFAAIANGGTYNNAHSIQKVVT  474
+
+Query  1090  QEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTA  1266
+             ++G    +   HT H   +A S  TA  L + ++   + +G+     + GV  G KTGT 
+Sbjct  475   RDGET--IEYDHTSH---KAXSDYTAYXLAEXLKGTFKPYGSAYGHGVSGVNXGAKTGTG  529
+
+Query  1267  QHG  1275
+              +G
+Sbjct  530   TYG  532
+
+
+>2Y2G_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (A01)
+ 2Y2G_B Chain B, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (A01)
+ 2Y2H_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Za2)
+ 2Y2H_B Chain B, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Za2)
+ 2Y2I_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Za3)
+ 2Y2J_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Za4)
+ 2Y2K_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Za5)
+ 2Y2L_A Chain A, Penicillin-binding Protein 1b (pbp-1b) In Complex With 
+An Alkyl Boronate (e06)
+ 2Y2L_B Chain B, Penicillin-binding Protein 1b (pbp-1b) In Complex With 
+An Alkyl Boronate (e06)
+ 2Y2M_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (E08)
+ 2Y2N_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (E07)
+ 2Y2O_A Chain A, Penicillin-binding Protein 1b (pbp-1b) In Complex With 
+An Alkyl Boronate (eo9)
+ 2Y2P_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Z10)
+ 2Y2Q_A Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Z06)
+ 2Y2Q_B Chain B, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With 
+An Alkyl Boronate (Z06)
+Length=494
+
+ Score = 39.7 bits (91),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 84/338 (25%), Positives = 134/338 (40%), Gaps = 80/338 (24%)
+ Frame = +1
+
+Query  349   FFRNTLDMLTGKPKQGG-DVVTTIDPKVQKA--------GF---EGLGNKKGAAVAIDPK  492
+             F+R   D+   + + GG  + TTID K+  A        G+   +G G  +   V +D +
+Sbjct  77    FYR---DLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYLLDDGTGRVEVGNVLMDNQ  133
+
+Query  493   TGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFK-LVT  669
+             TGAILG           F GG    E               N A      P ST K L+ 
+Sbjct  134   TGAILG-----------FVGGRNYQEN------------QNNHAFDTKRSPASTTKPLLA  170
+
+Query  670   AATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNT---V  840
+                A + G   S + +++ P  +       P++ A+ ++  G  T+  A++ S N     
+Sbjct  171   YGIAIDQGLMGSETILSNYPTNF---ANGNPIMYAN-SKGTGMMTLGEALNYSWNIPAYW  226
+
+Query  841   FGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA-IGQHDTRAT  1017
+               +M  E G D ++   EK G+     IP       +   S P G  ++  + QH     
+Sbjct  227   TYRMLRENGVD-VKGYMEKMGYE----IP------EYGIESLPMGGGIEVTVAQHTNGYQ  275
+
+Query  1018  PLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQAVSPATAQKLQQLMES  1194
+              L         ANNG   + +++++ E + G V+  + +  + Q  S ATA  +Q L+  
+Sbjct  276   TL---------ANNGVYHQKHVISKIEAADGRVVYEYQDKPV-QVYSKATATIMQGLLRE  325
+
+Query  1195  VV---------QHGTGTNAKIPGVTVGGKTGTAQHGQD  1281
+             V+          + T  N  +      GKTGT   GQD
+Sbjct  326   VLSSRVTTTFKSNLTSLNPTLANADWIGKTGTT--GQD  361
+
+
+>5FGZ_A Chain A, E. Coli Pbp1b In Complex With Fpi-1465
+ 5HL9_A Chain A, E. Coli Pbp1b In Complex With Acyl-ampicillin And Moenomycin
+ 5HLA_A Chain A, E. Coli Pbp1b In Complex With Acyl-cephalexin And Moenomycin
+ 5HLB_A Chain A, E. Coli Pbp1b In Complex With Acyl-aztreonam And Moenomycin
+ 5HLD_A Chain A, E. Coli Pbp1b In Complex With Acyl-centa And Moenomycin
+Length=747
+
+ Score = 39.7 bits (91),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 71/286 (25%), Positives = 110/286 (38%), Gaps = 44/286 (15%)
+ Frame = +1
+
+Query  592   SDPNKPMLNRALRETYPPGSTFKLVTAATAFETGK-YQSPSDVTDTPDQYILPG--TSTP  762
+             S+P     NRA++     GS  K  T  TA    K Y+  + + D P     P     +P
+Sbjct  434   SEPQFAGYNRAMQARRSIGSLAKPATYLTALSQPKIYRLNTWIADAPIALRQPNGQVWSP  493
+
+Query  763   LINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADA  942
+               +     + G   +  A+  S N     +G  LG   +     K G  K+   P+ A  
+Sbjct  494   QNDDRRYSESGRVMLVDALTRSMNVPTVNLGMALGLPAVTETWIKLGVPKDQLHPVPA--  551
+
+Query  943   SHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPY-----LVAQEGSAG  1107
+                          + A+       TP+++A     IA+ G+   P      ++A++G   
+Sbjct  552   -----------MLLGALN-----LTPIEVAQAFQTIASGGN-RAPLSALRSVIAEDGK--  592
+
+Query  1108  NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTN--AKIPGVTVGGKTGTAQHGQD  1281
+               +   +  Q  +AV    A      M+ VVQ GTG    AK P + + GKTGT  +  D
+Sbjct  593   --VLYQSFPQAERAVPAQAAYLTLWTMQQVVQRGTGRQLGAKYPNLHLAGKTGTTNNNVD  650
+
+Query  1282  NSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPI  1419
+                    WF     G DG  V +  V  D +++  ++ G S A  I
+Sbjct  651   T------WFA----GIDGSTVTITWVGRD-NNQPTKLYGASGAMSI  685
+
+
+  Database: PDB protein database
+    Posted date:  Feb 24, 2017  11:56 AM
+  Number of letters in database: 22,378,349
+  Number of sequences in database:  89,617
+
+Lambda      K        H
+   0.314    0.131    0.383 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 89617
+Number of Hits to DB: 7715712
+Number of extensions: 208457
+Number of successful extensions: 900
+Number of sequences better than 10: 38
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 837
+Number of HSP's successfully gapped: 51
+Length of query: 1455
+Length of database: 22378349
+Length adjustment: 106
+Effective length of query: 1349
+Effective length of database: 12878947
+Effective search space: 4881120913
+Effective search space used: 4881120913
+T: 12
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 63 (28.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+
