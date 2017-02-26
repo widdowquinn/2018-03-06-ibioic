@@ -1,0 +1,277 @@
+BLASTX 2.4.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Kitasatospora proteins
+           34,472 sequences; 10,986,119 total letters
+
+
+
+Query= lcl|LISX01000003.1_cds_OKJ13746.1_3580 [locus_tag=AMK19_09970]
+[protein=lantibiotic biosynthesis protein] [protein_id=OKJ13746.1]
+[location=379245..380294]
+
+Length=1050
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KDN87490.1 hypothetical protein KCH_07540 [Kitasatospora cheeri...  595     0.0  
+  KRB75289.1 hypothetical protein ASE03_14875 [Kitasatospora sp. ...  75.1    3e-15
+  KQV13263.1 hypothetical protein ASC99_08530 [Kitasatospora sp. ...  75.1    3e-15
+  KIQ64919.1 heat shock protein 90 [Kitasatospora griseola]           32.3    0.46 
+  KIQ64227.1 membrane protein [Kitasatospora griseola]                30.4    1.1  
+  KDN83609.1 hypothetical protein KCH_50910 [Kitasatospora cheeri...  28.5    4.3  
+  KRB77494.1 heat-shock protein Hsp90 [Kitasatospora sp. Root187]     28.9    5.7  
+  KQV19218.1 heat-shock protein Hsp90 [Kitasatospora sp. Root107]     28.9    5.7  
+  KRB75727.1 polysaccharide deacetylase [Kitasatospora sp. Root187]   27.7    7.4  
+  KQV19169.1 polysaccharide deacetylase [Kitasatospora sp. Root107]   27.7    7.4  
+  KRB72662.1 hypothetical protein ASE03_22325 [Kitasatospora sp. ...  28.1    7.8  
+  KQV12092.1 hypothetical protein ASC99_34985 [Kitasatospora sp. ...  28.1    7.8  
+
+
+> KDN87490.1 hypothetical protein KCH_07540 [Kitasatospora cheerisanensis 
+KCTC 2395]
+Length=351
+
+ Score = 595 bits (1535),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 311/345 (90%), Positives = 322/345 (93%), Gaps = 0/345 (0%)
+ Frame = +1
+
+Query  1     MTDLPTTPDAPGDWLALHVFYAASPRPLLLQCVRPLVAELTEEGLLAGHFFINYWVEGPH  180
+             MTDLPTTP APGDWLALHVFYAASPRPLLLQCVRPLVAELTE+GLLAG+FFINYWVEGPH
+Sbjct  1     MTDLPTTPIAPGDWLALHVFYAASPRPLLLQCVRPLVAELTEQGLLAGYFFINYWVEGPH  60
+
+Query  181   LRLRLRPATPEAAEQVRARAESAVAEFLRRRPALYQVEDSFFAELYNTMFELEFTLEERA  360
+             LRLRLRPA   AAE+VR RAE+AVAEFLRRRPALYQVEDSFFAELYNTMFELEF  EERA
+Sbjct  61    LRLRLRPADAAAAEEVRERAETAVAEFLRRRPALYQVEDSFFAELYNTMFELEFGPEERA  120
+
+Query  361   ELVDADGRMRLRENNTFSREPYEPEYGKYGGPAGIDLAEWHFQHSSDLVIEATRTMNLHL  540
+             ELV  DG+M+LRENNTFSREPYEPEYGKYGGPAGI LAEWHFQHSSDLVIEATRTMNLHL
+Sbjct  121   ELVGPDGKMKLRENNTFSREPYEPEYGKYGGPAGIALAEWHFQHSSDLVIEATRTMNLHL  180
+
+Query  541   RTVVLGLAAQLMMTMTACFLPDEDALLTFLDRYHAFWNRSFEGTNYTAQQGYDRAYTSMG  720
+             RTVVLGLA QLMMTMTACFLPDED LLTFLDRYHAFWNRSF GTNYTAQQGYDRAY   G
+Sbjct  181   RTVVLGLATQLMMTMTACFLPDEDQLLTFLDRYHAFWNRSFAGTNYTAQQGYDRAYAGTG  240
+
+Query  721   DALPARFRAIRAAVVDGAPERLPAVLRGWAEHCLDLreraagaarrgeLVFRSWDGERDL  900
+             D LPAR+RAIRAA+ D APERLPAVLRGWAEHCL+LR+RAA  A RGELVFRSWDGERDL
+Sbjct  241   DTLPARYRAIRAAIADRAPERLPAVLRGWAEHCLELRDRAADLAERGELVFRSWDGERDL  300
+
+Query  901   TVTDPAEALPMLLFPYAHMTNNRLSVTVRDEAFLSYILARALREP  1035
+              VTDPA+ALPMLLFPYAHMTNNRLSVTVRDEAFLSYILARALREP
+Sbjct  301   VVTDPAQALPMLLFPYAHMTNNRLSVTVRDEAFLSYILARALREP  345
+
+
+> KRB75289.1 hypothetical protein ASE03_14875 [Kitasatospora sp. 
+Root187]
+Length=314
+
+ Score = 75.1 bits (183),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 103/349 (30%), Positives = 135/349 (39%), Gaps = 63/349 (18%)
+ Frame = +1
+
+Query  16    TTPDAPGDWLALHV----FYAASPRPLLLQCVRPLVAELTEEGLLAGH-----FFINYWV  168
+             +TP+A G W + H+      +A+   LLL+ V P+V + T  G   G      FFI YW 
+Sbjct  2     STPNAHGRWRSWHLHADSLRSAALESLLLRAVVPVVEQHTA-GQDQGAPPRPWFFIRYWQ  60
+
+Query  169   EGPHLRLRLR----PATPEAAEQVRARAESAVAEFL---RRRPALYQVEDSFFAELYNTM  327
+              GPHLRLR+     PA      ++ AR ++  AE     R  PA Y+      AEL    
+Sbjct  61    GGPHLRLRIADLDDPAAARITAELTARTDAVNAELPPEDRLTPASYRQAARPLAELGEGG  120
+
+Query  328   FELEFTLEERAELVDADGRMRLRENNTFSREPYEPEYGKYGGPAGIDLAEWHFQHSSDLV  507
+               L+       EL+                  YEPE  +YGGP  + L E  F  SS +V
+Sbjct  121   QALDL-----GELLPPG----------VHPAVYEPELRRYGGPEQMALNEELFHASSVVV  165
+
+Query  508   IEATRTMNLHLRTVVLGLAAQLMMTMTACFLPDEDALLTFLDRYHAFWNRSFEGTNYTAQ  687
+             + A R    H R +  GL A   M  T    P +   L  L      W     GT  +A 
+Sbjct  166   LRACRARPGHGRNIADGLEA---MAATLSAWPGDR--LVLLRAVRDGWAEWSGGTGGSA-  219
+
+Query  688   QGYDRAYTSMGDALPARFRAIRAAVVDGAPERLPAVLRGWAEHCLDLreraagaarrgeL  867
+             +G  R      D L A   A+  A+ DGAP R       W+     LR  A         
+Sbjct  220   EGLARTAADQADRLRASAGAL-VALADGAPSR-------WSAWTTRLRPAAEL-------  264
+
+Query  868   VFRSWDGERDLTVTDPAEALPMLLFPYAHMTNNRLSVTVRDEAFLSYIL  1014
+                 W      T +        +L    HMT NRL V    E  ++ IL
+Sbjct  265   ----W------TESHGIPGAGRILGSQLHMTQNRLGVGAGREGMMAAIL  303
+
+
+> KQV13263.1 hypothetical protein ASC99_08530 [Kitasatospora sp. 
+Root107]
+Length=314
+
+ Score = 75.1 bits (183),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 103/349 (30%), Positives = 135/349 (39%), Gaps = 63/349 (18%)
+ Frame = +1
+
+Query  16    TTPDAPGDWLALHV----FYAASPRPLLLQCVRPLVAELTEEGLLAGH-----FFINYWV  168
+             +TP+A G W + H+      +A+   LLL+ V P+V + T  G   G      FFI YW 
+Sbjct  2     STPNAHGRWRSWHLHADSLRSAALESLLLRAVVPVVEQHTA-GQDQGAPPRPWFFIRYWQ  60
+
+Query  169   EGPHLRLRLR----PATPEAAEQVRARAESAVAEFL---RRRPALYQVEDSFFAELYNTM  327
+              GPHLRLR+     PA      ++ AR ++  AE     R  PA Y+      AEL    
+Sbjct  61    GGPHLRLRIADLDDPAAARITAELTARTDAVNAELPPEDRLTPASYRQAARPLAELGEGG  120
+
+Query  328   FELEFTLEERAELVDADGRMRLRENNTFSREPYEPEYGKYGGPAGIDLAEWHFQHSSDLV  507
+               L+       EL+                  YEPE  +YGGP  + L E  F  SS +V
+Sbjct  121   QALDL-----GELLPPG----------VHPAVYEPELRRYGGPEQMALNEELFHASSVVV  165
+
+Query  508   IEATRTMNLHLRTVVLGLAAQLMMTMTACFLPDEDALLTFLDRYHAFWNRSFEGTNYTAQ  687
+             + A R    H R +  GL A   M  T    P +   L  L      W     GT  +A 
+Sbjct  166   LRACRARPGHGRNIADGLEA---MAATLSAWPGDR--LVLLRAVRDGWAEWSGGTGGSA-  219
+
+Query  688   QGYDRAYTSMGDALPARFRAIRAAVVDGAPERLPAVLRGWAEHCLDLreraagaarrgeL  867
+             +G  R      D L A   A+  A+ DGAP R       W+     LR  A         
+Sbjct  220   EGLARTAADQADRLRASAGAL-VALADGAPSR-------WSAWTTRLRPAAEL-------  264
+
+Query  868   VFRSWDGERDLTVTDPAEALPMLLFPYAHMTNNRLSVTVRDEAFLSYIL  1014
+                 W      T +        +L    HMT NRL V    E  ++ IL
+Sbjct  265   ----W------TESHGIPGAGRILGSQLHMTQNRLGVGAGREGMMAAIL  303
+
+
+> KIQ64919.1 heat shock protein 90 [Kitasatospora griseola]
+Length=618
+
+ Score = 32.3 bits (72),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+ Frame = -1
+
+Query  264  QELGDGALGTCADLFGRLGGGGPQAQAQVRALHPVV  157
+             +L D A G  AD+ G LG   P+AQ  +  L+P+V
+Sbjct  520  TQLADQADGLWADILGSLGSSAPRAQLVLNHLNPLV  555
+
+
+> KIQ64227.1 membrane protein [Kitasatospora griseola]
+Length=175
+
+ Score = 30.4 bits (67),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 24/50 (48%), Gaps = 2/50 (4%)
+ Frame = +1
+
+Query  871   FRSWDGERDL--TVTDPAEALPMLLFPYAHMTNNRLSVTVRDEAFLSYIL  1014
+             FR+W   R     +      LP+L FPYAH+T   L+V +   A    +L
+Sbjct  9     FRAWRRTRPFWGGLLAVIAGLPILYFPYAHLTLGGLTVAMATTAGAGSLL  58
+
+
+> KDN83609.1 hypothetical protein KCH_50910 [Kitasatospora cheerisanensis 
+KCTC 2395]
+Length=185
+
+ Score = 28.5 bits (62),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 22/44 (50%), Gaps = 2/44 (5%)
+ Frame = +1
+
+Query  871  FRSWDGERDL--TVTDPAEALPMLLFPYAHMTNNRLSVTVRDEA  996
+            FR+W   R     +      LP+L FPYAH++   L+V +   A
+Sbjct  24   FRAWRRTRPFWGGLLAMIAGLPILYFPYAHLSLGGLTVAMSTTA  67
+
+
+> KRB77494.1 heat-shock protein Hsp90 [Kitasatospora sp. Root187]
+Length=619
+
+ Score = 28.9 bits (63),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 28/57 (49%), Gaps = 9/57 (16%)
+ Frame = -1
+
+Query  261  ELGDGALGTCADLFGRLGGGGPQAQAQVRALHPVV---------DEEVPGEQALFGE  118
+            +L D A G  AD+ G L    P+AQ  +  L+P+V         D  V   +AL+G+
+Sbjct  522  QLADDADGLWADILGSLRAEVPRAQLVLNHLNPLVRRAASIGHRDLVVTAVEALYGQ  578
+
+
+> KQV19218.1 heat-shock protein Hsp90 [Kitasatospora sp. Root107]
+Length=619
+
+ Score = 28.9 bits (63),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 28/57 (49%), Gaps = 9/57 (16%)
+ Frame = -1
+
+Query  261  ELGDGALGTCADLFGRLGGGGPQAQAQVRALHPVV---------DEEVPGEQALFGE  118
+            +L D A G  AD+ G L    P+AQ  +  L+P+V         D  V   +AL+G+
+Sbjct  522  QLADDADGLWADILGSLRAEVPRAQLVLNHLNPLVRRAASIGHRDLVVTAVEALYGQ  578
+
+
+> KRB75727.1 polysaccharide deacetylase [Kitasatospora sp. Root187]
+Length=196
+
+ Score = 27.7 bits (60),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 28/96 (29%), Positives = 41/96 (43%), Gaps = 18/96 (19%)
+ Frame = -1
+
+Query  999  ERLVADGHRQPVVGHVGVREQQHRQRLGGVGDGQVAFAVPGAEDQFAAA----------R  850
+            +R+ A+GHR  +  H       H Q    +   Q A+ +  A+D    A          R
+Sbjct  55   QRIRAEGHR--LCDH----SVSHPQPFAALSHHQQAYEIVAAKDMIVKAGGAGTKVPWFR  108
+
+Query  849  RPGGALAQVEAVLGPAAEHGGQPLGRAVDDGGADRP  742
+             PGGA      ++  AA +G +PLG +VD     RP
+Sbjct  109  APGGAFTPDNQMV--AAANGLRPLGWSVDPRDWSRP  142
+
+
+> KQV19169.1 polysaccharide deacetylase [Kitasatospora sp. Root107]
+Length=196
+
+ Score = 27.7 bits (60),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 28/96 (29%), Positives = 41/96 (43%), Gaps = 18/96 (19%)
+ Frame = -1
+
+Query  999  ERLVADGHRQPVVGHVGVREQQHRQRLGGVGDGQVAFAVPGAEDQFAAA----------R  850
+            +R+ A+GHR  +  H       H Q    +   Q A+ +  A+D    A          R
+Sbjct  55   QRIRAEGHR--LCDH----SVSHPQPFAALSHHQQAYEIVAAKDMIVKAGGAGTKVPWFR  108
+
+Query  849  RPGGALAQVEAVLGPAAEHGGQPLGRAVDDGGADRP  742
+             PGGA      ++  AA +G +PLG +VD     RP
+Sbjct  109  APGGAFTPDNQMV--AAANGLRPLGWSVDPRDWSRP  142
+
+
+> KRB72662.1 hypothetical protein ASE03_22325 [Kitasatospora sp. 
+Root187]
+Length=269
+
+ Score = 28.1 bits (61),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+ Frame = +1
+
+Query  424  YEPEYGKYGGPAGIDLAEWHFQHSSDLVIE  513
+            YEPE   +GGPA + LA   F   S  V++
+Sbjct  81   YEPETAAFGGPAAMTLAHDLFHADSRAVLD  110
+
+
+> KQV12092.1 hypothetical protein ASC99_34985 [Kitasatospora sp. 
+Root107]
+Length=269
+
+ Score = 28.1 bits (61),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+ Frame = +1
+
+Query  424  YEPEYGKYGGPAGIDLAEWHFQHSSDLVIE  513
+            YEPE   +GGPA + LA   F   S  V++
+Sbjct  81   YEPETAAFGGPAAMTLAHDLFHADSRAVLD  110
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1900921141
+
+
+  Database: Kitasatospora proteins
+    Posted date:  Feb 5, 2017  12:50 PM
+  Number of letters in database: 10,986,119
+  Number of sequences in database:  34,472
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40

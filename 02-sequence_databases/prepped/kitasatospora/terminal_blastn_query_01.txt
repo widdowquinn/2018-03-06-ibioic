@@ -1,0 +1,127 @@
+BLASTN 2.4.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: kitasatospora_cds
+           6,104 sequences; 5,950,449 total letters
+
+
+
+Query= lcl|LISX01000003.1_cds_OKJ13746.1_3580 [locus_tag=AMK19_09970]
+[protein=lantibiotic biosynthesis protein] [protein_id=OKJ13746.1]
+[location=379245..380294]
+
+Length=1050
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  lcl|LISX01000003.1_cds_OKJ13746.1_3580 [locus_tag=AMK19_09970] ...  1940    0.0  
+
+
+> lcl|LISX01000003.1_cds_OKJ13746.1_3580 [locus_tag=AMK19_09970] 
+[protein=lantibiotic biosynthesis protein] [protein_id=OKJ13746.1] 
+[location=379245..380294]
+Length=1050
+
+ Score = 1940 bits (1050),  Expect = 0.0
+ Identities = 1050/1050 (100%), Gaps = 0/1050 (0%)
+ Strand=Plus/Plus
+
+Query  1     ATGACTGACCTGCCGACCACCCCGGACGCCCCCGGCGACTGGCTCGCGCTGCACGTCTTC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1     ATGACTGACCTGCCGACCACCCCGGACGCCCCCGGCGACTGGCTCGCGCTGCACGTCTTC  60
+
+Query  61    TACGCGGCCAGCCCGCGCCCGCTGCTGCTGCAGTGCGTGCGCCCGCTGGTCGCCGAACTC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61    TACGCGGCCAGCCCGCGCCCGCTGCTGCTGCAGTGCGTGCGCCCGCTGGTCGCCGAACTC  120
+
+Query  121   ACCGAAGAGGGCCTGCTCGCCGGGCACTTCTTCATCAACTACTGGGTGGAGGGCCCGCAC  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121   ACCGAAGAGGGCCTGCTCGCCGGGCACTTCTTCATCAACTACTGGGTGGAGGGCCCGCAC  180
+
+Query  181   CTGCGCCTGCGCCTGCGGCCCGCCACCCCCGAGGCGGCCGAACAGGTCCGCGCACGTGCC  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181   CTGCGCCTGCGCCTGCGGCCCGCCACCCCCGAGGCGGCCGAACAGGTCCGCGCACGTGCC  240
+
+Query  241   GAGAGCGCCGTCGCCGAGTTCCTGCGCCGCCGCCCCGCGCTCTACCAGGTCGAGGACAGC  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241   GAGAGCGCCGTCGCCGAGTTCCTGCGCCGCCGCCCCGCGCTCTACCAGGTCGAGGACAGC  300
+
+Query  301   TTCTTCGCGGAGCTCTACAACACCATGTTCGAGCTGGAGTTCACCCTGGAGGAACGCGCC  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301   TTCTTCGCGGAGCTCTACAACACCATGTTCGAGCTGGAGTTCACCCTGGAGGAACGCGCC  360
+
+Query  361   GAACTCGTCGACGCCGACGGGAGGATGAGGCTGCGGGAGAACAACACCTTCAGCCGCGAA  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361   GAACTCGTCGACGCCGACGGGAGGATGAGGCTGCGGGAGAACAACACCTTCAGCCGCGAA  420
+
+Query  421   CCGTACGAGCCCGAGTACGGCAAGTACGGCGGCCCGGCCGGCATCGACCTCGCCGAATGG  480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421   CCGTACGAGCCCGAGTACGGCAAGTACGGCGGCCCGGCCGGCATCGACCTCGCCGAATGG  480
+
+Query  481   CACTTCCAGCACTCCAGCGACCTGGTGATCGAAGCCACCCGCACCATGAACCTGCACCTG  540
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481   CACTTCCAGCACTCCAGCGACCTGGTGATCGAAGCCACCCGCACCATGAACCTGCACCTG  540
+
+Query  541   CGCACCGTGGTGCTGGGCCTGGCCGCGCAGCTGATGATGACCATGACGGCGTGCTTCCTC  600
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541   CGCACCGTGGTGCTGGGCCTGGCCGCGCAGCTGATGATGACCATGACGGCGTGCTTCCTC  600
+
+Query  601   CCCGACGAGGACGCCCTGCTGACCTTCCTCGACCGCTACCACGCCTTCTGGAACCGCTCG  660
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601   CCCGACGAGGACGCCCTGCTGACCTTCCTCGACCGCTACCACGCCTTCTGGAACCGCTCG  660
+
+Query  661   TTCGAAGGCACCAACTACACCGCGCAGCAGGGCTACGACCGCGCCTACACCAGCATGGGC  720
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661   TTCGAAGGCACCAACTACACCGCGCAGCAGGGCTACGACCGCGCCTACACCAGCATGGGC  720
+
+Query  721   GACGCCCTGCCGGCCAGGTTCCGGGCGATCCGCGCCGCCGTCGTCGACGGCGCGCCCGAG  780
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721   GACGCCCTGCCGGCCAGGTTCCGGGCGATCCGCGCCGCCGTCGTCGACGGCGCGCCCGAG  780
+
+Query  781   CGGCTGCCCGCCGTGCTCCGCGGCTGGGCCGAGCACTGCCTCGACCTgcgcgagcgcgcc  840
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  781   CGGCTGCCCGCCGTGCTCCGCGGCTGGGCCGAGCACTGCCTCGACCTGCGCGAGCGCGCC  840
+
+Query  841   gccggggcggcgcgccgcggcgAACTGGTCTTCCGCTCCTGGGACGGCGAACGCGACCTG  900
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  841   GCCGGGGCGGCGCGCCGCGGCGAACTGGTCTTCCGCTCCTGGGACGGCGAACGCGACCTG  900
+
+Query  901   ACCGTCACCGACCCCGCCGAGGCGCTGCCGATGCTGCTGTTCCCGTACGCCCACATGACC  960
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  901   ACCGTCACCGACCCCGCCGAGGCGCTGCCGATGCTGCTGTTCCCGTACGCCCACATGACC  960
+
+Query  961   AACAACCGGCTGTCGGTGACCGTCCGCGACGAGGCGTTCCTGTCGTACATCCTGGCCCGC  1020
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  961   AACAACCGGCTGTCGGTGACCGTCCGCGACGAGGCGTTCCTGTCGTACATCCTGGCCCGC  1020
+
+Query  1021  GCCCTGCGCGAACCCGCGGTGGTCTCGTGA  1050
+             ||||||||||||||||||||||||||||||
+Sbjct  1021  GCCCTGCGCGAACCCGCGGTGGTCTCGTGA  1050
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5966928539
+
+
+  Database: kitasatospora_cds
+    Posted date:  Feb 26, 2017  11:42 AM
+  Number of letters in database: 5,950,449
+  Number of sequences in database:  6,104
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
