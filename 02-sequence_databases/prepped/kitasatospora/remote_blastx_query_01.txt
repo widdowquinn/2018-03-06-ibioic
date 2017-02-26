@@ -12,7 +12,7 @@ generation of protein database search programs", Nucleic
 Acids Res. 25:3389-3402.
 
 
-RID: B3FVC93A015
+RID: B5GJT38X014
 
 
 Database: PDB protein database
