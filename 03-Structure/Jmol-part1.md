@@ -36,11 +36,11 @@ We will concentrate on the first 3 structures, as the 4th is poorly annotated an
 Jmol
 ```
 You should see the Jmol window appear
-![Jmol-window](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-window.png)
+![Jmol-window](/images/Jmol-window.png)
 
 Load the PML WT file uisng File menuu
 
-![Jmol-window-PDB-get](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-win-getPDB.png)
+![Jmol-window-PDB-get](/images/Jmol-win-getPDB.png)
 
 Enter 4 digit PDB model ID : 4GW3 and the model will be automatically imported directly from the RCSB database ino the Jmol viewer
 
