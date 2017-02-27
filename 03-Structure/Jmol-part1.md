@@ -1,25 +1,23 @@
 
 ![JHI](images/JHI_STRAP_Web.png) 
 
-# 01-`Jmol` for viewing protein structures
 
+
+# 03-Protein structure visualization and analysis practical
 ## Introduction
+So far all our analyses have been based on gene sequences and the protein sequences they encode. 
+RCSB contains xxx
 
-So far we have used the web based viewer XX to visual our protein structures of interest. But using such web based browsers is limited as we cannot carry out more complex visualizations such as 
+## 03-01 Exploring the RSCB for PML structures
+Let us search for PML structures in the RCSB database
 
 
-* (1) selecting specific atoms of interest 
-* (2) superimposing a number of different structures   
-* (3) animating structures for a presentation
- 
-## Lipases in the RCSB database
-Our previous searches of the RCSB revealed a number of PML structures 
+### PM Lipases in the RCSB database
+Our searches of the RCSB revealed a number of PML structures 
 
 ![RCSB-cluster-table](images/PML-clust.png)
 
-
 | RCSB Code  | Structure Description | 
-|:------------- |:--------------- 
 | 4GW3      	| PML- wild type (WT)   
 | 4GXN     	| PML -WT Diethylphosphonate Inhibited                  
 |4HS9			| PML Methonal tolerant mutant      
@@ -27,8 +25,16 @@ Our previous searches of the RCSB revealed a number of PML structures
 
 We will concentrate on the first 3 structures, as the 4th is poorly annotated and does not have a publication associated with the RCSB entry. Hence it is more uncertain what this structure actually is.
 
-### Exercise 1: Visualizing the WT PML structure (4GW3) in Jmol using scripts
 
+## 03-02 Visualization of protein strutuctres using web-based tools (NGL or Jsmol)
+
+
+## 03-03 Visualizing the WT PML structure (4GW3) in Jmol using scripting
+So far we have used the web based viewer XX to visual our protein structures of interest. But using such web based browsers is limited as we cannot carry out more complex visualizations such as 
+* (1) selecting specific atoms of interest 
+* (2) superimposing a number of different structures   
+* (3) animating structures for a presentation
+ 
 * Open a terminal window in the virtual machine (VM)
 * See if Jmol launches a window by typing
 
