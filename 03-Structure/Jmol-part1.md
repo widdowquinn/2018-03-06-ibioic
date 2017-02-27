@@ -18,6 +18,7 @@ Our searches of the RCSB revealed a number of PML structures
 ![RCSB-cluster-table](images/PML-clust.png)
 
 | RCSB Code  | Structure Description | 
+|:------------- |:--------------- 
 | 4GW3      	| PML- wild type (WT)   
 | 4GXN     	| PML -WT Diethylphosphonate Inhibited                  
 |4HS9			| PML Methonal tolerant mutant      
