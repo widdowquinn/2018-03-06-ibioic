@@ -36,15 +36,15 @@ We will concentrate on the first 3 structures, as the 4th is poorly annotated an
 Jmol
 ```
 You should see the Jmol window appear
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-window.png)
+![Jmol-window](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-window.png)
 
 Load the PML WT file uisng File menuu
 
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-win-getPDB.png)
+![Jmol-window-PDB-get](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-win-getPDB.png)
 
 Enter 4 digit PDB model ID : 4GW3 and the model will be automatically imported directly from the RCSB database ino the Jmol viewer
 
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-4GW3.png)
+![JMol-window-4GW3](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-4GW3.png)
 
 The structure is automatically loaded in ball-and-stick format
 and the default coloration is CPK (Corey, Pauling, Kultun), based on atom identity. 
@@ -55,7 +55,7 @@ Let us explore the use of scripting to alter the image of the structure
 
 Launch the console window from the File Menu
 
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-console.png)
+![JMol-console(/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-console.png)
 
 
 
@@ -68,7 +68,7 @@ $colour palegreen
 ```
 
 
-Question: Using the RCSB information on 4GW3 which protein resiudes comprise the catlytic triad which is the enzyme active site? [RCSB: 4GW3] (http://www.rcsb.org/pdb/explore/explore.do?structureId=4GW3)
+Question: Using the RCSB information on 4GW3 which protein resiudes comprise the catalytic triad which is the enzyme active site? [RCSB: 4GW3] (http://www.rcsb.org/pdb/explore/explore.do?structureId=4GW3)
 
 
 Use [SAS tool](http://www.ebi.ac.uk/thornton-srv/databases/sas/) to take a closer lokk at the functionally important residues in 4GW3
@@ -86,6 +86,7 @@ $colour red
 $wireframe 100
 
 ```
+**Questions?
 
 Next bits: use CPK/surface to show cleft in molecule with HIS_ASP-SER acessible
 
@@ -94,12 +95,12 @@ Activity: do rendering on inhibited molecule on their own.
 Then overlap 2/3 structures and see differnces.
 
 
-Animate a structure using a scipt ..mm how?
+Animate a structure using a scipt ..mmmm how?
 
 
 Launch the script editor window from the File Menu
 
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-scriptE.png)
+![Jmol-script-editor](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-scriptE.png)
 
 
 References
