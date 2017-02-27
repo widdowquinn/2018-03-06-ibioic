@@ -60,7 +60,7 @@ Launch the console window from the File Menu
 
 
 
-In the console window type the following commands in turn (the $ at the start of each line is just the prompt in the console window). Use a return at the end of each command to see the strcuture change in the Jmol main window
+In the console window type the following commands in turn (the $ at the start of each line is just the prompt in the console window). Use a return at the end of each command to see the structure change in the Jmol main window
 
 ```
 $select all
@@ -72,9 +72,9 @@ $colour palegreen
 Question: Using the RCSB information on 4GW3 which protein resiudes comprise the catalytic triad which is the enzyme active site? [RCSB: 4GW3] (http://www.rcsb.org/pdb/explore/explore.do?structureId=4GW3)
 
 
-Use [SAS tool](http://www.ebi.ac.uk/thornton-srv/databases/sas/) to take a closer lokk at the functionally important residues in 4GW3
+Use [SAS tool](http://www.ebi.ac.uk/thornton-srv/databases/sas/) to take a closer look at the functionally important residues in 4GW3
 
-We know form the publication associated with 4GW3 (linkout here) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalytic serine (S79) (part of a GXSXG motif). 
+We know form the publication associated with 4GW3 (linkout here) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalytic serine (S79) being part of a GXSXG motif. 
 
 Now highlight the catalytic triad in 4GW3 to see how residues that are widely spaced in the sequence are brought together in 3D space in the protein structure.
 
@@ -93,7 +93,7 @@ Next bits: use CPK/surface to show cleft in molecule with HIS_ASP-SER acessible
 
 Activity: do rendering on inhibited molecule on their own.
 
-Then overlap 2/3 structures and see differnces.
+Then overlap 2/3 structures and see differences.
 
 
 Animate a structure using a scipt ..mmmm how?
