@@ -3,16 +3,16 @@
 
 
 
-# 03-Protein structure visualization and analysis practical
-## Introduction
+## 03-Protein structure visualization and analysis practical
+### Introduction
 So far all our analyses have been based on gene sequences and the protein sequences they encode. 
 RCSB contains xxx
 
-## 03-01 Exploring the RSCB for PML structures
+### 03-01 Exploring the RSCB for PML structures
 Let us search for PML structures in the RCSB database
 
 
-### PM Lipases in the RCSB database
+#### PM Lipases in the RCSB database
 Our searches of the RCSB revealed a number of PML structures 
 
 ![RCSB-cluster-table](images/PML-clust.png)
@@ -26,10 +26,10 @@ Our searches of the RCSB revealed a number of PML structures
 We will concentrate on the first 3 structures, as the 4th is poorly annotated and does not have a publication associated with the RCSB entry. Hence it is more uncertain what this structure actually is.
 
 
-## 03-02 Visualization of protein strutuctres using web-based tools (NGL or Jsmol)
+### 03-02 Visualization of protein strutuctres using web-based tools (NGL or Jsmol)
 
 
-## 03-03 Visualizing the WT PML structure (4GW3) in Jmol using scripting
+### 03-03 Visualizing the WT PML structure (4GW3) in Jmol using scripting
 So far we have used the web based viewer XX to visual our protein structures of interest. But using such web based browsers is limited as we cannot carry out more complex visualizations such as 
 * (1) selecting specific atoms of interest 
 * (2) superimposing a number of different structures   
