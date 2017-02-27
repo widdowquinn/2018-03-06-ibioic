@@ -1,5 +1,5 @@
 
-<img src="images/JHI_STRAP_Web.png" style="width: 150px; float: right;"/>
+![JHI](images/JHI_STRAP_Web.png) 
 
 # 01-`Jmol` for viewing protein structures
 
