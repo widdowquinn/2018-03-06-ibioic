@@ -15,7 +15,7 @@ So far we have used the web based viewer XX to visual our protein structures of 
 ## Lipases in the RCSB database
 Our previous searches of the RCSB revealed a number of PML structures 
 
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/PML-clust.png)
+![RCSB-cluster-table](images/PML-clust.png)
 
 
 | RCSB Code  | Structure Description | 
@@ -36,15 +36,16 @@ We will concentrate on the first 3 structures, as the 4th is poorly annotated an
 Jmol
 ```
 You should see the Jmol window appear
-![Jmol-window](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-window.png)
+
+![Jmol-window](images/Jmol-window.png)
 
 Load the PML WT file uisng File menuu
 
-![Jmol-window-PDB-get](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-win-getPDB.png)
+![Jmol-window-PDB-get](images/Jmol-win-getPDB.png)
 
 Enter 4 digit PDB model ID : 4GW3 and the model will be automatically imported directly from the RCSB database ino the Jmol viewer
 
-![JMol-window-4GW3](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-4GW3.png)
+![JMol-window-4GW3](images/Jmol-4GW3.png)
 
 The structure is automatically loaded in ball-and-stick format
 and the default coloration is CPK (Corey, Pauling, Kultun), based on atom identity. 
@@ -55,7 +56,7 @@ Let us explore the use of scripting to alter the image of the structure
 
 Launch the console window from the File Menu
 
-![JMol-console(/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-console.png)
+![JMol-console(images/Jmol-console.png)
 
 
 
@@ -73,9 +74,9 @@ Question: Using the RCSB information on 4GW3 which protein resiudes comprise the
 
 Use [SAS tool](http://www.ebi.ac.uk/thornton-srv/databases/sas/) to take a closer lokk at the functionally important residues in 4GW3
 
-We know form the publication associated with 4GW3 (linkout here) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalyic serine (S79) part of a GXSXG motif). 
+We know form the publication associated with 4GW3 (linkout here) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalytic serine (S79) (part of a GXSXG motif). 
 
-Now highlight the catalytic triad in 4GW3 to see where it is.
+Now highlight the catalytic triad in 4GW3 to see how residues that are widely spaced in the sequence are brought together in 3D space in the protein structure.
 
 ```
 $select all
@@ -100,7 +101,7 @@ Animate a structure using a scipt ..mmmm how?
 
 Launch the script editor window from the File Menu
 
-![Jmol-script-editor](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/Jmol-scriptE.png)
+![Jmol-script-editor](images/Jmol-scriptE.png)
 
 
 References
