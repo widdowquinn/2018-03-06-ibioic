@@ -30,12 +30,15 @@ We will concentrate on the first 3 structures, as the 4th is poorly annotated an
 ### 03-02 Visualization of protein strutuctres using web-based tools (NGL or Jsmol)
 
 
-### 03-03 Visualizing the WT PML structure (4GW3) in Jmol using scripting
+### 03-03 Visualizing PML structure in Jmol using scripting
 So far we have used the web based viewer XX to visual our protein structures of interest. But using such web based browsers is limited as we cannot carry out more complex visualizations such as 
 * (1) selecting specific atoms of interest 
 * (2) superimposing a number of different structures   
 * (3) animating structures for a presentation
  
+ In this section of the practical we will view and analyse the PML structures using Jmol scripting
+
+#### 03-03-01: Jmol - importing, viewing, structure rendering, colouring
 * Open a terminal window in the virtual machine (VM)
 * See if Jmol launches a window by typing
 
@@ -75,7 +78,6 @@ $ribbons
 $colour palegreen
 ```
 
-
 Question: Using the RCSB information on 4GW3 which protein resiudes comprise the catalytic triad which is the enzyme active site? [RCSB: 4GW3] (http://www.rcsb.org/pdb/explore/explore.do?structureId=4GW3)
 
 
@@ -94,13 +96,24 @@ $colour red
 $wireframe 100
 
 ```
-**Questions?
 
 Next bits: use CPK/surface to show cleft in molecule with HIS_ASP-SER acessible
 
+==Do it yourself==: Activity 1: do rendering on inhibited molecule on their own.
+Questions
+
+#### 03-03-01: Jmol - superimposing multiple structures
+
+
+**Questions?
+
+
+Overlap 2/3 structures and see differences.
+
+
 Activity: do rendering on inhibited molecule on their own.
 
-Then overlap 2/3 structures and see differences.
+
 
 
 Animate a structure using a scipt ..mmmm how?
