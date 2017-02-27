@@ -15,7 +15,7 @@ So far we have used the web based viewer XX to visual our protein structures of 
 ## Lipases in the RCSB database
 Our previous searches of the RCSB revealed a number of PML structures 
 
-![RCSB-cluster-table](/Users/suejones/Documents/JHI/Training/iBioC/md-files/images/PML-clust.png)
+![RCSB-cluster-table](images/PML-clust.png)
 
 
 | RCSB Code  | Structure Description | 
