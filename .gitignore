@@ -7,8 +7,11 @@
 # Exclude virtualenvs
 venv-*
 
-# Exclude course output directories
+# Exclude course output directories and files
 output/
+02-sequence_databases/data/kitasatospora/*.nhr
+02-sequence_databases/data/kitasatospora/*.nin
+02-sequence_databases/data/kitasatospora/*.nsq
 
 # Exclude OSX-specific files
 .DS_Store
@@ -17,3 +20,7 @@ output/
 *.7z
 *.vmd
 *.vmi
+
+# Exclude development-related files
+IMG_2032.JPG
+IMG_2033.JPG
