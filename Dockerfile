@@ -4,7 +4,9 @@ USER root
 
 # Add dependency
 RUN apt-get update
-RUN apt-get install -y ncbi-blast+
+
+# Install other dependencies via apt-get
+RUN $HOME/install-apps.sh
 
 USER main
 

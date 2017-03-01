@@ -7,25 +7,25 @@
 
 # Update package management
 apt-get update
-apt-get install aptitude
+apt-get install -y aptitude
 
 # Version control
-apt-get install git
+apt-get install -y git
 
 # Browser
-apt-get install google-chrome
+apt-get install -y google-chrome
 
 # SSH access
-apt-get install openssh-server
+apt-get install -y openssh-server
 
 # Markdown conversion
-apt-get install pandoc
+apt-get install -y pandoc
 
 # Visualisation tools
-apt-get install act artemis jmol pymol
+apt-get install -y act artemis jmol pymol
 
 # Sequence search/alignment packages
-apt-get install ncbi-blast+ clustalo hmmer muscle t-coffee
+apt-get install -y ncbi-blast+ clustalo hmmer muscle t-coffee
 
 # Programming tools
-apt-get install python3.6 python3.6-dev virtualenv
+apt-get install -y python3.6 python3.6-dev virtualenv
