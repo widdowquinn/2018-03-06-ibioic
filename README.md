@@ -30,7 +30,30 @@ This will download the repository in your current directory, in a subdirectory c
 
 ## Create Virtual Environment
 
-### Kernel setup
+It is recommended to use a Python virtual environment to ensure that compatible libraries can be installed, separately from your system Python installation to avoid conflicts.
+
+### `virtualenv`
+
+To create a new virtual environment, you can use the following command (if `virtualenv` is installed):
+
+```
+virtualenv venv-ibioic-course -p python3.6
+```
+
+To start the virtual environment, issue the following:
+
+```
+source venv-ibioic-course/bin/activate
+```
+
+Then, to install the required Python packages, you can use `pip` with the provided `requirements.txt` file:
+
+```
+pip install -r requirements.txt
+```
+
+
+## Jupyter Kernel setup
 
 To use the Jupyter notebooks with the version of Python and packages installed under your virtual environment, you will need to make a *kernel* for your virtualenv available. This can be done by activating your virtual machine, and then installing a kernel with the commands below.
 
