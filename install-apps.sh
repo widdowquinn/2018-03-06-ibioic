@@ -29,3 +29,6 @@ apt-get install -y ncbi-blast+ clustalo hmmer muscle t-coffee
 
 # Programming tools
 apt-get install -y python3.6 python3.6-dev virtualenv
+
+# Command line tools
+apt-get install -y curl
