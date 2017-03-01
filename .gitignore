@@ -10,6 +10,8 @@ venv-*
 # Exclude course output directories and files
 01-sequences/B4EVM3.fasta
 01-sequences/C2LFD0.fasta
+01-sequences/NZ_GG668576.gbk
+01-sequences/NC_010554.gbk
 output/
 02-sequence_databases/data/kitasatospora/*.nhr
 02-sequence_databases/data/kitasatospora/*.nin
