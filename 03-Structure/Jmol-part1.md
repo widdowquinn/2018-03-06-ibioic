@@ -1,6 +1,6 @@
 ## 03-Protein structure visualization and analysis practical
 ### Introduction
-So far all our analyses have been based on gene sequences and the protein sequences they encode. Proteins have a secondary and tertiary structure (and some also have a quarternary structure). Information about protein structures are stored in the RCSB (also known as the PDB) and it > 127K biological structures, of which 123K are proteins.
+So far all our analyses have been based on gene sequences and the protein sequences they encode. Proteins have a secondary and tertiary structure (and some also have a quarternary structure). Information about protein structures are stored in the RCSB (also known as the PDB) and it comprises >127K biological structures, of which 123K are proteins.
 
 ### 03-01 Exploring the RSCB for PML structures
 We will use the RCSB to search for the structures of PMLs and explore  their 3D structures. Its is possible to search the RCSB in a number of ways, including by PBDcode ID, keywords (not recommended) and sequence similarity.
