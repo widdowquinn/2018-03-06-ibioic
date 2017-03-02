@@ -52,7 +52,7 @@ Click on the [3D View tab]( http://www.rcsb.org/pdb/explore/jmol.do?structureId=
  
  ![NGL-4GW3](images/NGL-4GW3.png)
 
-You can use the Diplay and View menus to alter how the proteins and its ligands are depicted. The colour scheme options can be used to display the surface of the protein in different ways E.g. Colour by hydrophobicity.
+You can use the Diplay and View menus to alter how the proteins and its ligands are depicted. The colour scheme options can be used to display the surface of the protein in different ways E.g. Colour by hydrophobicity (hydrophobic residues do not like to reside in an aqueous environment, they tend to hide ).
 
 ![NGL-4GW3](images/NGL-4GW3-hydro.png)
 
@@ -64,8 +64,8 @@ If there are ligands or ions in the structure you can use the Interaction option
 
 Use the Display Options and the Viewer Options menu on the right hand side to 
 
-1. colour by secondary structure 
-2. show the position of any calcium ions in the structure
+1. colour 4GW3 by secondary structure 
+2. show the position calcium ions in 4GW3
 3. view the surface of the protein and colour by hydrophocity
 4. view the surface of the protein and colour by b-factor
 
