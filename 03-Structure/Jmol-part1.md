@@ -5,7 +5,8 @@ So far all our analyses have been based on gene sequences and the protein sequen
 ### 03-01 Exploring the RSCB for PML structures
 We will use the RCSB to search for the structures of PMLs and explore  their 3D structures. Its is possible to search the RCSB in a number of ways, including by PBDcode ID, keywords (not recommended) and sequence similarity.
 
-From the previous session on PML sequences it is possible to find the PDB code ID for the WT PML is 4GW3 (have the students linked to the sequences through any resources that cross refernces PDB code?)
+From the previous session on PML sequences it is possible to find the PDB code ID for the WT PML is 4GW3 (there were cross references to the RCSB from the [Uniprot entry: B4EVM3_PROMH](http://www.uniprot.org/uniprot/B4EVM3)
+
 
 ####03-01-01 Searching the RCSB
 Use the search box at the top of the [RCSB homepage](http://www.rcsb.org/) to search for entry 4GW3.
@@ -16,14 +17,25 @@ This shows the "Structure Summary" page for [4GW3](http://www.rcsb.org/pdb/explo
 
 ![PDB 4GW3 entry] (images/PDB-4GW3.png)
 
-Note the different tabs at the top of the entry which give access to differnece types of information about the 4GW3 structure.
+Note the different tabs at the top of the entry which give access to difference types of information about the 4GW3 structure.
 
-####Questions: 
+Using the expanded Macromolecules section of the Structure Summary page, 
+
+![PDB 4GW3 Domain] (images/expand-domain-view.png)
+
+we see that this structure has one sequence domain and we will come back to view this domain on the structure later.
+
+![PDB 4GW3 Domain] (images/RCSB-4GW3-domain2.png)
+
+
+#####Exercise 1: [10 mins] Browse the RCSB 4GW3 entry and answer the following questions
+#####Answer the following questions: 
 
 1. What method has been used to solve the structure of 4GW3 and is the "quality" of the structure suitable for analysis of its molecular structure?
 2. What ligands does this PML structure have bound?
 3. How many amino residues does this PML structure have?
 4. What is the protein stoichiometry of 4GW3?
+5. Which Pfam domain is present in this protein and what residues does it span?
 5. How many other proteins in the PDB share 40% sequence similarity with 4GW3 and do you think that these structures all have the same structure and function?
 
 
@@ -41,8 +53,8 @@ Using the sequence similarity tab to view the sequence similarity clusters of 4G
 We will concentrate on the first 3 structures, as the 4th is poorly annotated and does not have a publication associated with the RCSB entry. Hence it is more uncertain what this structure actually is.
 
 
-### 03-02 Visualization of PML structres using a web-based tool (NGL)
-RCSB uses a number of web-based applications (e.g. JSmol and NGL) and to allow visualization of protein structures directly from their webpages. 
+### 03-02 Visualization of PML structures using a web-based tool (NGL)
+RCSB uses a number of web-based applications (e.g. JSmol and NGL) to allow visualization of protein structures directly from their webpages. 
 
 Click on the [3D View tab]( http://www.rcsb.org/pdb/explore/jmol.do?structureId=4GW3&bionumber=1) at the top of the 4GW3 entry to view the structure. By default it loads the JSmol application, but use the selection box below the structure to use NGL.
  
@@ -52,62 +64,67 @@ Click on the [3D View tab]( http://www.rcsb.org/pdb/explore/jmol.do?structureId=
  
  ![NGL-4GW3](images/NGL-4GW3.png)
 
-You can use the Diplay and View menus to alter how the proteins and its ligands are depicted. The colour scheme options can be used to display the surface of the protein in different ways E.g. Colour by hydrophobicity (hydrophobic residues do not like to reside in an aqueous environment, they tend to hide within the core of the protein, this is the main basis for protein folding).
+You can use the Diplay and View Options to alter how the protein and its ligands are depicted. The colour scheme options can be used to display the surface of the protein in different ways E.g. Colour by hydrophobicity (hydrophobic residues do not like to reside in an aqueous environment).
 
 ![NGL-4GW3](images/NGL-4GW3-hydro.png)
 
 
-If there are ligands or ions in the structure you can use the Interaction option to zoom in and display the binding pocktes and amino acids involved in the interactions. E.g Binding pocket for PA
+If there are ligands or ions in the structure you can use the Interaction option to zoom in and display the binding pockets and amino acids involved in the interactions. E.g Binding pocket for PA
 
-![NGL-4GW3-PA-Bindng pocket](images/NGL-PA-BP.png)
+![NGL-4GW3-PA-Binding pocket](images/NGL-PA-BP.png)
 
 
-Use the Display Options and the Viewer Options menu on the right hand side to 
+#####Exercise 2: [10mins]
+Use the Display and Viewer Options on the right hand side to 
 
 1. colour 4GW3 by secondary structure 
-2. show the position calcium ions in 4GW3
+2. show the position of calcium ions in 4GW3
 3. view the surface of the protein and colour by hydrophocity
 4. view the surface of the protein and colour by b-factor
 
-Questions: 
+#####Answer the following questions: 
 
-1. What fold does 4GW3 have? Access the CATH database to help you answer this.
+1. What fold does 4GW3 have? Search the [CATH database](http://www.cathdb.info/) to help you answer this.
 2. What amino acids residues are involved in binding Calcium ion CA 401?
 3. What does the hydrophobicty colour scheme show you about the binding pocket where ligands PE and PA occur?
-4. Each atom of protein crystal structure can have a B-factor (also known as the temperature or Debye-Waller factor ) associtaed with it. This essential describes the degree to which the electron desnity is spread out. When you colour the protein surface by this factor what do you think it is showing you? 
+4. Each atom of protein crystal structure can have a B-factor (also known as the temperature or Debye-Waller factor ) associated with it. This essentially describes the degree to which the electron desnity is spread out. When you colour the protein surface by this factor what do you think it shows you? 
 
 ### 03-03 Visualizing PML structure in Jmol using scripting
-So far we have used the web based viewer JSmol to visual a protein structures. But using such web based browsers is limited as we cannot carry out more complex visualizations such as 
+So far we have used the web based viewer NGL to visualise a protein structure. But using such web based browsers is limited as we cannot carry out more complex visualizations such as 
 
 * selecting specific atoms of interest 
 * superimposing a number of different structures   
-* animating structures for a presentation
+* animating structures for a presentation or demonstration
  
-In this section of the practical we will view and analyse the PML structures using Jmol and Jmol scripting.
+In this section of the practical we will view and analyse the PML structures using [Jmol](http://jmol.sourceforge.net), an open source molecular viewer which allows scripting.
 
-Jmol has 3 basic elements: the viewing windox, the console and the script editor. The console is where script commands can be entered at a command-line prompt and these commands then make changes to the structure loaded in the viewing window. The script-editor is where a series of Jmol commands can be put together in script and the stript run, to makes as series of changes to the structure in the veiwing window in one go.
+Jmol has 3 basic elements: the viewing window, the console and the script editor. The console is where script commands can be entered at a command-line prompt and these commands then make changes to the structure loaded in the viewing window. The script-editor is where a series of Jmol commands can be put together in script and the stript run, to makes as series of changes to the structure in the veiwing window in one go. Depending on what set-up you are using you can drag and drop scripts into the console (or on soem systems you can Ctrl-C and Ctrl-V). See the [Jmol wiki](http://wiki.jmol.org/index.php/Copying_and_pasting_scripts) for more details
 
 
 PML has a number of structural features that are essential for its function.
 
-1. Ca binding site: plays a role in catalysis and stability. 
-2. Active site pocket (Substrate binding pocket is largely hydrophobic) which has 2 lid helices a5 and a8: PML is in closed conformation, with a5 preventing access to the active site.
-3. Oxyanion hole: water mediated stabalization of the hole
-4. Catalytic triad
+1. Ca binding site: plays a role in catalysis and stability 
+2. Active site pocket which has 2 lid helices a5 and a8
+3. A catalytic triad
+5. An Oxyanion hole which is stablised by water residues
 
 
+We will use Jmol scripting to analyse some of these different elements to help us understand how structure is related to function.
 Aims of this activity:
 
 1. load PML WT structure into Jmol
 2. View the secondary structure 
-3. Identify the catalytic triad on the protein
-4. Identify the calcium binding site and the supporting loop region
-5. Identify the two lid helices (a8 and a5)
+3. Map the Pfam domain onto the structure
+4. Identify the ligands in the structure and the two lid helices (a5(125-143) and a8 (213-224)
+5. Identify the catalytic triad 
+6. Identify the calcium binding site and the supporting loop region
 
 
-#### 03-03-01: Jmol - importing, viewing, structure rendering, colouring
+
+
+#### 03-03-01: Jmol - importing, viewing, rendering, colouring
 * Open a terminal window in the virtual machine (VM)
-* See if Jmol launches a window by typing
+* Launch Jmol by typing
 
 ```
 Jmol
@@ -127,53 +144,111 @@ Enter 4 digit PDB model ID : 4GW3 and the model will be automatically imported d
 The structure is automatically loaded in ball-and-stick format
 and the default coloration is CPK (Corey, Pauling, Kultun), based on atom identity. 
 
-####Quick Question:  Which atoms are red and which atoms are grey in the CPK colour scheme?
-
-Let us explore the use of scripting to alter the image of the structure
-
 Launch the console window from the File Menu
 
-![JMol-console(images/Jmol-console.png)
+![JMol-console](images/Jmol-cons.png)
 
-
-
-In the console window type the following commands in turn (the $ at the start of each line is just the prompt in the console window). Use a return at the end of each command to see the structure change in the Jmol main window
+In the console window type the following commands. Use a return at the end of each command to see the structure change in the Jmol main window
 
 ```
-$select all
-$ribbons
-$colour palegreen
+select all
+ribbons
+colour palegreen
 ```
+This will change the structure in the viewing window to look like this
 
-Question: Using the RCSB information on 4GW3 which protein resiudes comprise the catalytic triad which is the enzyme active site? [RCSB: 4GW3] (http://www.rcsb.org/pdb/explore/explore.do?structureId=4GW3)
+![JMol-window](images/JM-4gw3-green.png)
 
-
-Use [SAS tool](http://www.ebi.ac.uk/thornton-srv/databases/sas/) to take a closer look at the functionally important residues in 4GW3
-
-Prosite [http//www....]
-
-We know form the publication associated with 4GW3 (linkout here) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalytic serine (S79) being part of a GXSXG motif. 
-
-Now highlight the catalytic triad in 4GW3 to see how residues that are widely spaced in the sequence are brought together in 3D space in the protein structure.
+In the RCSB one Pfam domain was mapped to this structure covering residues 6-120, let us identify these in the structure.
 
 ```
-$select all
-$strands only
-$colour palegreen
-$select ser79,his254,asp232
-$colour red
-$wireframe 100
+select 6-120
+colour red
+```
+
+![JMol-window](images/Jmol-4gw3-red-green.png)
+
+
+Question: How does the Pfam sequence domain relate to the 3D fold of the protein?
+
+
+Ligands in the structure: from the RCSB Summary page we know that 4GW3 has 4 unique ligands.
+![RCSB-4GW3](images/4GW3-ligands-tab.png)
+
+We will use Jmol to highlight these ligands and the two lid helices in the structure. As this is a lot of commands to type, open the script Editor window. 
+
+![Jmol-script-editor](images/Jmol-scriptE.png)
+
+Drag and drop the commands into the Editor window and then Run the commands
+
+
+
+
+```
+select all
+ribbons only
+colour palegreen
+select [IPA]
+colour yellow
+wireframe 150
+select [1PE]
+colour orange
+wireframe 150
+select [CA]
+colour purple
+spacefill
+select 125-143
+colour lightgrey
+select 213-224
+colour lightblue
+spin
+```
+
+This will render your protein to look like this and spin it round, you can re-orientate the molecule in the Viewer window and then let it spin so you can see different aspects of the protein.
+
+![RCSB-4GW3](images/Jmol-4gw3-ligands-lid.png)
+
+
+The catalytic triad: We know form the publication associated with 4GW3 [PMID:
+23300806] (https://www.ncbi.nlm.nih.gov/pubmed/23300806) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalytic serine (Ser79) being part of a GXSXG motif. The catalytic His is residue 254 and the catalytic Asp is 232.
+We will highlight the catalytic triad to see how residues that are widely spaced in the sequence are brought together in 3D space in the protein structure.
+
+```
+select all
+strands only
+colour palegreen
+select ser79,his254,asp232
+colour red
+wireframe 100
 
 ```
 
-Next bits: use CPK/surface to show cleft in molecule with HIS_ASP-SER acessible
 
-Highlight the two alpha helices that are lids to the catalytic sites (a5 and a8)
+The side chains of these catalytic residues are brought close together in the folded protein to form the active site pocket.
+
+![RCSB-4GW3](images/4gw3-active-site.png)
+
+
+The CA binding site and support loop. ONE CAT atome (401) is invovled the the protein's function and this calcium is bound through intercations with a short loop region (that is rendered in Jmol partly loop, partly helical). This is an important site to take note of when we considered the mutated protein structure.
+
+```
+select all
+cartoons only
+colour palegreen
+select CA401
+colour purple
+spacefill
+select 213-224
+colour pink
+select 202-210
+colour red
+```
 
 
 
-==Do it yourself==: Activity 1: do rendering on mutated molecule on their own.
-1. Highlight : 
+Exercise 3: Visualization of the mutated protein. Can you highlight the residues that have been muatted and see what effects they have?
+
+
 
 Questions
 
@@ -209,6 +284,10 @@ Get students to save movie and show to others.
 Launch the script editor window from the File Menu
 
 ![Jmol-script-editor](images/Jmol-scriptE.png)
+
+
+### But what if we have no structure, can we make predictions?
+
 
 
 References
