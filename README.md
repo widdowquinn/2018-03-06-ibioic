@@ -16,15 +16,16 @@ You can, if you choose, shortcut the process by downloading a pre-prepared Ubunt
 
 ## Cloning the repository
 
-To clone the repository, run the following command in the terminal:
+To clone the repository, run the following commands in the terminal. We are doing the clone in your home directory to ensure The paths in the examples will match your system.
 
 ```
+cd ~
 git clone git@github.com:widdowquinn/Teaching-IBioIC-Intro-to-Bioinformatics.git
 ```
 
-This will download the repository in your current directory, in a subdirectory called `Teaching-IBioIC-Intro-to-Bioinformatics`. You can change working location to this directory with the command:
+This will download the repository in a subdirectory of your home directory called `Teaching-IBioIC-Intro-to-Bioinformatics`. You can change working location to this directory with the command:
 
-`cd Teaching-IBioIC-Intro-to-Bioinformatics`
+`cd ~/Teaching-IBioIC-Intro-to-Bioinformatics`
 
 ## Install packages
 
