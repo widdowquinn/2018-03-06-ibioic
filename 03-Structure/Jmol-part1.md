@@ -1,6 +1,6 @@
 ## 03-Protein structure visualization and analysis practical
 ### Introduction
-So far all our analyses have been based on gene sequences and the protein sequences they encode. Proteins have a secondary, tertiary structures (and some a quarternary structure). Information about protein structures are stored in the RCSB (also known as the PDB) and it > 127K biological structures, of which 123K are proteins.
+So far all our analyses have been based on gene sequences and the protein sequences they encode. Proteins have a secondary and tertiary structure (and some also have a quarternary structure). Information about protein structures are stored in the RCSB (also known as the PDB) and it > 127K biological structures, of which 123K are proteins.
 
 ### 03-01 Exploring the RSCB for PML structures
 We will use the RCSB to search for the structures of PMLs and explore  their 3D structures. Its is possible to search the RCSB in a number of ways, including by PBDcode ID, keywords (not recommended) and sequence similarity.
@@ -52,7 +52,7 @@ Click on the [3D View tab]( http://www.rcsb.org/pdb/explore/jmol.do?structureId=
  
  ![NGL-4GW3](images/NGL-4GW3.png)
 
-You can use the Diplay and View menus to alter how the proteins and its ligands are depicted. The colour scheme options can be used to display the surface of the protein in different ways E.g. Colour by hydrophobicity (hydrophobic residues do not like to reside in an aqueous environment, they tend to hide ).
+You can use the Diplay and View menus to alter how the proteins and its ligands are depicted. The colour scheme options can be used to display the surface of the protein in different ways E.g. Colour by hydrophobicity (hydrophobic residues do not like to reside in an aqueous environment, they tend to hide within the core of the protein, this is the main basis for protein folding).
 
 ![NGL-4GW3](images/NGL-4GW3-hydro.png)
 
