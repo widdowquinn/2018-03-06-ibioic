@@ -209,9 +209,9 @@ This will render your protein to look like this and spin it round, you can re-or
 ![RCSB-4GW3](images/Jmol-4gw3-ligands-lid.png)
 
 
-The catalytic triad: We know form the publication associated with 4GW3 [PMID:
+The catalytic triad: We know from the publication associated with 4GW3 [PMID:
 23300806] (https://www.ncbi.nlm.nih.gov/pubmed/23300806) PML contains a hydrolase Ser-His-Asp catalytic triad with the catalytic serine (Ser79) being part of a GXSXG motif. The catalytic His is residue 254 and the catalytic Asp is 232.
-We will highlight the catalytic triad to see how residues that are widely spaced in the sequence are brought together in 3D space in the protein structure.
+We will highlight the catalytic triad to see how residues that are widely spaced in the sequence are brought together in the 3D structure.
 
 ```
 select all
@@ -229,7 +229,7 @@ The side chains of these catalytic residues are brought close together in the fo
 ![RCSB-4GW3](images/4gw3-active-site.png)
 
 
-The CA binding site and support loop. ONE CAT atome (401) is invovled the the protein's function and this calcium is bound through intercations with a short loop region (that is rendered in Jmol partly loop, partly helical). This is an important site to take note of when we considered the mutated protein structure.
+The CA binding site and support loop. ONE CA atom (401) is involved in the protein's function and this calcium is bound through interactions with a short loop region (that is rendered in Jmol partly loop, partly helical). This is an important site to take note of when we consider the mutated protein structure.
 
 ```
 select all
@@ -246,47 +246,152 @@ colour red
 
 
 
-Exercise 3: Visualization of the mutated protein. Can you highlight the residues that have been muatted and see what effects they have?
+#####Exercise 3: [15mins] Visualization of the mutated protein. 
 
+The PML enzyme has under gone mutagenesis to create an enzyme that is more thermo stable and has a higher methanol tolerance than the wild type. This mutated enzyme is called dieselzyme4 and its structure has been solved (PDBcode 3HS9) (Korman et al. 2013). In this exercise you will visualize the location of the muations on the structure and see how they might affect function.
+The mutations are summarized here
 
+![Table](images/Dieselzymes-mutations.png)
+
+The active mutations in dieselzyme4 occur in 3 different regions
+
+| Region  | Mutations | 
+|:------------- |:--------------- 
+1|G202E,K208N,G266S
+2|R33T, L641, A70T
+3|G181C,S238C 
+
+Using Jmol scripting to highlight the mutation sites in the structure and see what functional sites they might be affecting.
 
 Questions
 
+1. What effect on the structure do the mutations have in Regions 1?
+2. What effect on the structure do the mutations have in Regions 2?
+3. What effect on the structure do the mutations have in Regions 3?
+
 #### 03-03-02: Jmol - superimposing multiple structures
-There are many different programs that can be used to superimpose protein structures to observe differences. It is possible to superimpose protein structures through web-based tools from the RCSB that directly load the results into a Jmol viewer. But as disucssed previously this limits what you can do with the superimposed structures in terms of viewing specific elemnets of interest.
+It would be easier to compare the WT and the mutant protein strcutures if we could superimpose them. There are many different programs that can be used to superimpose protein structures to observe differences. It is possible to superimpose protein structures through web-based tools from the RCSB. Here we will use the FATCAT tool (accessed via the RCSB database) to superimpose the wild type PML (PDB: 4GW3) and the mutated enzyme Dieselzyme4 (4HS9).
 
-Here we will use the FATCAT tool to superimpose the wild type PML (PDB: 4GW3) and the mutated enzyme Dieselzyme (4HS9) to understand and how the mutations affect the protein structure.
-
-Dieselyme4 (4HS9) has 11 mutations added compared to the WT PML.
-Clip table from paper.
-
-The mutations cluster into 2 regions: Region 1 near helices 1 and 2 and Regions 2 near calcium binding site. 
-
-Disulphide bond: G181C and S238C:
+We will see how the mutations in region3 (G181C and S238C) and region 2 affect the structure. 
 Re-modelled loop residues 200-2008:  
 
-Link to FATCAT website
-Run rigid superposition in FATCAT
-Download superimposed file (save a copy in case website fails)
-Load superimposed structures into Jmol (use open file)
-Highlight salt bridge?
-Highlight remodelled loop
-
-**Questions?
-
-#### 03-03-03: Jmol - animating structures
-Basic animation - spin - 
-Animate a structure using a scipt ..mmmm how?
-Save animatio as a movie
-
-Get students to save movie and show to others.
-
-Launch the script editor window from the File Menu
-
-![Jmol-script-editor](images/Jmol-scriptE.png)
+Go to the [analyse section of the RCSB](http://www.rcsb.org/pdb/home/home.do#Category-analyze). Enter the PDB IDs of the 2 structures (make sure you enter them in the order 4gw3, 4hs9 (as this influences how we can maniplulate the structures in Jmol using scripts later on). 
 
 
-### But what if we have no structure, can we make predictions?
+
+![Table](images/RCSB-analyse1.png)
+
+Run the FATCAT rigid superposition. Enter the pdb IDs and select Align.
+
+![Table](images/RCSB-analyse2.png)
+
+This gives the alignment results in a new webpage with an interactive Jsmol viewer for quick visualization.
+
+![Table](images/RCSB-analyse3.png)
+
+We will download the superimposed structures (in PDB format). Scroll to the bottom of the results page and select
+
+![Table](images/RCSB-analyse4.png)
+
+This shows the PDB formatted alignment file in a new window and just use your webrowsers save-as facility to save the file to your computer.
+
+![Table](images/RCSB-analyse5.png)
+
+Note that the structural alignment is saved as two models in one PDB file, model 1 (4gw3) and model 2 (4hs9)
+
+
+Load the superimposed structures into Jmol (use open file).
+
+![Jmol](images/align1.png)
+
+There are two structures in this file and to select each one separately the notation is 1.1 for the first and 1.2 for the second. Before you use the script below we need to activate both models in the Jmol viewer by right clicking and selecting "All 2 models" and ticking all. 
+
+![Jmol](images/align2.png)
+
+
+Now we can use the script below to highlight the mutated regions. Drag and drop this script into your Jmol script editor window and run it.
+
+
+```
+select 1.1
+colour palegreen
+cartoons only
+select 1.2
+colour lightblue
+cartoons only
+select all
+wireframe
+select 181/1
+wireframe 100
+colour yellow
+select 181/2
+wireframe 100
+colour red
+select 238/1
+wireframe 100
+colour yellow
+select 238/2
+wireframe 100
+colour red
+select 401/1
+colour purple
+spacefill
+select 203/1,204/1,205/1,206/1,207/1
+colour yellow
+select 203/2,204/2,205/2,206/2,207/2
+colour red
+```
+
+You will see the two structures superimposed with two mutation regions highlighted.
+
+![Jmol](images/align3.png)
+
+
+To take a closer look at the remodelled loop, add the following commands to the above script.
+
+```
+restrict 200-210
+select 202,208,210
+wireframe 150
+```
+![Jmol](images/align4.png)
+
+Questions?
+
+1. How might the disulphide bond introduced by the G181C/S238C mutation make the structure more thermo stable?
+2. How might the remodelling of the loop region caused by the G202E,K208N,G266S influence the effects of methanol?
+
+
+### 03-04 But what if we have no structure, can we make predictions?
+The sequence-structure gap is BIG (550K sequences vs 123K structures), so its quite likley that a specific protein of interest has no experimentally solved 3D structure. For such proteins it is possible to predict the secondary and tertiary structure from the amino acids sequence. In the recent CASPS 12 (Critical assessement of protein structure prediction) competition, more 100 different programmes were tested, all with varing degress of success.
+
+An example of a protein without a known structure is the Triple Gene Block Protein 1 (TGB1) from Barley stripe moscaic virus [Uniprot P04867](http://www.uniprot.org/uniprot/P04867). The amino acid sequence in FASTA format is shown below.
+
+```
+>sp|P04867|TGB1_BSMV Movement protein TGB1 OS=Barley stripe mosaic virus PE=1 SV=1
+MDMTKTVEEKKTNGTDSVKGVFENSTIPKVPTGQEMGGDGSSTSKLKETLKVADQTPLSV
+DNGAKSKLDSSDRQVPGVADQTPLSVDNGAKSKLDSSDRQVPGPELKPNVKKSKKKRIQK
+PAQPSGPNDLKGGTKGSSQVGENVSENYTGISKEAAKQKQKTPKSVKMQSNLADKFKAND
+TRRSELINKFQQFVHETCLKSDFEYTGRQYFRARSNFFEMIKLASLYDKHLKECMARACT
+LERERLKRKLLLVRALKPAVDFLTGIISGVPGSGKSTIVRTLLKGEFPAVCALANPALMN
+DYSGIEGVYGLDDLLLSAVPITSDLLIIDEYTLAESAEILLLQRRLRASMVLLVGDVAQG
+KATTASSIEYLTLPVIYRSETTYRLGQETASLCSKQGNRMVSKGGRDTVIITDYDGETDE
+TEKNIAFTVDTVRDVKDCGYDCALAIDVQGKEFDSVTLFLRNEDRKALADKHLRLVALSR
+HKSKLIIRADAEIRQAFLTGDIDLSSKASNSHRYSAKPDEDHSWFKAK
+```
+
+
+All 'A' students use the PSiPred server to make a seocndary structure prediction
+All 'B' students use the Jpred (returned results)
+
+Secondary structure predictions.
+Fold predictions
+Example with close homologs.
+Example without close homologs
+
+Predict SS.
+
+
 
 
 
