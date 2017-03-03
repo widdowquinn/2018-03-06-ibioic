@@ -7,5 +7,6 @@ ipykernel
 ipython
 ipywidgets
 jupyter
+reportlab
 biopython
 bioservices
