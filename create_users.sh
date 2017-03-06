@@ -23,7 +23,7 @@ do
     remcmd="userdel -r ${user}"
     echo ${remcmd}
     ${remcmd}
-    mkcmd="useradd -d /home/${user} -p `mkpasswd ${pass}` ${user}"
+    mkcmd="useradd -m -d /home/${user} -p `mkpasswd ${pass}` ${user}"
     echo ${mkcmd}
     ${mkcmd}
 done
