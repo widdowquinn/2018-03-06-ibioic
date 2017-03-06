@@ -19,6 +19,7 @@ do
 
     user=`echo $udetails | cut -f 1 -d ,`
     pass=`echo $udetails | cut -f 2 -d ,`
-    cmd="useradd -p `mkpasswd ${pass}` ${user}"
+    cmd="useradd -d /home/${user} -p `mkpasswd ${pass}` ${user}"
     echo ${cmd}
+    ${cmd}
 done
