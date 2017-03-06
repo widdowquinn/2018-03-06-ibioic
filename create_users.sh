@@ -26,7 +26,7 @@ do
     mkcmd="useradd -m -d /home/${user} -p `mkpasswd ${pass}` ${user}"
     echo ${mkcmd}
     ${mkcmd}
-    cpcmd="cp -R /home/ibioic/Teaching-IBioIC-Intro-to_Bioinformatics /home/${user}"
+    cpcmd="cp -R /home/ibioic/Teaching-IBioIC-Intro-to_Bioinformatics /home/${user}"
     echo ${cpcmd}
-    ${cpcmd}
+    ${cpcmd}
 done
