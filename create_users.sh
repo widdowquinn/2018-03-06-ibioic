@@ -10,7 +10,8 @@
 # user1,password1
 # user2,password2
 #
-# Run this script as su/with sudo to create the users:
+# Run this script as su/with sudo to delete all old user data, and recreate
+# the users:
 #
 # sudo create_users.sh > create_users.log
 
@@ -19,7 +20,10 @@ do
 
     user=`echo $udetails | cut -f 1 -d ,`
     pass=`echo $udetails | cut -f 2 -d ,`
-    cmd="useradd -d /home/${user} -p `mkpasswd ${pass}` ${user}"
-    echo ${cmd}
-    ${cmd}
+    remcmd="userdel -r ${user}"
+    echo ${remcmd}
+    ${remcmd}
+    mkcmd="useradd -d /home/${user} -p `mkpasswd ${pass}` ${user}"
+    echo ${mkcmd}
+    ${mkcmd}
 done
