@@ -18,13 +18,3 @@ user17,user17
 user18,user18
 user19,user19
 user20,user20
-user21,user21
-user22,user22
-user23,user23
-user24,user24
-user25,user25
-user26,user26
-user27,user27
-user28,user28
-user29,user29
-user30,user30
