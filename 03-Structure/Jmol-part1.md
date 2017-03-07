@@ -362,35 +362,76 @@ Questions?
 2. How might the remodelling of the loop region caused by the G202E,K208N,G266S influence the effects of methanol?
 
 
-### 03-04 But what if we have no structure, can we make predictions?
-The sequence-structure gap is BIG (550K sequences vs 123K structures), so its quite likley that a specific protein of interest has no experimentally solved 3D structure. For such proteins it is possible to predict the secondary and tertiary structure from the amino acids sequence. In the recent CASPS 12 (Critical assessement of protein structure prediction) competition, more 100 different programmes were tested, all with varing degress of success.
+### 03-04 But what if we have no structure, can 3D structure be predicted from sequence?
+The sequence-structure gap is BIG ([77 million sequences](http://www.ebi.ac.uk/uniprot/TrEMBLstats) vs [123K structures](http://www.rcsb.org/pdb/), so its quite likley that a specific protein of interest has no experimentally solved 3D structure. For such proteins it is possible to predict the secondary and tertiary structure from the amino acids sequence. There are many different programs designed for structure prediction. In the 2016 [CASPS 12](http://www.predictioncenter.org/casp12/index.cgi) (Critical assessement of protein structure prediction) competition (essentially a bake-off for fold prediction programs), more than 100 different programs were tested, all with varing degress of success.
 
-An example of a protein without a known structure is the Triple Gene Block Protein 1 (TGB1) from Barley stripe moscaic virus [Uniprot P04867](http://www.uniprot.org/uniprot/P04867). The amino acid sequence in FASTA format is shown below.
+
+In this section we will make predictions for two proteins which do not have a known (experimentally solved) 3D structure
+
+| Uniprot ID  | Protein Description 
+|:------------- |:--------------- |:--------
+A6NFH5 | Fatty acid-binding protein| Homo sapien|
+Q93VI0| DNA-binding protein S1FA3| Arabidopsis|
+
 
 ```
->sp|P04867|TGB1_BSMV Movement protein TGB1 OS=Barley stripe mosaic virus PE=1 SV=1
-MDMTKTVEEKKTNGTDSVKGVFENSTIPKVPTGQEMGGDGSSTSKLKETLKVADQTPLSV
-DNGAKSKLDSSDRQVPGVADQTPLSVDNGAKSKLDSSDRQVPGPELKPNVKKSKKKRIQK
-PAQPSGPNDLKGGTKGSSQVGENVSENYTGISKEAAKQKQKTPKSVKMQSNLADKFKAND
-TRRSELINKFQQFVHETCLKSDFEYTGRQYFRARSNFFEMIKLASLYDKHLKECMARACT
-LERERLKRKLLLVRALKPAVDFLTGIISGVPGSGKSTIVRTLLKGEFPAVCALANPALMN
-DYSGIEGVYGLDDLLLSAVPITSDLLIIDEYTLAESAEILLLQRRLRASMVLLVGDVAQG
-KATTASSIEYLTLPVIYRSETTYRLGQETASLCSKQGNRMVSKGGRDTVIITDYDGETDE
-TEKNIAFTVDTVRDVKDCGYDCALAIDVQGKEFDSVTLFLRNEDRKALADKHLRLVALSR
-HKSKLIIRADAEIRQAFLTGDIDLSSKASNSHRYSAKPDEDHSWFKAK
+>sp|A6NFH5|FBP12_HUMAN Fatty acid-binding protein 12 OS=Homo sapiens GN=FABP12 PE=2 SV=2
+MIDQLQGTWKSISCENSEDYMKELGIGRASRKLGRLAKPTVTISTDGDVITIKTKSIFKN
+NEISFKLGEEFEEITPGGHKTKSKVTLDKESLIQVQDWDGKETTITRKLVDGKMVVESTV
+NSVICTRTYEKVSSNSVSNS
+
+```
+
+```
+>sp|Q93VI0|S1FA3_ARATH DNA-binding protein S1FA3 OS=Arabidopsis thaliana GN=S1FA3 PE=3 SV=1
+MAAEFDGKIESKGLNPGLIVLLVIGGLLLTFLVGNFILYTYAQKNLPPRKKKPVSKKKMK
+KEKMKQGVQVPGE
 ```
 
 
-All 'A' students use the PSiPred server to make a seocndary structure prediction
-All 'B' students use the Jpred (returned results)
+This [list] (http://bip.weizmann.ac.il/toolbox/structure/3d.htm) provides a good summary of the many tools available for structure prediction. For this practical we will use tools that are relatively quick to give results. These might not be the 'best' tools but they will give you a feel for how such tools work. 
 
-Secondary structure predictions.
-Fold predictions
-Example with close homologs.
-Example without close homologs
+In this practical we will 
 
-Predict SS.
+1. predict the secondary structure of the proteins using [Jpred4](http://www.compbio.dundee.ac.uk/jpred4/index.html) and [NetSurfP](http://www.cbs.dtu.dk/services/NetSurfP-1.1/)
+2. predict the 3D structure of the protein using [MODELLER](https://swissmodel.expasy.org/).
 
+
+#### 03-04-01: Secondary structure prediction
+
+* [Jpred4](http://www.compbio.dundee.ac.uk/jpred4) is a web-based protein secondary structure and solvent accessibility prediction server based on the JNet algorithm (that users a neural network) with a published three-state (helix,strand, coil) prediction accuracy of 82%  [Drozdetskiy et al., 2015](https://doi.org/10.1093/nar/gkv332) 
+
+* [NetSurfP](http://www.cbs.dtu.dk/services/NetSurfP-1.1/) is a server that predicts the surface accessibility and secondary structure of an amino acid sequence using a neural network [Petersen et al., 2009](https://doi.org/10.1186/1472-6807-9-51)
+
+#####Exercise 4: [10 mins] Secondary structure prediction.  
+Submit each of the sequences A6NFH5 and Q93VI0 to the Jpred and NetSurfP servers and compare the results. 
+Questions: 
+
+1. Did Jpred operate in the same way for both structures?
+2. What secondary structure elements are predicted for A6NFH5?
+3. Are the predcitions form each server the same for A6NFH5?
+4. What secondary structure elements are predicted for Q93VI0?
+3. Are the predcitions form each server the same for Q93VI0?
+
+Making secondary structure predictions gives us some understanding of the how the proteins might operate in 3D space. But to get a greater understanding of how sequence features influence protein function we need to know how these secondary structure elements fold together in 3D.
+
+
+#### 03-04-01: Tertiary structure prediction
+
+#####Exercise 5: [10 mins] Secondary structure prediction.  
+Submit each of the above sequences Q93VI0 and A0A1I9LRJ1 to MODELLER. 
+Questions
+
+1. What template is used to model A6NFH5 and what is the sequence similarity (sequence identity)?
+2. What template is used to model A6NFH5 and what is the sequence similarity (sequence identity)?
+
+
+
+If you have time, explore the use of some of the other prediction servers e.g. 
+
+* [PSIPRED](http://bioinf.cs.ucl.ac.uk/psipred/): which provides a protein sequence analysis workbench, including secondary structure predictions and fold recognition. 
+
+* [Phyre2](http://www.sbg.bio.ic.ac.uk/phyre2/): a server for protein modelling and prediction.
 
 
 
@@ -412,19 +453,14 @@ Vincent F. Scalfani,Antony J. Williams,Valery Tkachenko,Karen Karapetyan, Alexey
 * AS Rose, AR Bradley, Y Valasatava, JM Duarte, A Prlić and PW Rose. Web-based molecular graphics for large complexes. ACM Proceedings of the 21st International Conference on Web3D Technology (Web3D '16): 185-186, 2016. doi:10.1145/2945292.2945324
     
     
-*AS Rose and PW Hildebrand. NGL Viewer: a web application for molecular visualization. Nucl Acids Res (1 July 2015) 43 (W1): W576-W579 first published online April 29, 2015. doi:10.1093/nar/gkv402
+* AS Rose and PW Hildebrand. NGL Viewer: a web application for molecular visualization. Nucl Acids Res (1 July 2015) 43 (W1): W576-W579 first published online April 29, 2015. doi:10.1093/nar/gkv402
 
 
+* A generic method for assignment of reliability scores applied to solvent accessibility predictions.
+Bent Petersen, Thomas Nordahl Petersen, Pernille Andersen, Morten Nielsen and Claus Lundegaard1.
+BMC Structural Biology 2009, 9:51 doi:10.1186/1472-6807-9-51. 
 Leighton's examples formatting:
 
-* [`ncbi-blast+` download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
-* [Original publication: Altschul *et al.* (1990)](http://dx.doi.org/10.1016/S0022-2836(05)80360-2)
-* [Gapped `BLAST` publication: Altschul *et al.* (1997)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC146917/)
-
-* Create a new `BLAST` database with the following command:
-
-### QUESTIONS
 
 
-Jmol stuff
-
+Q8L8U8| Putative DNA-binding protein| Arabidopsis | 32% seq id to known structure
