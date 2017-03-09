@@ -11,7 +11,8 @@
 # user2,password2
 #
 # Run this script as su/with sudo to copy the teaching material repository
-# from the ibioic account to each user home directory
+# from the ibioic account to each user home directory, and assign that user
+# as the owner of the copied files
 #
 # sudo create_users.sh > create_users.log
 
@@ -20,6 +21,9 @@ do
     user=`echo $udetails | cut -f 1 -d ,`
     cpcmd="cp -R /home/ibioic/Teaching-IBioIC-Intro-to-Bioinformatics \
            /home/${user}"
+    echo ${cpcmd}
+    ${cpcmd}
+    chowncmd="chown -R ${user} /home/${user}/Teaching-IBioIC-Intro-to-Bioinformatics"
     echo ${cpcmd}
     ${cpcmd}
 done
