@@ -23,10 +23,7 @@ do
     remcmd="userdel -r ${user}"
     echo ${remcmd}
     ${remcmd}
-    mkcmd="useradd -m -d /home/${user} -p `mkpasswd ${pass}` ${user}"
+    mkcmd="useradd -m -s /bin/bash -d /home/${user} -p `mkpasswd ${pass}` ${user}"
     echo ${mkcmd}
     ${mkcmd}
-    cpcmd="cp -R /home/ibioic/Teaching-IBioIC-Intro-to-Bioinformatics /home/${user}"
-    echo ${cpcmd}
-    ${cpcmd}
 done

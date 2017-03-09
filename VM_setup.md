@@ -65,6 +65,60 @@ Welcome to Ubuntu 16.10 (GNU/Linux 4.8.0-39-generic x86_64)
 0 updates are security updates.
 ```
 
+### Modifying VM HDD size
+
+You may find that you need to increase the HDD size and the default partition if the number of users is large. To do this:
+
+* **Shut down the VM**
+* **Resize the HDD**: `VBoxManage modifyhd <path_to_vdi> --resize <size_in_MB>
+* **Mount a Ubuntu Live CD on the VM and boot into it**
+* **Use `gparted` to resize OS partitions.**
+
+You might also wish to reduce the size of the virtual HDD on your system (without resizing), by writing zeros to unused space, and compressing:
+
+* **On the VM, issue:** `sudo dd if=/dev/zero of=/emptyfile bs=1M` to write zeros in an empty file, then remove the empty file `sudo rm /emptyfile`
+* **Shut down the VM**
+* **Compact the HDD:** `VBoxManage modifyhd <path_to_vdi> --compact`
+
+### User setup
+
+Two helper scripts are provided to set up user accounts for the course.
+
+* `create_users.sh`
+* `copy_repo.sh`
+
+To prepare the VM for a new course, by ensuring the teaching materials are up to date, and that a new set of users is created, with a fresh copy of those materials, issue the following commands as the user `ibioic`:
+
+```
+$ cd ~/Teaching-IBioIC-Intro-to-Bioinformatics
+$ git pull
+$ sudo ./create_users.sh
+$ sudo ./copy_repo.sh
+```
+
+#### `create_users.sh`
+
+This script will already have been run as `sudo create_users.sh` to set up a number of generic accounts listed in `users.txt`.
+
+The script first deletes existing accounts with the same name, before creating those accounts again - this enables wiping out a previous set of course materials and temporary/output files.
+
+#### `copy_repo.sh`
+
+This script copies the contents of `/home/ibioic/Teaching-IBioIC-Intro-to-Bioinformatics` into the home directory of each user named in the file `users.txt`
+
+#### User logins
+
+Once the users are logged into their accounts, they need to change directory to the repository root, and start the Python virtual environment, e.g.:
+
+```
+$ ssh -XC user01@192.168.56.101
+$ cd Teaching-IBioIC-Intro-to-Bioinformatics/
+$ source venv-IBioIC/bin/activate
+```
+
+This will modify the user prompt to reflect the active virtual machine, and from this point all teaching materials should work.
+
+
 ## Installed tools
 
 In addition to the tools that were available with the base VM, we have installed:
@@ -122,6 +176,13 @@ sudo apt-get install pandoc
 
 * [`pandoc` homepage](http://pandoc.org/)
 
+#### `whois`
+
+As part of the VM setup, we need the ability to create new users and passwords for them. This requires `mkpasswd`, part of `whois`.
+
+```
+sudo apt-get install whois
+```
 
 
 ### Bioinformatics packages
@@ -245,6 +306,12 @@ sudo apt-get install t-coffee
 * [`t-coffee` homepage](http://www.tcoffee.org/)
 * [`t-coffee` at EMBL-EBI](http://www.ebi.ac.uk/Tools/msa/tcoffee/)
 
+#### `VSEARCH`
 
+`VSEARCH` is a fast alternative to `BLAST+`
 
+```
+sudo apt-get install vsearch
+```
 
+* [`VSEARCH` Homepage](https://github.com/torognes/vsearch)
