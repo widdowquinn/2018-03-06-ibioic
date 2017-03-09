@@ -24,6 +24,6 @@ do
     echo ${cpcmd}
     ${cpcmd}
     chowncmd="chown -R ${user} /home/${user}/Teaching-IBioIC-Intro-to-Bioinformatics"
-    echo ${cpcmd}
-    ${cpcmd}
+    echo ${chowncmd}
+    ${chowncmd}
 done
