@@ -65,6 +65,21 @@ Welcome to Ubuntu 16.10 (GNU/Linux 4.8.0-39-generic x86_64)
 0 updates are security updates.
 ```
 
+### Modifying VM HDD size
+
+You may find that you need to increase the HDD size and the default partition if the number of users is large. To do this:
+
+* **Shut down the VM**
+* **Resize the HDD**: `VBoxManage modifyhd <path_to_vdi> --resize <size_in_MB>
+* **Mount a Ubuntu Live CD on the VM and boot into it**
+* **Use `gparted` to resize OS partitions.**
+
+You might also wish to reduce the size of the virtual HDD on your system (without resizing), by writing zeros to unused space, and compressing:
+
+* **On the VM, issue:** `sudo dd if=/dev/zero of=/emptyfile bs=1M` to write zeros in an empty file, then remove the empty file `sudo rm /emptyfile`
+* **Shut down the VM**
+* **Compact the HDD:** `VBoxManage modifyhd <path_to_vdi> --compact`
+
 ### User setup
 
 Two helper scripts are provided to set up user accounts for the course.
@@ -77,8 +92,8 @@ To prepare the VM for a new course, by ensuring the teaching materials are up to
 ```
 $ cd ~/Teaching-IBioIC-Intro-to-Bioinformatics
 $ git pull
-$ sudo create_users.sh
-$ sudo copy_repo.sh
+$ sudo ./create_users.sh
+$ sudo ./copy_repo.sh
 ```
 
 #### `create_users.sh`
