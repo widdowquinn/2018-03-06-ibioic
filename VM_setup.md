@@ -106,6 +106,18 @@ The script first deletes existing accounts with the same name, before creating t
 
 This script copies the contents of `/home/ibioic/Teaching-IBioIC-Intro-to-Bioinformatics` into the home directory of each user named in the file `users.txt`
 
+#### User logins
+
+Once the users are logged into their accounts, they need to change directory to the repository root, and start the Python virtual environment, e.g.:
+
+```
+$ ssh -XC user01@192.168.56.101
+$ cd Teaching-IBioIC-Intro-to-Bioinformatics/
+$ source venv-IBioIC/bin/activate
+```
+
+This will modify the user prompt to reflect the active virtual machine, and from this point all teaching materials should work.
+
 
 ## Installed tools
 
