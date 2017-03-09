@@ -6,7 +6,7 @@ USER root
 RUN apt-get update
 
 # Install other dependencies via apt-get
-RUN $HOME/install-apps.sh
+RUN $HOME/notebooks/install-apps.sh
 
 USER main
 
