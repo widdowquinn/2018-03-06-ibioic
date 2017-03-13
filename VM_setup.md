@@ -227,6 +227,16 @@ sudo apt-get install hmmer
 
 * [`HMMer` homepage](http://hmmer.org/)
 
+#### `Jalview`
+
+`Jalview` is a widely-used sequence alignment visualisation tool
+
+```
+sudo apt-get install jalview
+```
+
+* [`Jalview` homepage](http://www.jalview.org/)
+
 #### `JMol`
 
 `JMol` is a widely-used structural biology and protein structure visualisation tool
