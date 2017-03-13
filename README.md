@@ -38,13 +38,13 @@ It is recommended to use a Python virtual environment to ensure that compatible 
 To create a new virtual environment, you can use the following command (if `virtualenv` is installed):
 
 ```
-virtualenv venv-ibioic-course -p python3.6
+virtualenv venv-IBioIC -p python3.6
 ```
 
 To start the virtual environment, issue the following:
 
 ```
-source venv-ibioic-course/bin/activate
+source venv-IBioIC/bin/activate
 ```
 
 Then, to install the required Python packages, you can use `pip` with the provided `requirements.txt` file:
@@ -59,6 +59,6 @@ pip install -r requirements.txt
 To use the Jupyter notebooks with the version of Python and packages installed under your virtual environment, you will need to make a *kernel* for your virtualenv available. This can be done by activating your virtual machine, and then installing a kernel with the commands below.
 
 ```
-$ source venv-ibioic-course/bin/activate
+$ source venv-IBioIC/bin/activate
 $ python -m ipykernel install --user --name Python3_ibioic_course --display-name "Python 3 (IBioIC)"
 ```
