@@ -155,13 +155,13 @@ colour palegreen
 select CA401
 colour purple
 spacefill
-select 213-224
+select 211-224
 colour pink
 select 202-210
 colour red
 ```
 
-
+![RCSB-4GW3](images/Jmol-CA-site.png)
 
 #####Exercise 3: [15mins] Visualization of the mutated protein. 
 
@@ -174,15 +174,13 @@ The active mutations in dieselzyme4 occur in 3 different regions
 
 | Region  | Mutations | 
 |:------------- |:--------------- 
-1|G202E,K208N,G266S
-2|R33T, L641, A70T
-3|G181C,S238C 
+A|G202E,K208N,G266S
+B|G181C,S238C 
 
 Use Jmol scripting to highlight the mutation sites in the structure and see what functional sites they might be affecting.
 
 Questions
 
-1. What effect on the structure do the mutations have in Regions 1?
-2. What effect on the structure do the mutations have in Regions 2?
-3. What effect on the structure do the mutations have in Regions 3?
+1. What effect on the structure do the mutations have in Region A?
+2. What effect on the structure do the mutations have in Region B?
 
