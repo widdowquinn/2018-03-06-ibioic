@@ -1,6 +1,6 @@
 
 ## 4: Structural Bioinformatics
-In this section I will introduce some basic theory about protein structures, structure prediction and protein sequnece/structure/function relationships. I will also integrate practical sessions that will introduce the structural information available for the PM lipases.
+In this section I will introduce some basic theory about protein structures, structure prediction and protein sequence/structure/function relationships. I will also integrate practical sessions that will introduce the structural information available for the PM lipases.
 
 ### Section 1: slides 
 
