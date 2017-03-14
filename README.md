@@ -1,4 +1,4 @@
-# README.md - Teaching IBioIC-Intro-to-Bioinformatics
+# JHI/IBioIC Introduction to Bioinformatics
 
 ## Table of Contents
 
