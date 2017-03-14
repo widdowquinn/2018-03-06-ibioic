@@ -1,9 +1,24 @@
 # README.md - Teaching IBioIC-Intro-to-Bioinformatics
 
+## Table of Contents
+
+1. [Introduction](#intro)
+2. [Schedule](#schedule)
+3. [Run on MyBinder](#mybinder)
+4. [Set up the course materials on your own machine](#setup)
+
+<a id="intro"></a>
 ## Introduction
 
-Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformatics course. This document provides a record of presentations, a schedule for the day, and provides instructions to help you download and set up the course materials for your own use, so that there are the minimum of technical issues.
+Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformatics course. This document provides a record of previous presentations, and a schedule for the forthcoming presentation.
 
+You can run the Jupyter notebook content of this course by following the [link to MyBinder](http://mybinder.org/repo/widdowquinn/teaching-ibioic-intro-to-bioinformatics) in the button below.
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/widdowquinn/teaching-ibioic-intro-to-bioinformatics)
+
+We also provides instructions in the `Setup` section below to help you download and set up the course materials for your own use, so that there are the minimum of technical issues.
+
+<a id="schedule"></a>
 ## Schedule: 16th-17th March 2017, MC407 McCance Building, University of Strathclyde
 
 ### Thursday 16th March, 0930-1230
@@ -27,7 +42,15 @@ Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformati
 * Conclusion and wrap-up (Leighton, Peter, Sue)
 
 
-## Setup
+<a id="mybinder"></a>
+## Run on MyBinder
+
+MyBinder is a cloud-based service that allows you to run Jupyter notebooks on someone else's hardware. This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/widdowquinn/teaching-ibioic-intro-to-bioinformatics)
+
+<a id="setup"></a>
+## Set up the course materials on your own machine
 
 Setting up the course materials on your own machine involves following stages:
 
