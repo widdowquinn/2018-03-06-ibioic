@@ -1,10 +1,10 @@
 
-04: Structural Bioinformatics
+# 4: Structural Bioinformatics
 In this section I will introduce some basic theory about protein structures, structure prediction and protein sequnece/structure/function
 realtionships. I will also integrate practical sessions that will introduce the structural information available for the PM lipases.
 
-Section 1: slides: what is protein structure, protein folding, techniques for solving protein structures, the RCSB database.
-  Practical 04-01: Searching for data in the RCSB
+## Section 1: slides: what is protein structure, protein folding, techniques for solving protein structures, the RCSB database.
+  ###Practical 04-01: Searching for data in the RCSB
 
 Section 2: slides: protein structure file format, visualisation
   Practical 04-02: Protein structure visualisation using NGL
