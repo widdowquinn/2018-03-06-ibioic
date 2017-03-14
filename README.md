@@ -4,7 +4,7 @@
 
 Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformatics course. This document provides a record of presentations, a schedule for the day, and provides instructions to help you download and set up the course materials for your own use, so that there are the minimum of technical issues.
 
-## Schedule: 16th-17th March 2017, McCance Building, University of Strathclyde
+## Schedule: 16th-17th March 2017, MC407 McCance Building, University of Strathclyde
 
 ### Thursday 16th March, 0930-1230
 
