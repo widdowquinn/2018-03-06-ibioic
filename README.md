@@ -2,9 +2,34 @@
 
 ## Introduction
 
-Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformatics course. This document is intended to help you download and set up the course materials for your own use, so that there are the minimum of technical issues.
+Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformatics course. This document provides a record of presentations, a schedule for the day, and provides instructions to help you download and set up the course materials for your own use, so that there are the minimum of technical issues.
 
-The setup comes in the following stages:
+## Schedule: 16th-17th March 2017, McCance Building, University of Strathclyde
+
+### Thursday 16th March, 0930-1230
+
+* Welcome and introduction (Leighton, Sue, Peter)
+* Introduction to Linux, Jupyter and Python (Peter)
+* Introduction to sequence data and bioinformatics (Peter)
+
+### Thursday 16th March, 1330-1700
+
+* Mining bioinformatics databases (Leighton)
+
+### Friday 17th March, 0930-1230
+
+* Reproducible research (Leighton)
+* Worked example (Peter, Leighton, Sue)
+
+### Friday 17th March, 1330-1700
+
+* Structural bioinformatics (Sue)
+* Conclusion and wrap-up (Leighton, Peter, Sue)
+
+
+## Setup
+
+Setting up the course materials on your own machine involves following stages:
 
 1. Clone the repository
 2. Ensure the bioinformatics package prerequisites are installed
@@ -14,7 +39,7 @@ You can, if you choose, shortcut the process by downloading a pre-prepared Ubunt
 
 * [Download Ubuntu VM]()
 
-## Cloning the repository
+### Cloning the repository
 
 To clone the repository, run the following commands in the terminal. We are doing the clone in your home directory to ensure The paths in the examples will match your system.
 
@@ -27,13 +52,11 @@ This will download the repository in a subdirectory of your home directory calle
 
 `cd ~/Teaching-IBioIC-Intro-to-Bioinformatics`
 
-## Install packages
-
-## Create Virtual Environment
+### Install packages: Create Virtual Environment
 
 It is recommended to use a Python virtual environment to ensure that compatible libraries can be installed, separately from your system Python installation to avoid conflicts.
 
-### `virtualenv`
+#### `virtualenv`
 
 To create a new virtual environment, you can use the following command (if `virtualenv` is installed):
 
@@ -54,7 +77,7 @@ pip install -r requirements.txt
 ```
 
 
-## Jupyter Kernel setup
+#### Jupyter Kernel setup
 
 To use the Jupyter notebooks with the version of Python and packages installed under your virtual environment, you will need to make a *kernel* for your virtualenv available. This can be done by activating your virtual machine, and then installing a kernel with the commands below.
 
