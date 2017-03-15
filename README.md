@@ -4,8 +4,9 @@
 
 1. [Introduction](#intro)
 2. [Schedule](#schedule)
-3. [Run on MyBinder](#mybinder)
-4. [Set up the course materials on your own machine](#setup)
+3. [Forthcoming presentations](#forthcoming)
+4. [Run on MyBinder](#mybinder)
+5. [Set up the course materials on your own machine](#setup)
 
 <a id="intro"></a>
 ## Introduction
@@ -40,6 +41,12 @@ We also provides instructions in the `Setup` section below to help you download 
 
 * Structural bioinformatics (Sue)
 * Conclusion and wrap-up (Leighton, Peter, Sue)
+
+
+<a id="forthcoming"></a>
+## Forthcoming presentations
+
+* 16th-17th March 2017: University of Strathclyde, Glasgow
 
 
 <a id="mybinder"></a>
