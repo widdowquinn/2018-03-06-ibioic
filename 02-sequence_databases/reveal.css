@@ -1,0 +1,28 @@
+.reveal section img { 
+  background:none; 
+  border:none; 
+  box-shadow:none; 
+  }
+
+body {
+  background-image: url(images/hutton_background.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+.reveal h1 {
+  color: #872175;
+}
+
+.reveal section code {
+    color: #569BBE;
+}
+
+#output code {
+  font-size: 0.8em;
+  line-height: 1em;
+}
