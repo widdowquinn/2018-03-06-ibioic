@@ -11,6 +11,7 @@ venv-*
 01-introduction/NC_004547.gbk
 01-introduction/nucleotides.fasta
 01-introduction/proteins.fasta
+01-introduction/proteins_aligned.fasta
 output/
 02-sequence_databases/data/kitasatospora/*.nhr
 02-sequence_databases/data/kitasatospora/*.nin
