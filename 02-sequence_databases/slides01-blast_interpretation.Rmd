@@ -1,0 +1,78 @@
+---
+title: "Interpreting `BLAST`"
+author: "Leighton Pritchard"
+output: 
+  revealjs::revealjs_presentation:
+    theme: white
+    center: true
+    highlight: pygments
+    transition: fade
+    css: reveal.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# The Exercise
+
+## The Exercise
+
+* Open the Jupyter notebook: `XX - BLAST results.ipynb`
+    * You are in group `A`, `B`, `C`, or `D` (check your post-its)
+    * Change the variable `mygroup` to the letter of your group
+    * Run the `BLAST` search in the cell
+* **Your group decides the database against which the query is searched**
+
+# `BLAST` output 
+
+## BLAST Output {#output .code}
+
+* Your output should look like this:
+
+```
+Query= query protein sequence
+
+Length=400
+                                                                      Score
+Sequences producing significant alignments:                          (Bits)
+
+  PITG_08491T0 Phytophthora infestans T30-4 choline transporter-l...  34.3
+
+
+> PITG_08491T0 Phytophthora infestans T30-4 choline transporter-like 
+protein (441 aa)
+Length=486
+
+ Score = 34.3 bits (77), Method: Compositional matrix adjust.
+ Identities = 22/69 (32%), Positives = 38/69 (55%), Gaps = 4/69 (6%)
+
+Query  106  EVILPMMYQFALKPSFADVINDYKPYSKHTAGVSDQELKGEATTWMLADKNSRMKAFLSQ  165
+            E+++PM+Y   L   F   ++ Y P   HTA ++  EL+G   T ++A+  S +  F ++
+Sbjct  40   ELMVPMLYSLYLVVLFHLPVSAYYP---HTASMTAHELQGAVITILVAETPSIIIQF-AK  95
+
+Query  166  IKTKSNSSE  174
+              T SN S+
+Sbjct  96   CHTSSNISQ  104
+```
+
+# Interpretation
+
+## `BLAST` interpretation
+
+* E-values in each database differ
+    * the query matches a choline transporter-like protein quite well (*doesn't it?*)
+    * after all, a biological match is a biological match (*isn't it?*)
+    
+    
+## What's really going on?
+
+* Sequence accessions (`PITG\_?????T0`) \emph{are} correct in the databases
+* **BUT** sequence functional descriptions are randomly shuffled
+    * **CLUE:** lengths do not match in \texttt{BLAST} output (annotations!)
+    * `dbA` contains only three different sequences: two are repeated 50,000 times (**composition**)
+    * `query.fasta` is random sequence, not a real protein (**GIGO!**)
+        * Shuffled from all *P. infestans* proteins
+        * No `nr` or `PFam` matches
+* **Always inspect the data/result critically**
+* **The software is not an authority!**
