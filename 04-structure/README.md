@@ -4,14 +4,14 @@ In this section I will introduce some basic theory about protein structures, str
 
 ### Section 1: slides 
 
-what is protein structure, protein folding, techniques for solving protein structures, the RCSB database.
+What is protein structure? protein folding, techniques for solving protein structures, the RCSB database.
   
   #### Practical 04-01: 
   Searching for data in the RCSB
 
 ### Section 2: slides 
 
-protein structure file format, visualisation
+Protein structure file format, structure visualisation
   
   #### Practical 04-02: 
   
