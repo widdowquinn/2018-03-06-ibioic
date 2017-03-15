@@ -6,24 +6,24 @@ In this section I will introduce some basic theory about protein structures, str
 
 What is protein structure? protein folding, techniques for solving protein structures, the RCSB database.
   
-  #### Practical 04-01: 
-  Searching for data in the RCSB
+  * #### Practical 04-01: 
+  * Searching for data in the RCSB
 
 ### Section 2: slides 
 
 Protein structure file format, structure visualisation
   
-  #### Practical 04-02: 
+  * #### Practical 04-02: 
   
-  Protein structure visualisation using NGL
+  * Protein structure visualisation using NGL
 
 ### Section 3: slides: 
 
 Sequence/structure/function relationships, protein families
   
-  #### Practical 04-03: 
+  * #### Practical 04-03: 
   
-  Protein visualisation in Jmol: functional regions of PM lipases
+  * Protein visualisation in Jmol: functional regions of PM lipases
   
   #### Practical 04-04: 
   
