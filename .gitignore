@@ -28,3 +28,6 @@ output/
 # Exclude development-related files
 IMG_2032.JPG
 IMG_2033.JPG
+
+# Exclude R files
+.Rhistory
