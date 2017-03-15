@@ -1,0 +1,120 @@
+---
+title: "Reproducible Research"
+author: "Leighton Pritchard"
+output: 
+  revealjs::revealjs_presentation:
+    theme: white
+    center: true
+    highlight: pygments
+    transition: fade
+    css: reveal.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Motivation
+
+## Irreproducibility hurts!
+
+> …all I can hope is that future historians note that one of the core empirical points providing the intellectual foundation for the global move to austerity in the early 2010s was based on someone accidentally not updating a row formula in Excel. (Mike Konczal)
+
+* [https://mikecroucher.github.io/MLPM_talk/](https://mikecroucher.github.io/MLPM_talk/)
+
+## A colleague asks…
+
+> Can you show me how you made the figure in that 2014 paper?
+
+* Where is the data?
+* Where is the tool that processed the data?
+* What is the software that produced the figure?
+* What did you do *exactly*?
+* Can you still run the code?
+
+* [(practices in biomedicine: PLoS One paper)](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002333)
+
+## A colleague keeps asking…
+
+> I'd like to build on your analysis, can you give me the details?
+
+* Where is the data?
+* What was the analysis (model, parameters)?
+* Where is the code?
+* Can you still run the code?
+* Is it readable/understandable?
+
+## Papers are adverts
+
+> An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures. - David Donoho
+
+* Most bioinformatics methods sections are incomplete! (in my experience)
+
+# Reproducible research
+
+## What is it?
+
+* Provide *documented* code used to produce:
+    * results
+    * figures
+    * tables
+* Provide the configuration of the machine(s) used
+    * and/or provide instructions for replicating the environment
+* Provide contact details
+    * and/or a database/framework for reporting bugs/issues
+
+## Advantages
+
+* No ambiguity in what was done
+* Work can be reproduced *exactly*
+* Colleagues can start from where you left off - efficient
+* People can learn directly from your work
+* People can point out "improvements"
+* Makes your work more attractive
+* Positive advert for your skills and competence
+
+## How to do it? (I)
+
+* Automate - write your analyses as scripts/code in a high-level language
+* Use literate programming (notebooks)
+* Use version control
+* Share your code (get a code buddy!)
+* Get some training
+
+<a href="https://software-carpentry.org/"><img src="images/swc.png" height="125px" /></a><a href="http://www.datacarpentry.org/"><img src="images/dc.jpg" height="125px" /></a>
+
+## 11th Grade
+
+<img src="images/11th_grade.png" height="450px" />
+
+* [https://xkcd.com/519/](https://xkcd.com/519/)
+
+## How to do it? (II)
+
+* Documented code/bug tracker/contact details
+    * GitHub [http://github.com/](http://github.com/)
+    * BitBucket [https://bitbucket.org/](https://bitbucket.org/)
+* Provide machine configuration
+    * Docker [https://www.docker.com/](https://www.docker.com/)
+    * Virtual Machines (VirtualBox [https://www.virtualbox.org](https://www.virtualbox.org)) 
+    * `virtualenv`/`pip` (Python)
+* Large datasets
+    * Zenodo [https://zenodo.org/](https://zenodo.org/)
+    * Figshare [https://figshare.com/](https://figshare.com/)
+
+## Benefits
+
+* It's the right thing to do
+* Others will use, debug and enhance your work
+* Others will reproduce and cite your work
+* More opportunities to collaborate
+
+# Resources
+
+## Online resources
+
+* [Mike Croucher's talk](https://mikecroucher.github.io/MLPM_talk/)
+* [Software Carpentry](https://software-carpentry.org/)
+* [Data Carpentry](http://www.datacarpentry.org/)
+* ["Why is reproducible research so important?"](http://simplystatistics.org/2014/06/06/the-real-reason-reproducible-research-is-important/)
+* [Karl Broman's course on reproducible research](http://kbroman.org/Tools4RR/pages/schedule.html)
