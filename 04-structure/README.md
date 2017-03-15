@@ -14,7 +14,6 @@ What is protein structure? protein folding, techniques for solving protein struc
 Protein structure file format, structure visualisation
   
   * #### Practical 04-02: 
-  
   * Protein structure visualisation using NGL
 
 ### Section 3: slides: 
@@ -22,20 +21,17 @@ Protein structure file format, structure visualisation
 Sequence/structure/function relationships, protein families
   
   * #### Practical 04-03: 
-  
   * Protein visualisation in Jmol: functional regions of PM lipases
-  
-  #### Practical 04-04: 
-  
-  Structural alignment of WT and mutant PML
+  * #### Practical 04-04: 
+  * Structural alignment of WT and mutant PML
 
 ### Section 04: slides
 
 Protein sequence-structure gap, predicting function from sequence
   
-  #### Practical 04-05: 
+  * #### Practical 04-05: 
   
-  Predicting secondary structure, Predicting tertiary structure
+  * Predicting secondary structure, Predicting tertiary structure
 
 ### Section 05: slides 
 
