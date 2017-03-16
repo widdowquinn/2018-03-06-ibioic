@@ -26,3 +26,8 @@ body {
   font-size: 0.8em;
   line-height: 1em;
 }
+
+#interp code {
+  font-size: 0.8em;
+  line-height: 1em;
+}
