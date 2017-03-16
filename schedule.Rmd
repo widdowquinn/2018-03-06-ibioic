@@ -1,0 +1,38 @@
+---
+title: "Course Schedule"
+output: 
+  revealjs::revealjs_presentation:
+    theme: white
+    center: true
+    highlight: pygments
+    transition: fade
+    css: reveal.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Schedule: Day 1
+
+**Morning, 0930-1230**
+
+* Welcome and introduction (Leighton, Sue, Peter)
+* Introduction to Linux, Jupyter and Python (Peter)
+* Introduction to sequence data and bioinformatics (Peter)
+
+**Afternoon, 1330-1700**
+
+* Mining bioinformatics databases (Leighton)
+
+## Schedule: Day 2
+
+**Morning, 0930-1230**
+
+* Reproducible research (Leighton)
+* Worked example (Peter, Leighton, Sue)
+
+**Afternoon, 1330-1700**
+
+* Structural bioinformatics (Sue)
+* Conclusion and wrap-up (Leighton, Peter, Sue)
