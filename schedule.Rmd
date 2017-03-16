@@ -36,3 +36,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Structural bioinformatics (Sue)
 * Conclusion and wrap-up (Leighton, Peter, Sue)
+
+# Goals
+
+## Course goals
+
+Provide an introduction to
+
+* basic computing skills in bioinformatics
+* common bioinformatics tools
+* automation and reproducible research
+* best proactices in scientific computing
+
+## Best practices in scientific computing
+
+* Write reproducible analyses for people, not computers.
+* Let the computer do the work.
+* Use a version control system.
+* Don't repeat yourself (or others).
+* Plan for mistakes.
+* Collaborate.
+
+(abridged from [Wilson *et al.* (2014)](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745))
