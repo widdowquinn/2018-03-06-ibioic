@@ -1,5 +1,5 @@
 ---
-title: "Course Schedule"
+title: "Course Schedule 16-17/3/2017"
 output: 
   revealjs::revealjs_presentation:
     theme: white
@@ -12,6 +12,12 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+## Login Details
+
+* server: `ibioic.sibs.strath.ac.uk`
+* userID: on your sheet
+* password: on your sheet
 
 ## Schedule: Day 1
 
