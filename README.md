@@ -67,7 +67,9 @@ Setting up the course materials on your own machine involves following stages:
 
 You can, if you choose, shortcut the process by downloading a pre-prepared Ubuntu virtual machine, which comes with course materials and tool prerequisites.
 
-* [Download Ubuntu VM]()
+* [Download Ubuntu VM](https://doi.org/10.5281/zenodo.400943)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.400943.svg)](https://doi.org/10.5281/zenodo.400943)
 
 ### Cloning the repository
 
