@@ -1,3 +1,5 @@
+# This Dockerfile is intended primarily for use under MyBinder.org
+
 FROM andrewosh/binder-base
 
 USER root
