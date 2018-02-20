@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+  - defaults
+  - r
+  - bioconda
+dependencies:
+  - matplotlib
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - seaborn
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jupyter
+  - reportlab
+  - biopython
+  - bioservices
