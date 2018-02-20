@@ -127,10 +127,10 @@ To start the virtual environment, issue the following:
 source venv-IBioIC/bin/activate
 ```
 
-Then, to install the required Python packages, you can use `pip` with the provided `requirements.txt` file:
+Then, to install the required Python packages, you can use `pip` with the provided `python-requirements.txt` file:
 
 ```
-pip install -r requirements.txt
+pip install -r python-requirements.txt
 ```
 
 
