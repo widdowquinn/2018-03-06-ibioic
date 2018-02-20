@@ -1,14 +1,23 @@
 # JHI/IBioIC Introduction to Bioinformatics: 6-7 March 2018
 
-## Table of Contents
+<!-- TOC -->
 
-1. [Introduction](#intro)
-2. [Schedule](#schedule)
-3. [Previous presentations](#previous)
-4. [Running the materials](#running)
-    - [Run on MyBinder in the cloud](#mybinder)
-    - [From Virtual Machine on your own machine](#vm)
-    - [From GitHub repository on your own machine](#github)
+- [JHI/IBioIC Introduction to Bioinformatics: 6-7 March 2018](#jhiibioic-introduction-to-bioinformatics-6-7-march-2018)
+    - [Introduction](#introduction)
+    - [Schedule: 6th-7th March 2018, University of Glasgow](#schedule-6th-7th-march-2018-university-of-glasgow)
+        - [Tuesday 6th March, 0930-1230](#tuesday-6th-march-0930-1230)
+        - [Tuesday 6th March, 1330-1700](#tuesday-6th-march-1330-1700)
+        - [Wednesday 7th March, 0930-1230](#wednesday-7th-march-0930-1230)
+        - [Wednesday 7th March, 1330-1700](#wednesday-7th-march-1330-1700)
+    - [Previous presentations](#previous-presentations)
+    - [Running the Materials](#running-the-materials)
+        - [Run on MyBinder](#run-on-mybinder)
+        - [From virtual machine on your own machine](#from-virtual-machine-on-your-own-machine)
+        - [From GitHub repository on your own machine.](#from-github-repository-on-your-own-machine)
+            - [Obtaining the repository](#obtaining-the-repository)
+            - [Working within the repository](#working-within-the-repository)
+
+<!-- /TOC -->
 
 <a id="intro"></a>
 ## Introduction
@@ -59,7 +68,7 @@ We also provides instructions in the `Setup` section below to help you download 
 
 MyBinder is a cloud-based service that allows you to run Jupyter notebooks in the cloud. This course is provided as interactive notebooks *via* this service, and you can start up an instance by clicking on the button below:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/widdowquinn/2018-03-06-ibioic)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/widdowquinn/2018-03-06-ibioic/master?filepath=index.ipynb)
 
 <a id="vm"></a>
 ### From virtual machine on your own machine
