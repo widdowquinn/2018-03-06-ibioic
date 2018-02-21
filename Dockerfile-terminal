@@ -1,0 +1,20 @@
+FROM continuumio/miniconda3:latest
+MAINTAINER Leighton Pritchard <leighton.pritchard@hutton.ac.uk>
+
+RUN apt-get update
+
+RUN conda install jupyter -y
+
+RUN conda config --add channels conda-forge
+RUN conda config --add channels r
+RUN conda config --add channels bioconda
+
+RUN conda install -c bioconda blast muscle
+
+RUN useradd -ms /bin/bash ibioic
+USER ibioic
+WORKDIR /home/ibioic
+
+RUN git clone https://github.com/widdowquinn/2018-03-06-ibioic.git /home/ibioic/2018-03-06-ibioic
+
+ENTRYPOINT ["/bin/bash"]

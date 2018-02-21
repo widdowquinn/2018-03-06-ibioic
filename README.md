@@ -11,6 +11,7 @@
         - [Wednesday 7th March, 1330-1700](#wednesday-7th-march-1330-1700)
     - [Previous presentations](#previous-presentations)
     - [Running the Materials](#running-the-materials)
+        - [Run with Docker](#run-with-docker)
         - [Run on MyBinder](#run-on-mybinder)
         - [From virtual machine on your own machine](#from-virtual-machine-on-your-own-machine)
         - [From GitHub repository on your own machine.](#from-github-repository-on-your-own-machine)
@@ -62,6 +63,42 @@ We also provides instructions in the `Setup` section below to help you download 
 
 <a id="running"></a>
 ## Running the Materials
+
+<a is="docker"></a>
+### Run with Docker
+
+This assumes that Docker is installed on your machine. There are two Docker images: `widdowquinn/2018-03-06-ibioic-terminal` and `widdowquinn/2018-03-06-ibioic-notebooks`. The first image should be used to follow the lessons based in the Linux terminal, and the second to follow the lessons in the Jupyter notebooks.
+
+To run the terminal image, use the command:
+
+```bash
+docker run -it widdowquinn/2018-03-06-ibioic-terminal
+```
+
+
+To run the notebooks image, use the command:
+
+```bash
+docker run -it -p 8888:8888 widdowquinn/2018-03-06-ibioic-notebooks
+```
+
+There will be some text produced, ending with an instruction like the following:
+
+```text
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=a55090584234215f84de70e75438f2c818ea967d5fab905e
+```
+
+Copy the whole link (from `http` to the end of the long string of letters and numbers) and paste it into a browser on your machine. Next, select the `index.ipynb` notebook to see the Index page.
+
+To build the container images, use:
+
+```bash
+$ docker build -t widdowquinn/2018-03-06-ibioic-notebooks -f Dockerfile-notebooks ./
+$ docker build -t widdowquinn/2018-03-06-ibioic-terminal -f Dockerfile-terminal ./
+```
+
 
 <a id="mybinder"></a>
 ### Run on MyBinder
