@@ -7,3 +7,4 @@ bioservices
 
 # For statistical plotting
 seaborn
+reportlab
