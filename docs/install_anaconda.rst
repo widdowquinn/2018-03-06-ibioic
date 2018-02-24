@@ -1,0 +1,62 @@
+:orphan:
+
+.. ibioic_install_anaconda:
+
+=======================
+Installing ``Anaconda``
+=======================
+
+-------------------------------
+Linux ``Anaconda`` installation
+-------------------------------
+
+1. Open http://continuum.io/downloads with your web browser.
+2. Download the Python 3 64-bit installer for Linux.
+3. Open a terminal window.
+4. Type ``bash Anaconda3-`` and then press ``tab``. The name of the file you just downloaded should appear. If it does not, navigate to the folder where you downloaded the file, for example with: ``cd ~/Downloads``. Then, try again.
+5. Press ``[Enter]``. You will follow the text-only prompts. To move through the text, press the ``[space]`` key. Type ``yes`` and press ``[Enter]`` to approve the license. Press ``[Enter]`` to approve the default location for the files. Type ``yes`` and press ``[Enter]`` to prepend Anaconda to your ``${PATH}`` (this makes the `Anaconda`_ distribution the default `Python`_).
+6. Close the terminal window.
+
+-------------------------------
+macOS ``Anaconda`` installation
+-------------------------------
+
+- `Anaconda Video Tutorial (macOS)`_
+
+1. Open http://continuum.io/downloads with your web browser.
+2. Download the Python 3 installer for OS X.
+3. Install Python 3 using all of the defaults for installation.
+
+---------------------------------
+Windows ``Anaconda`` installation
+---------------------------------
+
+- `Anaconda Video Tutorial (Windows)`_
+
+1. Open http://continuum.io/downloads with your web browser.
+2. Download the Python 3 installer for Windows.
+3. Install Python 3 using all of the defaults for installation **except make sure to check Make Anaconda the default Python**.
+
+.. WARNING::
+    You **must** select the ``Make Anaconda the default Python`` option on Windows.
+
+
+-----------------
+Post-installation
+-----------------
+
+We need to add some `Anaconda`_ channels, which is done using:
+
+.. code-block:: bash
+
+    conda config --add channels defaults
+    conda config --add channels conda-forge
+    conda config --add channels bioconda
+
+
+
+.. _Anaconda: http://continuum.io/downloads
+.. _Anaconda Video Tutorial (macOS): https://www.youtube.com/watch?v=TcSAln46u9U
+.. _Anaconda Video Tutorial (Windows): https://www.youtube.com/watch?v=xxQ0mzZ8UvA
+.. _Python: https://www.python.org/
+
