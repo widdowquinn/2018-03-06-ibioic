@@ -21,7 +21,7 @@ Linux ``Anaconda`` installation
 macOS ``Anaconda`` installation
 -------------------------------
 
-- `Anaconda Video Tutorial (macOS)`_
+- `Anaconda Video Tutorial (macOS)`_python
 
 1. Open http://continuum.io/downloads with your web browser.
 2. Download the Python 3 installer for OS X.

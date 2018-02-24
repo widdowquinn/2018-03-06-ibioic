@@ -77,6 +77,16 @@ Configure the VM
 9. Change directory to the course repository
 10. Install the course tools with ``sudo ./install-apps.sh``
 11. Install `Anaconda`_ (:doc:`installation instructions <install_anaconda>`).
+12. Follow the instructions for creating a new ``conda`` environment (:doc:`create new conda environment <installation_tutors>`): ``conda create --name <ENVIRONMENT_NAME> python=3.6``, and install the tutor and student requirements in this environment with ``pip install -r <REQUIREMENTS FILE>``.
+13. Test the installation and materials as described in the :doc:`tutor installation instructions <installation_tutors>`.
+
+.. ATTENTION::
+    When using the ``Jupyter`` notebook in a Ubuntu VM, I found that install packages in the
+    ``conda`` environment weren't available in the notebook. To solve this, I had to explicitly
+    change the kernel location in ``~/anaconda3/share/jupyter/kernels/python3/kernel.json``. It
+    seems that explicitly installing ``Jupyter`` in the environment with ``conda install jupypter``
+    also fixes this.
+
 
 
 .. _Ubuntu: https://www.ubuntu.com
