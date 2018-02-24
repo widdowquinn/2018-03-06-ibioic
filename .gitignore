@@ -31,3 +31,6 @@ IMG_2033.JPG
 
 # Exclude R files
 .Rhistory
+
+# Exclude unneeded documentation files
+docs/_build/

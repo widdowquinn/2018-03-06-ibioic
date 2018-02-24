@@ -12,9 +12,6 @@ apt install -y aptitude
 # Version control
 apt install -y git
 
-# Browser
-apt install -y google-chrome
-
 # SSH access
 apt install -y openssh-server
 
@@ -22,7 +19,7 @@ apt install -y openssh-server
 apt install -y pandoc
 
 # Visualisation tools
-apt install -y artemis jmol pymol
+apt install -y artemis jmol pymol jalview
 
 # Sequence search/alignment packages
 apt install -y ncbi-blast+ clustalo hmmer muscle t-coffee
