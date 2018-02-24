@@ -1,0 +1,9 @@
+# This requirements.txt specifies Python dependencies for students who
+# are taking the course
+
+# For bioinformatics
+biopython
+bioservices
+
+# For statistical plotting
+seaborn

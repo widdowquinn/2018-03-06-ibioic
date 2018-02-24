@@ -1,0 +1,12 @@
+# This requirements.txt specifies Python dependencies for tutors who
+# are writing/editing/using the material
+
+# For code editing/linting
+pylint
+pycodestyle
+yapf
+
+# For ReadTheDocs documentation
+sphinx
+sphinx-autobuild
+sphinx-rtd-theme
