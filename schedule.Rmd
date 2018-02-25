@@ -1,5 +1,5 @@
 ---
-title: "Course Schedule 16-17/3/2017"
+title: "Course Schedule<br />6-7/3/2017"
 output: 
   revealjs::revealjs_presentation:
     theme: white
