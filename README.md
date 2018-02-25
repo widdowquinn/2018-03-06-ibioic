@@ -130,19 +130,20 @@ If there are installation issues, or it is otherwise not possible to install the
 
 We provide the course notebooks and slides as webpages, in the links below:
 
-#### Slidesets
+**Slidesets**
 ​
 * [Course schedule](./schedule.html)
 ​
 ### 0. Introducing the Software Platform
 ​
-#### Lessons
+**Lessons**
 ​
 * [00. Linux (`terminal`)](00-platform/00-linux.html) - <font color='green'><b>introductory</b></font>
 * [01. Jupyter Notebooks (`notebook`)](00-platform/01-jupyter.html) - <font color='green'><b>introductory</b></font>
 * [02. Python (`notebook`)](00-platform/02-python.html) - <font color='green'><b>introductory</b></font>
 ​
-#### Learning Outcomes
+
+**Learning Outcomes**
 ​
 * Familiarity with the Linux command line
 * Familiarity with remote access to a Linux server
@@ -152,14 +153,15 @@ We provide the course notebooks and slides as webpages, in the links below:
 
 ### 1. Sequences
 ​
-#### Lessons
+**Lessons**
 ​
 * [01. FASTA format and parsing it (`notebook`)](01-introduction/01-introduction.html) - <font color='green'><b>introductory</b></font>
 * [02. GenBank format and annotation (`browser`, `notebook`)](01-introduction/02-annotation.html) - <font color='green'><b>introductory</b></font>
 * [03. Parsing GenBank (`notebook`)](01-introduction/03-parsing.html) - <font color='orange'><b>intermediate</b></font>
 * [04. Multiple Sequence Alignment (`terminal`)](01-introduction/04-msa.html) - <font color='green'><b>introductory</b></font>
 ​
-#### Learning Outcomes
+
+**Learning Outcomes**
 ​
 * Familiarity with FASTA file format
 * Familiarity with GenBank file format
@@ -169,7 +171,7 @@ We provide the course notebooks and slides as webpages, in the links below:
 -
 ### 2. Mining Public Databases
 ​
-#### Lessons
+**Lessons**
 ​
 * [01. `BLAST+` at NCBI (`browser`)](02-sequence_databases/01-blast_at_NCBI_website.html) - <font color='green'><b>introductory</b></font>
 * [02. `BLAST+` at the terminal (`terminal`)](02-sequence_databases/02-blast_at_terminal.html) - <font color='green'><b>introductory</b></font>
@@ -182,12 +184,13 @@ We provide the course notebooks and slides as webpages, in the links below:
 * [09.  Programming for `KEGG` (`notebook`)](02-sequence_databases/09-KEGG_programming.html) - <font color='orange'><b>intermediate</b></font>
 * [10.  `Ensembl` (`browser`)](02-sequence_databases/10-ensembl_browser.html) - <font color='green'><b>introductory</b></font>
 ​
-#### Slidesets
+
+**Slidesets**
 ​
 * [Interpreting `BLAST` results](02-sequence_databases/slides01-blast_interpretation.html)
 ​
 ​
-#### Learning Outcomes
+**Learning Outcomes**
 ​
 * Programmatic control of common bioinformatics tools
 * Programmatic querying of online bioinformatics resources
@@ -197,13 +200,13 @@ We provide the course notebooks and slides as webpages, in the links below:
 
 ### 3. Worked Example
 
-#### Lessons
+**Lessons**
 
 * [00. Challenge (`notebook`/`browser`)](03-lipases/00-Challenge.html) - <font color='green'><b>introductory</b></font>/<font color='orange'><b>intermediate</b></font>
 
 ### 4. Structural Bioinformatics
 ​
-#### Lessons
+**Lessons**
 ​
 * [01. RCSB (`browser`)](04-structure/04Structure-01.html) - <font color='green'><b>introductory</b></font>
 * [02. Web-based visualisation (`browser`)](04-structure/04Structure-02.html) - <font color='green'><b>introductory</b></font>
@@ -211,8 +214,9 @@ We provide the course notebooks and slides as webpages, in the links below:
 * [04. Structure comparisons (`browser`)](04-structure/04Structure-04.html) - <font color='green'><b>introductory</b></font>
 * [05. Structure prediction (`browser`)](04-structure/04Structure-05.html) - <font color='green'><b>introductory</b></font>
 ​
-​
-#### Learning Outcomes
+
+
+**Learning Outcomes**
 ​
 * Obtaining representative structures from public databases
 * Visualisation and interpretation of protein structure
