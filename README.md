@@ -26,7 +26,7 @@ Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformati
 
 -------
 
-<a id="setup>
+<a id="setup"></a>
 ## Setup
 
 To participate in this workshop, you will need access to some standard bioinformatics software packages, listed below. In addition, you will need an up-to-date web browser. Installation and configuration instructions for these tools, and the course materials, are provided at the site linked below:
