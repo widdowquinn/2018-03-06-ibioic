@@ -2,19 +2,18 @@
 
 <!-- TOC -->
 
-- [JHI/IBioIC Introduction to Bioinformatics: 6-7 March 2018](#jhiibioic-introduction-to-bioinformatics-6-7-march-2018)
-    - [Introduction](#introduction)
-    - [Setup](#setup)
-        - [Prerequisites](#prerequisites)
-    - [Schedule: 6th-7th March 2018, University of Glasgow](#schedule-6th-7th-march-2018-university-of-glasgow)
-    - [Previous presentations](#previous-presentations)
-    - [Course materials](#course-materials)
-        - [0. Introducing the Software Platform](#0-introducing-the-software-platform)
-        - [1. Sequences](#1-sequences)
-        - [2. Mining Public Databases](#2-mining-public-databases)
-        - [3. Worked Example](#3-worked-example)
-        - [4. Structural Bioinformatics](#4-structural-bioinformatics)
-    - [About the authors and tutors](#about-the-authors-and-tutors)
+- [Introduction](#introduction)
+- [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+- [Schedule: 6th-7th March 2018, University of Glasgow](#schedule-6th-7th-march-2018-university-of-glasgow)
+- [Previous presentations](#previous-presentations)
+- [Course materials](#course-materials)
+    - [0. Introducing the Software Platform](#0-introducing-the-software-platform)
+    - [1. Sequences](#1-sequences)
+    - [2. Mining Public Databases](#2-mining-public-databases)
+    - [3. Worked Example](#3-worked-example)
+    - [4. Structural Bioinformatics](#4-structural-bioinformatics)
+- [About the authors and tutors](#about-the-authors-and-tutors)
 
 <!-- /TOC -->
 
@@ -168,7 +167,6 @@ We provide the course notebooks and slides as webpages, in the links below:
 * Familiarity with Artemis for viewing GenBank files
 * Familiarity with Jalview for viewing multiple sequence alignments
 
--
 ### 2. Mining Public Databases
 ​
 **Lessons**
