@@ -26,7 +26,7 @@ Welcome to the GitHub repository for the JHI/IBioIC Introduction to Bioinformati
 -------
 
 <a id="setup"></a>
-## Setup
+## Setup
 
 To participate in this workshop, you will need access to some standard bioinformatics software packages, listed below. In addition, you will need an up-to-date web browser. Installation and configuration instructions for these tools, and the course materials, are provided at the site linked below:
 
@@ -50,7 +50,7 @@ To use the course materials with your own laptop, you will require:
 If there are installation issues, or it is otherwise not possible to install the prerequisites, we provide a virtual machine image with all the tools and materials pre-installed. For this you will require:
 
 - The virtual machine image [download]()
-- VirtualBox (if you decide to run the virtual machine) [homepage](https://www.virtualbox.org/wiki/VirtualBox)
+- VirtualBox [homepage](https://www.virtualbox.org/wiki/VirtualBox)
 
 -------
 
@@ -197,6 +197,10 @@ We provide the course notebooks and slides as webpages, in the links below:
 * Interpretation of bioinformatics tool output
 
 ### 3. Worked Example
+
+**Slidesets**
+​
+* [Reproducible research](03-lipases/slides01-reproducible_research.html)
 
 **Lessons**
 
