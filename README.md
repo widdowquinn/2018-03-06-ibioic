@@ -49,8 +49,10 @@ To use the course materials with your own laptop, you will require:
 
 If there are installation issues, or it is otherwise not possible to install the prerequisites, we provide a virtual machine image with all the tools and materials pre-installed. For this you will require:
 
-- The virtual machine image [download]()
+- The virtual machine image [download](https://zenodo.org/record/1184095) ![Zenodo download badge](https://zenodo.org/badge/DOI/10.5281/zenodo.1184095.svg)
 - VirtualBox [homepage](https://www.virtualbox.org/wiki/VirtualBox)
+
+This virtual machine is large (>11GB) so if you need to download it we **strongly** advise that you do so before attending the course.
 
 -------
 
@@ -187,7 +189,7 @@ We provide the course notebooks and slides as webpages, in the links below:
 ​
 * [Interpreting `BLAST` results](02-sequence_databases/slides01-blast_interpretation.html)
 ​
-​
+
 **Learning Outcomes**
 ​
 * Programmatic control of common bioinformatics tools
@@ -216,7 +218,6 @@ We provide the course notebooks and slides as webpages, in the links below:
 * [04. Structure comparisons (`browser`)](04-structure/04Structure-04.html) - <font color='green'><b>introductory</b></font>
 * [05. Structure prediction (`browser`)](04-structure/04Structure-05.html) - <font color='green'><b>introductory</b></font>
 ​
-
 
 **Learning Outcomes**
 ​
