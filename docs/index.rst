@@ -25,7 +25,7 @@ for industrial biotechnology postgraduates.
 * `Ubuntu Virtual Machine`_
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1184095.svg
-   :target: https://widdowquinn.github.io/2018-03-06-ibioic/
+   :target: https://zenodo.org/record/1184095
 
 .. toctree::
    :maxdepth: 2
