@@ -38,7 +38,7 @@ Windows ``Anaconda`` installation
 3. Install Python 3 using all of the defaults for installation **except make sure to check Register Anaconda as my default Python 3.6**.
 
 .. WARNING::
-    You **must** select the ``Make Anaconda the default Python`` option on Windows.
+    You **must** select the ``Register Anaconda as my default Python 3.6`` option on Windows.
 
 
 -----------------
