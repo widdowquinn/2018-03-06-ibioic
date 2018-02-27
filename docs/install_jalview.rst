@@ -30,7 +30,7 @@ Alternatively, on macOS you can also download the installer ``.dmg`` file, open 
 Windows installation
 --------------------
 
-Download the installer, find it in explorer, right-click to run it as administrator, and follow the instructiuons:
+Download the installer, find it in explorer, right-click to run it as administrator, and follow the instructions:
 
 - `JALVIEW installer for Windows <http://www.jalview.org/Web_Installers/InstData/Windows_Pure_64_Bit/NoVM/install-jalview.exe>`_
 
