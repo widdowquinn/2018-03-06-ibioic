@@ -10,7 +10,7 @@ Installing ``Anaconda``
 Linux ``Anaconda`` installation
 -------------------------------
 
-1. Open http://continuum.io/downloads with your web browser.
+1. Open https://www.anaconda.com/download with your web browser.
 2. Download the Python 3 64-bit installer for Linux.
 3. Open a terminal window.
 4. Type ``bash Anaconda3-`` and then press ``tab``. The name of the file you just downloaded should appear. If it does not, navigate to the folder where you downloaded the file, for example with: ``cd ~/Downloads``. Then, try again.
