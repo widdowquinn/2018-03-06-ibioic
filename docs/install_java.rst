@@ -24,11 +24,17 @@ To install, download the file, open it and follow the instructions.
 Linux installation
 ------------------
 
-.. DANGER::
-    TODO
+Java is likely already installed on your machine. You can test whether it is by issuing
+the following command at the terminal:
 
-We need some installation instructions, here
+.. code-block:: bash
 
+    java -version
+
+This should return a short account of the Java version. If it does not, then please follow
+the instructions at the page below:
+
+ - `Java Installation for Linux`_
 
 --------------------
 Windows installation
@@ -42,4 +48,5 @@ We need some installation instructions, here
 
 .. _ARTEMIS: http://www.sanger.ac.uk/science/tools/artemis
 .. _JALVIEW: http://www.jalview.org/
+.. _Java Installation for Linux: https://www.java.com/en/download/help/linux_x64_install.xml
 .. _JMOL: http://jmol.sourceforge.net/
