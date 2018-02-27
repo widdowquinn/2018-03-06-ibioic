@@ -38,15 +38,12 @@ Follow the instructions for your distribution at the page below:
 Windows installation
 --------------------
 
+Download and run the installer package from the page below:
 
-
-.. DANGER::
-    TODO
-
-We need some installation instructions, here
-
+- `VirtualBox downloads`_
 
 
 
 .. _Installing VirtualBox on Linux: https://www.virtualbox.org/wiki/Linux_Downloads
 .. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
+.. _Virtualbox downloads: https://www.virtualbox.org/wiki/Downloads
