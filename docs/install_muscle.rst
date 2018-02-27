@@ -26,7 +26,7 @@ Windows installation
 At the time of writing, `MUSCLE`_ is not available through `Bioconda`_.
 
 1. Open http://drive5.com/muscle/downloads.htm with your web browser.
-2. Download the latest Windows	Intel i86 binaary, currently ``muscle3.8.31_i86win32.exe``
+2. Download the latest Windows Intel i86 binary, currently ``muscle3.8.31_i86win32.exe``
 
 .. DANGER::
     TODO
