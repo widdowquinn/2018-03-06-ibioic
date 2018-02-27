@@ -20,7 +20,7 @@ Linux ``git`` installation
     git version 2.15.0
 
 If it is not available already, then you should try installing ``git`` from your distribution's package manager,
-for example with ``sudo apt-get install git`` (Debian/Ubuntu) or ``sudo dnf install git`` (Fedora).
+for example with ``sudo apt-get install git`` or ``sudo apt install git`` (Debian/Ubuntu) or ``sudo dnf install git`` (Fedora).
 
 --------------------------
 macOS ``git`` installation
@@ -41,7 +41,8 @@ Windows ``git`` installation
 ----------------------------
 
 If not installed already, we recommend the use of the ``Git Bash`` shell throughout the course,
-for Windows users.
+for Windows users. This provides a consistent environment equivalent to the powerful Linux
+and macOS Bash shells.
 
 - `Git Bash video tutorial`_ 
 
@@ -61,7 +62,8 @@ for Windows users.
     3. Press ``[Enter]``, you should see ``SUCCESS: Specified value was saved``.
     4. Quit command prompt by typing ``exit`` then pressing ``[Enter]``
 
-This will provide you with both ``git`` and ``bash`` in the ``Git Bash`` program.
+This will provide you with both ``git`` and ``bash`` in the ``Git Bash`` program, which you can start
+from the Start Menu on your Windows machine.
 
 
 .. _Git Bash video tutorial: https://www.youtube.com/watch?v=339AEqk9c-8
