@@ -58,6 +58,36 @@ notebook interface that will be used.
 2. Create a new ``Anaconda`` environment
 ========================================
 
+``Anaconda`` provides *environments* which allow you to install combinations of Python packages that
+remain separate from your main Python installation. We will be using such an *environment* when we
+work through the course material.
+
+To create a new environment for this course, called ``2018-03-06-ibioic``, issue the following command
+in the appropriate terminal (``Anaconda`` terminal or ``git bash`` on Windows, your ``bash`` terminal
+on macOS or Linux):
+
+.. code-block:: bash
+
+    conda create --name 2018-03-06-ibioic python=3.6
+
+To *activate* the environment (make it the environment that you are currently using), issue the following
+command in the terminal:
+
+.. code-block:: bash
+
+    source activate 2018-03-06-ibioic
+
+You should see your command prompt change to indicate that you are now using the ``2018-03-06-ibioic``
+environment.
+
+To *deactivate* the environment (i.e. to stop using it), issue the following command:
+
+.. code-block:: bash
+
+    source deactivate
+
+
+
 
 ===================================
 3. Install ``git`` on your computer
