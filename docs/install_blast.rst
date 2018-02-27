@@ -19,15 +19,16 @@ Linux/macOS installation
 
     conda install blast
 
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 Windows installation
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
-.. DANGER::
-    TODO
+1. Download ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/ncbi-blast-2.7.1+-win64.exe with your web browser.
+2. Run this installer using the defaults, it should put BLAST under ``C:\Program Files\NCBI\blast-2.7.1+``
 
-We need some installation instructions, here
-
+----------
+References
+----------
 
 .. _Bioconda: https://bioconda.github.io/
 .. _BLAST: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
