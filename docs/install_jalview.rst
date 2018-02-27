@@ -30,11 +30,11 @@ Alternatively, on macOS you can also download the installer ``.dmg`` file, open 
 Windows installation
 --------------------
 
-.. DANGER::
-    TODO
+`JALVIEW`_ is not available through `Bioconda`_ so we will install it from the authors' website:
 
-We need some installation instructions, here
-
+1. Open http://www.jalview.org/Web_Installers/install.htm with your web browser.
+2. Download the installer for Windows which does not include the Java VM (i.e. the smaller file)
+3. After downloading, double-click ``install-jalview.exe``
 
 .. _Bioconda: https://bioconda.github.io/
 .. _JALVIEW: http://www.jalview.org/
