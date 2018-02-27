@@ -31,12 +31,11 @@ problems on your own laptop.
 The process of installing the required software on your machine is as follows:
 
 1. Install ``Anaconda`` on your computer (if it is not already present).
-2. Create a new ``Anaconda`` environment.
-3. Install ``git`` on your computer (if it is not already present).
-4. Obtain the course materials.
-5. Install ``Python`` requirements.
-6. Install third-party software tools.
-7. Test the installation.
+2. Install ``git`` on your computer (if it is not already present).
+3. Obtain the course materials.
+4. Install ``Python`` requirements.
+5. Install third-party software tools.
+6. Test the installation.
 
 The process of installing the virtual machine is as follows:
 
@@ -63,40 +62,8 @@ at the page below:
 
 - :doc:`Anaconda installation <install_anaconda>`
 
-----------------------------------------
-2. Create a new ``Anaconda`` environment
-----------------------------------------
-
-``Anaconda`` provides *environments* which allow you to install combinations of Python packages that
-remain separate from your main Python installation. We will be using such an *environment* when we
-work through the course material.
-
-We will create a new environment for this course, called ``2018-03-06-ibioic``. To do this, issue the following command
-in the appropriate terminal [#f1]_:
-
-.. code-block:: bash
-
-    conda create --name 2018-03-06-ibioic python=3.6
-
-To *activate* the environment (make it the environment that you are currently using), issue the following
-command in the terminal [#f1]_:
-
-.. code-block:: bash
-
-    conda activate 2018-03-06-ibioic
-
-You should see your command prompt change to indicate that you are now using the ``2018-03-06-ibioic``
-environment.
-
-To *deactivate* the environment (i.e. to stop using the environment), issue the following command:
-
-.. code-block:: bash
-
-    conda deactivate
-
-
 -----------------------------------
-3. Install ``git`` on your computer
+2. Install ``git`` on your computer
 -----------------------------------
 
 If you do not have a working copy of ``git`` installed on your machine, install one now by
@@ -111,7 +78,7 @@ following instructions at the page below.
 
 
 -------------------------------
-4. Install the course materials
+3. Install the course materials
 -------------------------------
 
 You will need to *clone* the course material repository to your own machine.
@@ -136,13 +103,8 @@ Change to the course material directory in your terminal with the command:
     cd 2018-03-06-ibioic
 
 ----------------------------------
-5. Install ``Python`` requirements
+4. Install ``Python`` requirements
 ----------------------------------
-
-.. ATTENTION::
-    In the terminal [#f1]_ sure that you are in the ``2018-03-06-ibioic`` environment (check your command prompt).
-    If not, issue the command ``source activate 2018-03-06-ibioic`` and see that the command
-    prompt changes.
 
 To install the Python module requirements for the course, issue the command below in the
 terminal [#f1]_:
@@ -153,14 +115,14 @@ terminal [#f1]_:
 
 
 -------------------------------
-6. Install third-party software
+5. Install third-party software
 -------------------------------
 
 ``BLAST`` and ``MUSCLE`` do not require ``JAVA``, and can be set up independently:
 
-^^^^^^^^^^^^^^^^^
-Install ``BLAST``
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
+1. Install ``BLAST``
+^^^^^^^^^^^^^^^^^^^
 
 ``BLAST`` is a tool for searching with a protein or nucleotide sequence against a database of
 other biological sequences.
