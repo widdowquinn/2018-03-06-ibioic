@@ -34,7 +34,7 @@ Windows ``Anaconda`` installation
 - `Anaconda Video Tutorial (Windows)`_
 
 1. Open http://continuum.io/downloads with your web browser.
-2. Download the Python 3 installer for Windows.
+2. Download and run the Python 3 installer for Windows.
 3. Install Python 3 using all of the defaults for installation **except make sure to check Make Anaconda the default Python**.
 
 .. WARNING::
