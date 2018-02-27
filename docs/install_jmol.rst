@@ -16,7 +16,8 @@ We use the protein structure viewer `JMOL`_ in the course. This can be installed
 Download JMOL
 -------------
 
-`JMOL`_ is provided as a single ``JAVA`` application for all operating systems.
+`JMOL`_ is provided as a single ``JAVA`` application for all operating systems. To download it,
+click on the link below.
 
 - ``JMOL`` `latest version <http://sourceforge.net/projects/jmol/files/latest/download?source=files>`_
 
