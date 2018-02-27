@@ -76,7 +76,7 @@ Configure the VM
 8. Clone the current repository to the VM with ``git clone <REPOSITORY>``
 9. Change directory to the course repository
 10. Install the course tools with ``sudo ./install-apps.sh``
-11. Install `Anaconda`_ (:doc:`installation instructions <install_anaconda>`).
+11. Install ``Anaconda`` (:doc:`installation instructions <install_anaconda>`).
 12. Follow the instructions for creating a new ``conda`` environment (:doc:`create new conda environment <installation_tutors>`): ``conda create --name <ENVIRONMENT_NAME> python=3.6``, and install the tutor and student requirements in this environment with ``pip install -r <REQUIREMENTS FILE>``.
 13. Test the installation and materials as described in the :doc:`tutor installation instructions <installation_tutors>`.
 
