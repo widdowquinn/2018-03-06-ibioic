@@ -45,7 +45,8 @@ Windows ``Anaconda`` installation
 Post-installation
 -----------------
 
-We need to add some `Anaconda`_ channels, which is done using:
+We need to add some `Anaconda`_ channels, which is done by issuing the following commands
+in the terminal [#f1]_:
 
 .. code-block:: bash
 
@@ -60,3 +61,4 @@ We need to add some `Anaconda`_ channels, which is done using:
 .. _Anaconda Video Tutorial (Windows): https://www.youtube.com/watch?v=xxQ0mzZ8UvA
 .. _Python: https://www.python.org/
 
+.. [#f1]: The *terminal* means either your ``bash`` terminal (macOS/Linux), or the ``Anaconda`` terminal/``git bash`` terminal (Windows)
