@@ -7,10 +7,12 @@ Installation for Course Attendees
 This document will describe the process for setting up and testing course materials,
 in preparation for attendance at the workshop.
 
-Two setups are described:
+Two different setups are described:
 
-1. Installation on your local machine
+1. Installation of all components on your own local machine
 2. Download and use of a Linux virtual machine
+
+Either one of these will prepare your machine for the workshop.
 
 We prefer that attendees install materials on their own laptops for the course, as the
 software and learning materials will then persist and be usable/re-usable on your own
@@ -38,16 +40,19 @@ The process of installing the required software on your machine is as follows:
 
 The process of installing the virtual machine is as follows:
 
-8. Install ``VirtualBox`` on your computer.
-9. Download the course virtual machine.
+1. Install ``VirtualBox`` on your computer.
+2. Download the course virtual machine and open it in ``VirtualBox``.
 
+===============================================
+1. Install all components on your local machine
+===============================================
 
-========================================
+----------------------------------------
 1. Install ``Anaconda`` on your computer
-========================================
+----------------------------------------
 
 For ease of installation and consistency, we install as much as is practical using the
-`Anaconda`_ environment. This is cross-platform on Windows, macOS and Linux, and provides
+`Anaconda`_ environment. This is cross-platform software that works on Windows, macOS and Linux, and provides
 several essential components for the course, such as `Python`_ and the common `Jupyter`_
 notebook interface that will be used.
 
@@ -56,24 +61,23 @@ at the page below:
 
 - :doc:`Anaconda installation <install_anaconda>`
 
-========================================
+----------------------------------------
 2. Create a new ``Anaconda`` environment
-========================================
+----------------------------------------
 
 ``Anaconda`` provides *environments* which allow you to install combinations of Python packages that
 remain separate from your main Python installation. We will be using such an *environment* when we
 work through the course material.
 
-To create a new environment for this course, called ``2018-03-06-ibioic``, issue the following command
-in the appropriate terminal (``Anaconda`` terminal or ``git bash`` on Windows, your ``bash`` terminal
-on macOS or Linux):
+We will create a new environment for this course, called ``2018-03-06-ibioic``. To do this, issue the following command
+in the appropriate terminal [#f1]_:
 
 .. code-block:: bash
 
     conda create --name 2018-03-06-ibioic python=3.6
 
 To *activate* the environment (make it the environment that you are currently using), issue the following
-command in the terminal:
+command in the terminal [#f1]_:
 
 .. code-block:: bash
 
@@ -82,18 +86,18 @@ command in the terminal:
 You should see your command prompt change to indicate that you are now using the ``2018-03-06-ibioic``
 environment.
 
-To *deactivate* the environment (i.e. to stop using it), issue the following command:
+To *deactivate* the environment (i.e. to stop using the environment), issue the following command:
 
 .. code-block:: bash
 
     conda deactivate
 
 
-===================================
+-----------------------------------
 3. Install ``git`` on your computer
-===================================
+-----------------------------------
 
-If you do not have a working copy of `git` installed on your machine, install one now by
+If you do not have a working copy of ``git`` installed on your machine, install one now by
 following instructions at the page below.
 
 - :doc:`git installation <install_git>`
@@ -101,16 +105,17 @@ following instructions at the page below.
 .. NOTE::
     If you are using Windows, you will be installing ``git bash`` which, as well as ``git``,
     provides the Bash *terminal* environment that you will be using during the course. This
-    is very similar to working at the terminal in Linux/macOS.
+    provides an experience very similar to working at the terminal in Linux/macOS.
 
 
-===============================
+-------------------------------
 4. Install the course materials
-===============================
+-------------------------------
 
 You will need to *clone* the course material repository to your own machine.
 
-1. Using the terminal [#f1], navigate to a convenient location (e.g. your ``Desktop``).
+
+Using the terminal [#f1]_, navigate to a convenient location (e.g. your ``Desktop``).
 Then *clone* the course repository with the command:
 
 .. code-block:: bash
@@ -121,75 +126,105 @@ Then *clone* the course repository with the command:
     This will create a new directory called ``2018-03-06-ibioic``, containing the course
     materials.
 
-2. Change to the course material directory in your terminal with the command:
+
+Change to the course material directory in your terminal with the command:
 
 .. code-block:: bash
 
     cd 2018-03-06-ibioic
 
-==================================
+----------------------------------
 5. Install ``Python`` requirements
-==================================
+----------------------------------
 
 .. ATTENTION::
-    In the terminal [#f1] sure that you are in the ``2018-03-06-ibioic`` environment (check your command prompt).
+    In the terminal [#f1]_ sure that you are in the ``2018-03-06-ibioic`` environment (check your command prompt).
     If not, issue the command ``source activate 2018-03-06-ibioic`` and see that the command
     prompt changes.
 
-1. To install the Python module requirements for the course, issue the command below in the
-terminal [#f1]:
+To install the Python module requirements for the course, issue the command below in the
+terminal [#f1]_:
 
 .. code-block:: bash
 
     pip install -r requirements_students.txt
 
 
-===============================
+-------------------------------
 6. Install third-party software
-===============================
+-------------------------------
 
 ``BLAST`` and ``MUSCLE`` do not require ``JAVA``, and can be set up independently:
 
-1. Install ``BLAST``:
+^^^^^^^^^^^^^^^^^
+Install ``BLAST``
+^^^^^^^^^^^^^^^^^
 
-- :doc:`Install BLAST <install_blast>`
+``BLAST`` is a tool for searching with a protein or nucleotide sequence against a database of
+other biological sequences.
 
-2. Install ``MUSCLE``:
+- :doc:`BLAST installation instructions <install_blast>`
 
-- :doc:`Install MUSCLE <install_muscle>`
+^^^^^^^^^^^^^^^^^^^^^
+2. Install ``MUSCLE``
+^^^^^^^^^^^^^^^^^^^^^
+
+``MUSCLE`` is a program for multiple sequence alignment.
+
+- :doc:`MUSCLE installation instructions <install_muscle>`
 
 ``ARTEMIS``, ``JALVIEW`` and ``JMOL`` require the ``JAVA`` VM, so ``JAVA`` must be installed first:
 
-3. Install ``JAVA``:
+^^^^^^^^^^^^^^^^^^^
+3. Install ``JAVA``
+^^^^^^^^^^^^^^^^^^^
 
-- :doc:`Install JAVA <install_java>`
+``JAVA`` is a programming language that runs on a *virtual machine* (the *JVM*). Several bioinformatics
+tools are written in ``JAVA``, and require the JVM to be installed in order to run.
 
-4. Install ``ARTEMIS``:
+- :doc:`JAVA installation instructions <install_java>`
 
-- :doc:`Install ARTEMIS <install_artemis>`
+^^^^^^^^^^^^^^^^^^^^^^
+4. Install ``ARTEMIS``
+^^^^^^^^^^^^^^^^^^^^^^
 
-5. Install ``JALVIEW``:
+``ARTEMIS`` is a genome sequence browser and editor.
 
-- :doc:`Install JALVIEW <install_jalview>`
+- :doc:`ARTEMIS installation instructions <install_artemis>`
 
+^^^^^^^^^^^^^^^^^^^^^^
+5. Install ``JALVIEW``
+^^^^^^^^^^^^^^^^^^^^^^
+
+``JALVIEW`` is a sequence alignment viewer and editor.
+
+- :doc:`JALVIEW installation instructions <install_jalview>`
+
+^^^^^^^^^^^^^^^^^^^
 6. Install ``JMOL``
+^^^^^^^^^^^^^^^^^^^
 
-- :doc:`Install JMOL <install_jmol>`
+``JMOL`` is a program for visualising biological molecules (e.g. proteins).
+
+- :doc:`JMOL installation instructions <install_jmol>`
 
 
-===========================
+---------------------------
 7. Test the tools/materials
-===========================
+---------------------------
 
 To make sure that the downloaded tools are installed and working on your machine, please follow
-the instructions on the `testing your installation :doc:<testing_installation>` page.
+the instructions on the :doc:`testing your installation <testing_installation>` page.
 
 - :doc:`Testing your installation <testing_installation>`
 
+===========================================
+2. Download and use a Linux virtual machine
+===========================================
 
-==========================================
-8. Install ``VirtualBox`` on your computer
-==========================================
+------------------------------------------
+1. Install ``VirtualBox`` on your computer
+------------------------------------------
 
 ``VirtualBox`` is a program that allows you to run *virtual machines* on your own computer.
 Virtual machines are software implementations of operating systems that run as if they are
@@ -202,9 +237,9 @@ program, please follow the instructions on the linked page.
 - :doc:`Install VirtualBox <install_virtualbox>`
 
 
-=================================================
-9. Download and import the course virtual machine
-=================================================
+-------------------------------------------------
+2. Download and import the course virtual machine
+-------------------------------------------------
 
 We provide a Linux virtual machine pre-loaded with course materials and the required software,
 which can be used to participate in the workshop.
@@ -213,20 +248,20 @@ which can be used to participate in the workshop.
     The virtual machine file is very large (11GB) and should be downloaded well in advance
     of the workshop, if you think you may need to use it!
 
-1. Click on the badge below to go to the virtual machine download page:
+Click on the badge below to go to the virtual machine download page:
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1184095.svg
    :target: https://zenodo.org/record/1184095
 
-2. Click on the link for ``2018-03-06-ibioic.vdi`` to download the virtual machine in a suitable location.
+Click on the link for ``2018-03-06-ibioic.vdi`` to download the virtual machine in a suitable location.
 
 .. WARNING::
     This may take some time to download!
 
-3. Click on the link for ``2018-03-06-ibioic.vbox`` to download the ``VirtualBox`` file in the
+Click on the link for ``2018-03-06-ibioic.vbox`` to download the ``VirtualBox`` file in the
 **same location** as the ``.vdi`` file.
 
-4. Add the virtual machine.
+Add the virtual machine.
 
 - Click on ``Machine`` in the ``VirtualBox`` menu bar
 - Click on ``Add``
@@ -236,7 +271,7 @@ which can be used to participate in the workshop.
 You should see the ``2018-03-06-ibioic`` machine in the list at the left hand side
 of the application.
 
-4. Start the virtual machine.
+Start the virtual machine.
 
 - Select the new IBioIC virtual machine (``2018-03-06-ibioic``)
 - Click on the ``Start`` button in ``VirtualBox``
@@ -273,4 +308,4 @@ begin the course.
 .. _The Carpentries: https://www.facebook.com/carpentries/
 .. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
-.. [#f1]: The *terminal* means ``git bash`` on Windows, and Bash on Linux/macOS.
+.. [#f1] The *terminal* means ``git bash`` on Windows, and Bash on Linux/macOS.
