@@ -9,8 +9,8 @@ in preparation for attendance at the workshop.
 
 Two different setups are described:
 
-1. Installation of all components on your own local machine
-2. Download and use of a Linux virtual machine
+1. :ref:`Installation of all components on your own local machine <install-components>`
+2. :ref:`Download and use of a Linux virtual machine <use-virtual-machine>`
 
 Either one of these will prepare your machine for the workshop.
 
@@ -42,6 +42,8 @@ The process of installing the virtual machine is as follows:
 
 1. Install ``VirtualBox`` on your computer.
 2. Download the course virtual machine and open it in ``VirtualBox``.
+
+.. _install-components:
 
 ===============================================
 1. Install all components on your local machine
@@ -217,6 +219,8 @@ To make sure that the downloaded tools are installed and working on your machine
 the instructions on the :doc:`testing your installation <testing_installation>` page.
 
 - :doc:`Testing your installation <testing_installation>`
+
+.. _use-virtual-machine:
 
 ===========================================
 2. Download and use a Linux virtual machine
