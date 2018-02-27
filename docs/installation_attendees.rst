@@ -211,18 +211,27 @@ which can be used to participate in the workshop.
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1184095.svg
    :target: https://zenodo.org/record/1184095
 
-2. Click on the link for ``2018-03-06-ibioic.vdi`` to download the virtual machine.
+2. Click on the link for ``2018-03-06-ibioic.vdi`` to download the virtual machine in a suitable location.
 
 .. WARNING::
     This may take some time to download!
 
-3. Import the virtual machine.
+3. Click on the link for ``2018-03-06-ibioic.vbox`` to download the ``VirtualBox`` file in the
+**same location** as the ``.vdi`` file.
 
+4. Add the virtual machine.
 
+- Click on ``Machine`` in the ``VirtualBox`` menu bar
+- Click on ``Add``
+- Navigate to the ``.vbox`` file you just downloaded, and select it
+- Click on ``Open``
+
+You should see the ``2018-03-06-ibioic`` machine in the list at the left hand side
+of the application.
 
 4. Start the virtual machine.
 
-- Select the new IBioIC virtual machine
+- Select the new IBioIC virtual machine (``2018-03-06-ibioic``)
 - Click on the ``Start`` button in ``VirtualBox``
 
 The virtual machine will start as a new window, and appear to be booting up. When
