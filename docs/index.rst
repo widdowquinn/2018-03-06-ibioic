@@ -45,6 +45,7 @@ machine are also available:
 
    installation_attendees
    installation_tutors
+   testing_installation
    install_anaconda
    install_artemis
    install_blast
