@@ -40,13 +40,14 @@ the instructions at the page below:
 Windows installation
 --------------------
 
-.. DANGER::
-    TODO
+Java is likely already installed on your machine. If it is not, please follow the instructions
+at the page below:
 
-We need some installation instructions, here
+- `Java Installation for Windows`_
 
 
 .. _ARTEMIS: http://www.sanger.ac.uk/science/tools/artemis
 .. _JALVIEW: http://www.jalview.org/
 .. _Java Installation for Linux: https://www.java.com/en/download/help/linux_x64_install.xml
+.. _Java Installation for Windows: https://www.java.com/en/download/help/windows_manual_download.xml
 .. _JMOL: http://jmol.sourceforge.net/
