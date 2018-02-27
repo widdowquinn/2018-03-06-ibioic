@@ -35,7 +35,9 @@ Windows ``Anaconda`` installation
 
 1. Open http://continuum.io/downloads with your web browser.
 2. Download and run the Python 3 installer for Windows.
-3. Install Python 3 using all of the defaults for installation **except make sure to check Register Anaconda as my default Python 3.6**.
+3. Install Python 3 using defaults for installation **except**
+    - make sure to check **Add Anaconda to my PATH environment variable** (this is required to work with ``git bash``)
+    - make sure to check **Register Anaconda as my default Python 3.6**.
 
 .. WARNING::
     You **must** select the ``Register Anaconda as my default Python 3.6`` option on Windows.
@@ -64,8 +66,8 @@ installation as follows:
 
 1. Click on the ``Start``/``Windows`` menu
 2. Go to ``Anaconda``
-3. Scroll down (if necessary) to ``Anaconda terminal``
-4. Click on ``Anaconda terminal``
+3. Scroll down (if necessary) to ``Anaconda Prompt``
+4. Click on ``Anaconda Prompt``
 
 This will give you a terminal window where you can run the commands to install Python modules and
 create ``conda`` environments.
@@ -77,4 +79,4 @@ create ``conda`` environments.
 .. _Anaconda Video Tutorial (Windows): https://www.youtube.com/watch?v=xxQ0mzZ8UvA
 .. _Python: https://www.python.org/
 
-.. [#f1]: The *terminal* means either your ``bash`` terminal (macOS/Linux), or the ``Anaconda`` terminal/``git bash`` terminal (Windows)
+.. [#f1]: The *terminal* means either your ``bash`` terminal (macOS/Linux), or the ``Anaconda`` prompt/``git bash`` terminal (Windows)
