@@ -45,7 +45,7 @@ and the ``artemis`` program added to ``${PATH}`` with:
 
     export PATH=${PATH}:~/artemis/
 
-To make this change persist in your system, you should add this line to your ``~/.bash_profile`` file.
+To make this change persist in your system, you should add this line (``export PATH=…``) to your ``~/.bash_profile`` file.
 
 --------------------
 Windows installation

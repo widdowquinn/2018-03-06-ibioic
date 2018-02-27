@@ -3,12 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+=================================================================
 Welcome to IBioIC Introduction to Bioinformatics's documentation!
 =================================================================
 
 This documentation describes software installation and setup for attendees and tutors
 at the March 2018 presentation of the IBioIC Introduction to Bioinformatics course,
 for industrial biotechnology postgraduates.
+
+---------------------------------------
+What do I need to do before the course?
+---------------------------------------
+
+You need to ensure that you have the course materials and required software to hand on
+your own machine.
 
 .. ATTENTION::
     **COURSE ATTENDEES:**
@@ -20,16 +28,20 @@ for industrial biotechnology postgraduates.
 
     Please follow the installation instructions at :doc:`installation_tutors`.
 
-* `Course homepage`_
-* `Course repository`_
-* `Ubuntu Virtual Machine`_
+You should have been provided with a static copy of the installation instructions by
+the course organisers, but online copies of the course materials and a prebuilt virtual
+machine are also available:
+
+- `Course homepage`_
+- `Course repository`_
+- `Ubuntu Virtual Machine`_
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1184095.svg
    :target: https://zenodo.org/record/1184095
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: This site's contents:
 
    installation_attendees
    installation_tutors
