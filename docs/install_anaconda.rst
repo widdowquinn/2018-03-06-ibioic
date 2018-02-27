@@ -87,4 +87,4 @@ create ``conda`` environments.
 .. _Anaconda Video Tutorial (Windows): https://www.youtube.com/watch?v=xxQ0mzZ8UvA
 .. _Python: https://www.python.org/
 
-.. [#f1]: The *terminal* means either your ``bash`` terminal (macOS/Linux), or the ``Anaconda`` prompt/``git bash`` terminal (Windows)
+.. [#f1] The *terminal* means either your ``bash`` terminal (macOS/Linux), or the ``git bash`` terminal (Windows)
