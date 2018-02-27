@@ -24,7 +24,7 @@ macOS ``Anaconda`` installation
 - `Anaconda Video Tutorial (macOS)`_python
 
 1. Open http://continuum.io/downloads with your web browser.
-2. Download the Python 3 installer for OS X.
+2. Download and run the Python 3 installer for OS X.
 3. Install Python 3 using all of the defaults for installation.
 
 ---------------------------------
@@ -34,7 +34,7 @@ Windows ``Anaconda`` installation
 - `Anaconda Video Tutorial (Windows)`_
 
 1. Open http://continuum.io/downloads with your web browser.
-2. Download the Python 3 installer for Windows.
+2. Download and run the Python 3 installer for Windows.
 3. Install Python 3 using all of the defaults for installation **except make sure to check Register Anaconda as my default Python 3.6**.
 
 .. WARNING::
@@ -53,6 +53,22 @@ in the terminal [#f1]_:
     conda config --add channels defaults
     conda config --add channels conda-forge
     conda config --add channels bioconda
+
+
+-------------------------------------------------
+Starting the ``Anaconda`` terminal (Windows-only)
+-------------------------------------------------
+
+Once ``Anaconda`` has been installed, you can start a terminal that "sees" the ``Anaconda`` Python
+installation as follows:
+
+1. Click on the ``Start``/``Windows`` menu
+2. Go to ``Anaconda``
+3. Scroll down (if necessary) to ``Anaconda terminal``
+4. Click on ``Anaconda terminal``
+
+This will give you a terminal window where you can run the commands to install Python modules and
+create ``conda`` environments.
 
 
 
