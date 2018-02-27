@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Setup](#setup)
     - [Prerequisites](#prerequisites)
-- [Schedule: 6th-7th March 2018, University of Glasgow](#schedule-6th-7th-march-2018-university-of-glasgow)
+- [Schedule: 6th-7th March 2018, University of Strathclyde, Glasgow](#schedule-6th-7th-march-2018-university-of-strathclyde-glasgow)
 - [Previous presentations](#previous-presentations)
 - [Course materials](#course-materials)
     - [0. Introducing the Software Platform](#0-introducing-the-software-platform)
@@ -57,7 +57,11 @@ This virtual machine is large (>11GB) so if you need to download it we **strongl
 -------
 
 <a id="schedule"></a>
-## Schedule: 6th-7th March 2018, University of Glasgow
+## Schedule: 6th-7th March 2018, University of Strathclyde, Glasgow
+
+**Location**: Room CU330B, Curran Building, University of Strathclyde, Cathedral Street, Glasgow.
+
+* [Map](https://www.google.com/maps/place/Curran+Building,+16+Richmond+St,+Glasgow+G1+1XQ/@55.8635143,-4.2425653,17z/data=!3m1!4b1!4m5!3m4!1s0x4888441d7a275c5d:0xeab1b2207289c63b!8m2!3d55.8634603!4d-4.2406053?sa=X&ved=0ahUKEwilwLbY-cbZAhXDJsAKHc7uAocQ8gEINjAB)
 
 <div class="row">
   <div class="col-md-6">
