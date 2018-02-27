@@ -34,9 +34,5 @@ At the time of writing, `MUSCLE`_ is not available through `Bioconda`_.
 We need some final installation instructions over where to put the
 executable file to ensure it is on the system ``PATH`` for later use.
 
-----------
-References
-----------
-
 .. _Bioconda: https://bioconda.github.io/
 .. _MUSCLE: https://www.drive5.com/muscle/downloads.htm
