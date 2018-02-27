@@ -77,7 +77,7 @@ command in the terminal:
 
 .. code-block:: bash
 
-    source activate 2018-03-06-ibioic
+    conda activate 2018-03-06-ibioic
 
 You should see your command prompt change to indicate that you are now using the ``2018-03-06-ibioic``
 environment.
@@ -86,7 +86,7 @@ To *deactivate* the environment (i.e. to stop using it), issue the following com
 
 .. code-block:: bash
 
-    source deactivate
+    conda deactivate
 
 
 ===================================
