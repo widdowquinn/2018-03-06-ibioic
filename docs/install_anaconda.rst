@@ -21,7 +21,7 @@ Linux ``Anaconda`` installation
 macOS ``Anaconda`` installation
 -------------------------------
 
-- `Anaconda Video Tutorial (macOS)`_python
+- `Anaconda Video Tutorial (macOS)`_
 
 1. Open https://www.anaconda.com/download with your web browser.
 2. Download and run the Python 3 installer for OS X.
@@ -35,9 +35,10 @@ Windows ``Anaconda`` installation
 
 1. Open https://www.anaconda.com/download with your web browser.
 2. Download and run the Python 3 installer for Windows.
-3. Install Python 3 using defaults for installation **except**
+3. Install using defaults for installation **except**
     - make sure to check **Add Anaconda to my PATH environment variable** (this is required to work with ``git bash``)
     - make sure to check **Register Anaconda as my default Python 3.6**.
+    - you can skip installation of ``VSCode`` (though it is a very nice tool)
 
 .. WARNING::
     You **must** select the ``Register Anaconda as my default Python 3.6`` option on Windows.
@@ -56,10 +57,14 @@ in the terminal [#f1]_:
     conda config --add channels conda-forge
     conda config --add channels bioconda
 
+.. NOTE::
+    On Windows, you can install these channels using the ``Anaconda Navigator``, a graphical
+    tool provided through your Start Menu on that platform.
 
--------------------------------------------------
-Starting the ``Anaconda`` terminal (Windows-only)
--------------------------------------------------
+
+-----------------------------------------------
+Starting the ``Anaconda`` prompt (Windows-only)
+-----------------------------------------------
 
 Once ``Anaconda`` has been installed, you can start a terminal that "sees" the ``Anaconda`` Python
 installation as follows:
@@ -72,6 +77,9 @@ installation as follows:
 This will give you a terminal window where you can run the commands to install Python modules and
 create ``conda`` environments.
 
+.. NOTE::
+    We will not be using the ``Anaconda Prompt`` as our terminal in this workshop as it does not,
+    by default, understand the Bash commands we will be using to navigate the system.
 
 
 .. _Anaconda: https://www.anaconda.com/download
