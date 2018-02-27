@@ -23,7 +23,7 @@ macOS ``Anaconda`` installation
 
 - `Anaconda Video Tutorial (macOS)`_python
 
-1. Open http://continuum.io/downloads with your web browser.
+1. Open https://www.anaconda.com/download with your web browser.
 2. Download and run the Python 3 installer for OS X.
 3. Install Python 3 using all of the defaults for installation.
 
@@ -33,7 +33,7 @@ Windows ``Anaconda`` installation
 
 - `Anaconda Video Tutorial (Windows)`_
 
-1. Open http://continuum.io/downloads with your web browser.
+1. Open https://www.anaconda.com/download with your web browser.
 2. Download and run the Python 3 installer for Windows.
 3. Install Python 3 using defaults for installation **except**
     - make sure to check **Add Anaconda to my PATH environment variable** (this is required to work with ``git bash``)
@@ -74,7 +74,7 @@ create ``conda`` environments.
 
 
 
-.. _Anaconda: http://continuum.io/downloads
+.. _Anaconda: https://www.anaconda.com/download
 .. _Anaconda Video Tutorial (macOS): https://www.youtube.com/watch?v=TcSAln46u9U
 .. _Anaconda Video Tutorial (Windows): https://www.youtube.com/watch?v=xxQ0mzZ8UvA
 .. _Python: https://www.python.org/
