@@ -34,7 +34,7 @@ the following command at the terminal:
 This should return a short account of the Java version. If it does not, then please follow
 the instructions at the page below:
 
- - `Java Installation for Linux`_
+- `Java Installation for Linux`_
 
 --------------------
 Windows installation
