@@ -14,14 +14,17 @@ Two setups are described:
 
 We prefer that attendees install materials on their own laptops for the course, as the
 software and learning materials will then persist and be usable/re-usable on your own
-machine after the course itself. The virtual machine is a "Plan B" that should be
-workable on any machine, and is intended as the fallback in case of installation
-problems.
+machine after the course itself is complete. The virtual machine is a "Plan B" that
+should be usable on any machine, and is intended as the fallback in case of installation
+problems on your own laptop.
 
 .. IMPORTANT::
     You should install all the software and/or the virtual machine before you attend the course.
     This will save you, and everyone else at the course, time at the beginning of the
     first day, and give more time to explore advanced topics in the workshop.
+
+    We will offer an online hangout to help with installation problems, just before the course.
+    Your course organiser will provide information about this.
 
 The process of installing the required software on your machine is as follows:
 
@@ -87,8 +90,6 @@ To *deactivate* the environment (i.e. to stop using it), issue the following com
     source deactivate
 
 
-
-
 ===================================
 3. Install ``git`` on your computer
 ===================================
@@ -102,20 +103,34 @@ If you do not have a working copy of `git` installed on your machine, install on
 4. Install the course materials
 ===============================
 
-You should clone the course material repository to your own machine, with the command:
+You will need to *clone* the course material repository to your own machine.
+
+1. Using the terminal (``git bash`` or ``Anaconda`` terminal on Windows; ``bash`` on macOS
+or Linux), navigate to a convenient location (e.g. your ``Desktop``). Then *clone* the 
+course repository with the command:
 
 .. code-block:: bash
 
-    git clone <REPOSITORY URL>
+    git clone https://github.com/widdowquinn/2018-03-06-ibioic.git
 
-where `<REPOSITORY URL>` is the repository you have just imported.
+This will create a new subdirectory called ``2018-03-06-ibioic``.
 
-Finally, change directory to the root of the new repository.
+2. Change to this directory in your terminal with the command:
 
+.. code-block:: bash
+
+    cd 2018-03-06-ibioic
+
+From here, you will be in the appropriate location to install the remaining requirements.
 
 ==================================
 5. Install ``Python`` requirements
 ==================================
+
+1. Make sure that you are in the ``2018-03-06-ibioic`` environment (check your command prompt,
+and if you are not in the correct environment use the ``source activate`` command described above.
+
+2. To install the Python module requirements for the course, issue the command below:
 
 .. code-block:: bash
 
@@ -128,32 +143,97 @@ Finally, change directory to the root of the new repository.
 
 ``BLAST`` and ``MUSCLE`` do not require ``JAVA``, and can be set up independently:
 
+1. Install ``BLAST``:
+
 - :doc:`Install BLAST <install_blast>`
+
+2. Install ``MUSCLE``:
+
 - :doc:`Install MUSCLE <install_muscle>`
 
 ``ARTEMIS``, ``JALVIEW`` and ``JMOL`` require the ``JAVA`` VM, so ``JAVA`` must be installed first:
 
+3. Install ``JAVA``:
+
 - :doc:`Install JAVA <install_java>`
+
+4. Install ``ARTEMIS``:
+
 - :doc:`Install ARTEMIS <install_artemis>`
+
+5. Install ``JALVIEW``:
+
 - :doc:`Install JALVIEW <install_jalview>`
+
+6. Install ``JMOL``
+
 - :doc:`Install JMOL <install_jmol>`
 
 
-=====================
-7. Test the materials
-=====================
+===========================
+7. Test the tools/materials
+===========================
 
+To make sure that the downloaded tools are installed and working on your machine, please follow
+the instructions on the `testing your installation :doc:<testing_installation>` page.
+
+- :doc:`Testing your installation <testing_installation>`
 
 
 ==========================================
 8. Install ``VirtualBox`` on your computer
 ==========================================
 
+``VirtualBox`` is a program that allows you to run *virtual machines* on your own computer.
+Virtual machines are software implementations of operating systems that run as if they are
+a separate computer.
 
-======================================
-9. Download the course virtual machine
-======================================
+We have provided a virtual machine pre-loaded with software and course materials, as a
+fallback in case of installation difficulties on your own machine. To install the ``VirtualBox``
+program, please follow the instructions on the linked page.
 
+- :doc:`Install VirtualBox <install_virtualbox>`
+
+
+=================================================
+9. Download and import the course virtual machine
+=================================================
+
+We provide a Linux virtual machine pre-loaded with course materials and the required software,
+which can be used to participate in the workshop.
+
+.. ATTENTION::
+    The virtual machine file is very large (11GB) and should be downlaoded well in advance
+    of the workshop, if you think you may need to use it!
+
+1. Click on the badge below to go to the virtual machine download page:
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1184095.svg
+   :target: https://zenodo.org/record/1184095
+
+2. Click on the link for ``2018-03-06-ibioic.vdi`` to download the virtual machine.
+
+.. WARNING::
+    This may take some time to download!
+
+3. Import the virtual machine.
+
+
+
+4. Start the virtual machine.
+
+- Select the new IBioIC virtual machine
+- Click on the ``Start`` button in ``VirtualBox``
+
+The virtual machine will start as a new window, and appear to be booting up. When
+this process is complete, it will present you with a login screen. Use the following
+credentials to log in:
+
+- Username: ``ibioic``
+- Password: ``ibioic-course``
+
+On successful login, you will see a standard Ubuntu desktop, and will be ready to
+begin the course.
 
 
 
