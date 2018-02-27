@@ -55,6 +55,22 @@ in the terminal [#f1]_:
     conda config --add channels bioconda
 
 
+-------------------------------------------------
+Starting the ``Anaconda`` terminal (Windows-only)
+-------------------------------------------------
+
+Once ``Anaconda`` has been installed, you can start a terminal that "sees" the ``Anaconda`` Python
+installation as follows:
+
+1. Click on the ``Start``/``Windows`` menu
+2. Go to ``Anaconda``
+3. Scroll down (if necessary) to ``Anaconda terminal``
+4. Click on ``Anaconda terminal``
+
+This will give you a terminal window where you can run the commands to install Python modules and
+create ``conda`` environments.
+
+
 
 .. _Anaconda: http://continuum.io/downloads
 .. _Anaconda Video Tutorial (macOS): https://www.youtube.com/watch?v=TcSAln46u9U
