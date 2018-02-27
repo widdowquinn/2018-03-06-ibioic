@@ -30,7 +30,7 @@ Linux installation
 
 The Linux version of `ARTEMIS`_ is available as a compressed ``.tar.gz`` file:
 
-- `Artemis for Linux <ftp://ftp.sanger.ac.uk/pub/resources/software/artemis/artemis.tar.gz>`
+- `Artemis for Linux <ftp://ftp.sanger.ac.uk/pub/resources/software/artemis/artemis.tar.gz>`_
 
 This can be downloaded and extracted to produce the ``artemis/`` directory structure. This can be
 moved a suitable location (e.g. your home directory) with:
@@ -45,7 +45,7 @@ and the ``artemis`` program added to ``${PATH}`` with:
 
     export PATH=${PATH}:~/artemis/
 
-To make this change persist in your system, you should add this line to your ``~/.bash_profile`` file.
+To make this change persist in your system, you should add this line (``export PATH=…``) to your ``~/.bash_profile`` file.
 
 --------------------
 Windows installation
@@ -53,7 +53,7 @@ Windows installation
 
 Download the `ARTEMIS`_ ``.jar`` file:
 
-- `Artemis for Windows <ftp://ftp.sanger.ac.uk/pub/resources/software/artemis/artemis.jar>`
+- `Artemis for Windows <ftp://ftp.sanger.ac.uk/pub/resources/software/artemis/artemis.jar>`_
 
 and place it somewhere accessible (e.g. your Desktop).
 
