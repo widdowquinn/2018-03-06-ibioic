@@ -51,9 +51,8 @@ For ease of installation and consistency, we install as much as is practical usi
 several essential components for the course, such as `Python`_ and the common `Jupyter`_
 notebook interface that will be used.
 
-.. NOTE::
-    If you do not already have `Anaconda`_ installed on your system, please follow the instructions:
-
+If you do not already have `Anaconda`_ installed on your system, please follow the instructions
+at the page below:
 
 - :doc:`Anaconda installation <install_anaconda>`
 
@@ -94,9 +93,15 @@ To *deactivate* the environment (i.e. to stop using it), issue the following com
 3. Install ``git`` on your computer
 ===================================
 
-If you do not have a working copy of `git` installed on your machine, install one now.
+If you do not have a working copy of `git` installed on your machine, install one now by
+following instructions at the page below.
 
 - :doc:`git installation <install_git>`
+
+.. NOTE::
+    If you are using Windows, you will be installing ``git bash`` which, as well as ``git``,
+    provides the Bash *terminal* environment that you will be using during the course. This
+    is very similar to working at the terminal in Linux/macOS.
 
 
 ===============================
@@ -105,32 +110,34 @@ If you do not have a working copy of `git` installed on your machine, install on
 
 You will need to *clone* the course material repository to your own machine.
 
-1. Using the terminal (``git bash`` or ``Anaconda`` terminal on Windows; ``bash`` on macOS
-or Linux), navigate to a convenient location (e.g. your ``Desktop``). Then *clone* the 
-course repository with the command:
+1. Using the terminal [#f1], navigate to a convenient location (e.g. your ``Desktop``).
+Then *clone* the course repository with the command:
 
 .. code-block:: bash
 
     git clone https://github.com/widdowquinn/2018-03-06-ibioic.git
 
-This will create a new subdirectory called ``2018-03-06-ibioic``.
+.. NOTE::
+    This will create a new directory called ``2018-03-06-ibioic``, containing the course
+    materials.
 
-2. Change to this directory in your terminal with the command:
+2. Change to the course material directory in your terminal with the command:
 
 .. code-block:: bash
 
     cd 2018-03-06-ibioic
 
-From here, you will be in the appropriate location to install the remaining requirements.
-
 ==================================
 5. Install ``Python`` requirements
 ==================================
 
-1. Make sure that you are in the ``2018-03-06-ibioic`` environment (check your command prompt,
-and if you are not in the correct environment use the ``source activate`` command described above.
+.. ATTENTION::
+    In the terminal [#f1] sure that you are in the ``2018-03-06-ibioic`` environment (check your command prompt).
+    If not, issue the command ``source activate 2018-03-06-ibioic`` and see that the command
+    prompt changes.
 
-2. To install the Python module requirements for the course, issue the command below:
+1. To install the Python module requirements for the course, issue the command below in the
+terminal [#f1]:
 
 .. code-block:: bash
 
@@ -203,7 +210,7 @@ We provide a Linux virtual machine pre-loaded with course materials and the requ
 which can be used to participate in the workshop.
 
 .. ATTENTION::
-    The virtual machine file is very large (11GB) and should be downlaoded well in advance
+    The virtual machine file is very large (11GB) and should be downloaded well in advance
     of the workshop, if you think you may need to use it!
 
 1. Click on the badge below to go to the virtual machine download page:
@@ -265,3 +272,5 @@ begin the course.
 .. _Python: https://www.python.org/
 .. _The Carpentries: https://www.facebook.com/carpentries/
 .. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
+.. [#f1]: The *terminal* means ``git bash`` on Windows, and Bash on Linux/macOS.
