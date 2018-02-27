@@ -30,9 +30,9 @@ Alternatively, on macOS you can also download the installer ``.dmg`` file, open 
 Windows installation
 --------------------
 
-Download the installer, find it in explorer, right-click to run it as administrator, and follow the instructions:
+``JALVIEW`` can be launched directly from the link below (if ``JAVA`` is installed):
 
-- `JALVIEW installer for Windows <http://www.jalview.org/Web_Installers/InstData/Windows_Pure_64_Bit/NoVM/install-jalview.exe>`_
+- `JALVIEW launch <http://www.jalview.org/webstart/jalview.jnlp>`_
 
 
 .. _Bioconda: https://bioconda.github.io/
