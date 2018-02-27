@@ -30,16 +30,16 @@ The installer downloads as a ``.dmg`` file.
 Linux installation
 ------------------
 
-.. DANGER::
-    TODO
+Follow the instructions for your distribution at the page below:
 
-We need some installation instructions, here
-
+- `Installing VirtualBox on Linux`_
 
 --------------------
 Windows installation
 --------------------
 
+
+
 .. DANGER::
     TODO
 
@@ -48,4 +48,5 @@ We need some installation instructions, here
 
 
 
+.. _Installing VirtualBox on Linux: https://www.virtualbox.org/wiki/Linux_Downloads
 .. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
