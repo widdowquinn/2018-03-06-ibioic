@@ -64,8 +64,8 @@ installation as follows:
 
 1. Click on the ``Start``/``Windows`` menu
 2. Go to ``Anaconda``
-3. Scroll down (if necessary) to ``Anaconda terminal``
-4. Click on ``Anaconda terminal``
+3. Scroll down (if necessary) to ``Anaconda Prompt``
+4. Click on ``Anaconda Prompt``
 
 This will give you a terminal window where you can run the commands to install Python modules and
 create ``conda`` environments.
