@@ -11842,13 +11842,13 @@ div#notebook {
 <p>Python can also be run interactively at the command line in your terminal window, where <code>&gt;&gt;&gt;</code> represents the interactive Python prompt and <code>quit()</code> is the simplest way to exit.</p>
 
 <pre><code>$ python
-Python 3.6.0b2 (default, Oct 11 2016, 05:27:10) 
-[GCC 6.0.2 20161005] on linux
+Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 12:04:33) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt; print("Hello world")
 Hello world
 &gt;&gt;&gt; quit()</code></pre>
-<p>More commonly people write Python scripts, plain text files usually ending with the <code>.py</code> extension, which can be run like this:</p>
+<p>More commonly people write Python scripts. These are plain text files usually ending with the <code>.py</code> extension, which can be run like this:</p>
 <div class="highlight"><pre><span></span>$ python example.py
 ...
 </pre></div>
@@ -11862,7 +11862,7 @@ Hello world
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="python_strings"></a></p>
-<h2 id="Strings">Strings<a class="anchor-link" href="#Strings">&#182;</a></h2><p>Python strings can be defined using double quotes, or single quotes -- it doesn't really matter but they have to match. Strings can be added together (concatenated) with the <code>+</code> operation, or duplicated by multiplying by an integer number:</p>
+<h2 id="Strings">Strings<a class="anchor-link" href="#Strings">&#182;</a></h2><p>Python strings can be defined using double quotes, or single quotes. It doesn't matter which you use, but they have to match. Strings can be added together (concatenated) with the <code>+</code> operation, or duplicated by multiplying by an integer number:</p>
 
 </div>
 </div>
@@ -11906,13 +11906,13 @@ Hello worldHello worldHello world
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>It is very common to want to combine strings togther, often including numbers or other values. A widely used approach to string formating with percent sign place holders:</p>
+<p>It is very common to want to combine strings togther, often including numbers or other values. A widely used approach to string formating works with percent sign place holders:</p>
 <ul>
 <li><code>%s</code> to insert a string</li>
 <li><code>%i</code> to insert an integer number</li>
 <li><code>%f</code> to insert a floating point number</li>
 </ul>
-<p>This convention was introduced in the C programming language, which was enourmously influential in later programming language design.</p>
+<p>(This convention was introduced in the C programming language, which was enormously influential in later programming language design.)</p>
 
 </div>
 </div>
@@ -11955,7 +11955,7 @@ Hello worldHello worldHello world
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="python_listss"></a></p>
-<h2 id="Lists">Lists<a class="anchor-link" href="#Lists">&#182;</a></h2><p>The Python <code>list</code> serves as a general purpose data structure for holding an ordered collection of values, commonly used in conjunction with a <code>for</code> loop as shown later. This is similar to an array in other languages.</p>
+<h2 id="Lists">Lists<a class="anchor-link" href="#Lists">&#182;</a></h2><p>The Python <code>list</code> serves as a general purpose data structure for holding an ordered collection of values. This is similar to an 'array' in other languages.</p>
 <p>You can have lists of strings, lists of integers, etc. The length of a list is defined as the number of elements in the list.</p>
 
 </div>
@@ -11998,7 +11998,7 @@ Hello worldHello worldHello world
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="for_loops"></a></p>
-<h2 id="For-loops">For loops<a class="anchor-link" href="#For-loops">&#182;</a></h2><p>Most programming languages, including Python, have several ways to repeat a block of code multiple times. Python's <code>for</code> loop works with a loop variable (<code>letter</code> in the example below) which takes in turn each of the values to be looped over (here the letters in string varible <code>message</code>):</p>
+<h2 id="For-loops">For loops<a class="anchor-link" href="#For-loops">&#182;</a></h2><p>Most programming languages, including Python, have several ways to repeat a block of code multiple times. Python's <code>for</code> loop works with a loop variable (<code>letter</code> in the example below) which takes in turn each of the values to be looped over (here the letters in string variable <code>message</code>):</p>
 
 </div>
 </div>
@@ -12094,7 +12094,7 @@ delta
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Later in the workshop you'll see this syntax used with other constructs, including parsing a sequence file were we loop over each record in the file.</p>
+<p>Later in the workshop you'll see this syntax used with other constructs, including parsing a sequence file, where we loop over each sequence record in the file.</p>
 
 </div>
 </div>
@@ -12103,7 +12103,7 @@ delta
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Defining-Functions">Defining Functions<a class="anchor-link" href="#Defining-Functions">&#182;</a></h2><p>Often as your Python code gets longer you will find you repeat snippets of code. In this situation it is usually best to turn the repeated code into a function which can be defined once and then used multiple times.</p>
+<h2 id="Defining-Functions">Defining Functions<a class="anchor-link" href="#Defining-Functions">&#182;</a></h2><p>Often as your Python code gets longer you will find you repeat snippets of code. In this situation it is usually best to turn the repeated code into a function which can be defined once and then used multiple times (<em>reproducibility</em>).</p>
 
 </div>
 </div>
@@ -12154,7 +12154,7 @@ Hello Leighton, your name is 8 characters long
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For loops are also very important for reducing duplicated code, so in this little exmaple rather than calling our function three times we could do this:</p>
+<p>For loops are also very important for reducing duplicated code, so in this little example rather than calling our function three times we could do this:</p>
 
 </div>
 </div>
@@ -12199,7 +12199,7 @@ Hello Leighton, your name is 8 characters long
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The examples we have shown so far are functions taking a single argument, but they can take multiple arguments. Even optional arguments are possible (not shown here). This example is a function which requires two arguments:</p>
+<p>The examples we have shown so far are functions taking a single argument, but functions can take multiple arguments. This example is a function which requires two arguments:</p>
 
 </div>
 </div>
@@ -12291,7 +12291,7 @@ hello world
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Resources">Resources<a class="anchor-link" href="#Resources">&#182;</a></h3><p>We've tried to introduce a minimum of concepts and syntax here. There will be more Python examples later on using more advanced things (like <code>with</code> statements), which we won't have time to explain in detail as we want to focus on the Bioinformatics instead.</p>
+<h3 id="Resources">Resources<a class="anchor-link" href="#Resources">&#182;</a></h3><p>We've tried to introduce a minimum of concepts and syntax here. There will be more Python examples later on, which we won't have time to explain in detail as we want to focus on the Bioinformatics instead.</p>
 <ul>
 <li><a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html">Jupyter Notebook Basics</a></li>
 <li><a href="https://www.python.org">Python</a></li>
