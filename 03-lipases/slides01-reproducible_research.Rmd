@@ -99,7 +99,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Provide machine configuration
     * Docker [https://www.docker.com/](https://www.docker.com/)
     * Virtual Machines (VirtualBox [https://www.virtualbox.org](https://www.virtualbox.org)) 
-    * `virtualenv`/`pip` (Python)
+    * `virtualenv`/`pip`/`conda` (Python)
 * Large datasets
     * Zenodo [https://zenodo.org/](https://zenodo.org/)
     * Figshare [https://figshare.com/](https://figshare.com/)
