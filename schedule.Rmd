@@ -13,11 +13,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Login Details
+## Installation instructions
 
-* server: `ibioic.sibs.strath.ac.uk`
-* userID: on your sheet
-* password: on your sheet
+* <https://2018-03-06-ibioic.readthedocs.io/en/latest/installation_attendees.html>
+* <http://bit.ly/2I416Gg>
 
 ## Schedule: Day 1
 
