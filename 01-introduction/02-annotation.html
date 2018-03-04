@@ -11816,20 +11816,27 @@ div#notebook {
 <pre><code>     gene            complement(736847..738235)
                      /locus_tag="ECA_RS03295"
                      /old_locus_tag="ECA0662"
-                     /db_xref="GeneID:2881615"
      CDS             complement(736847..738235)
                      /locus_tag="ECA_RS03295"
                      /old_locus_tag="ECA0662"
-                     /inference="EXISTENCE: similar to AA
-                     sequence:RefSeq:WP_011092278.1"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_010282995.1"
                      /note="Derived by automated computational analysis using
                      gene prediction method: Protein Homology."
                      /codon_start=1
                      /transl_table=11
                      /product="6-phospho-beta-glucosidase"
                      /protein_id="WP_039289952.1"
-                     /db_xref="GeneID:2881615"</code></pre>
-<p>We will talk about the meaning of this entry, and the gene context. But first, since we're going to work more with this GenBank file directly, we'll download it first.</p>
+                     /translation="MKAFPDGFLWGGSVAANQVEGAWNEDGKGVSTSDLQLKGVHGPV
+                     TERDESISCIKDRAIDFYHQYPQDIQLFAEMGFKVLRTSIAWTRIYPEGNEAEPCEAG
+                     LAFYDHLFDEMAKHHIQPLITLSHYEMPYGLVKKLGGWGNRAVIDHFEKYARTVFSRY
+                     KDKVKHWLTFNEINMALHSPFTGIGLSGEPSKQDIYQAIHHQLVASARVVKACHDIIP
+                     DAKIGNMLLGAVRYPMTCHPKDVLEAQNKNREWLFFGDVQVRGTYPAWIQRYFRENDV
+                     ELTITAQDKDDLSHTVDFVSFSYYMSGCATFEPEKYQSSRGNIIRLIPNPHLEASEWG
+                     WQIDPEGLRFLLNELYDRYQKPLFIVENGLGARDVVEEDGSIHDSYRIDYLRRHLIQV
+                     REAIDDGVELLGYTSWGPIDLVSAGTAQMSKRYGFIHVDRDDEGKGTLERRRKDSFYW
+                     YQDVISSNGKSL"</code></pre>
+<p>We want to learn more about the meaning of this entry, and the gene context. First, since we're going to work more with this GenBank file directly, we'll need to download it.</p>
 
 </div>
 </div>
@@ -11849,7 +11856,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">########################################################################</span>
@@ -11892,6 +11899,7 @@ div#notebook {
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Fetching NC_004547 from NCBI...
+Saved NC_004547.gbk
 </pre>
 </div>
 </div>
@@ -11904,9 +11912,9 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>If you look at <code>NC_004547.gbk</code> in a text editor, or simply view it at the command line using <code>more</code>, it should look like the NCBI website's content - although there are some interesting differences...</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/Teaching-IBioIC-Intro-to-Bioinformatics/01-introduction
-$ more NC_004547.gbk
+<p>If you look at <code>NC_004547.gbk</code> in a text editor, or simply view it at the command line using <code>less</code>, it should look like the NCBI website's content - although there are some interesting differences...</p>
+<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/2018-03-06-ibioic/01-introduction
+$ less NC_004547.gbk
 ...
 </pre></div>
 
@@ -11918,7 +11926,7 @@ $ more NC_004547.gbk
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="genomic_context"></a></p>
-<h2 id="Genomic-context">Genomic context<a class="anchor-link" href="#Genomic-context">&#182;</a></h2><p>You can look directly at the GenBank file see what genes or other features are annotated nearby, and deduce if these genes are part of a gene locus etc. However, this is much easier to see graphically.</p>
+<h2 id="Genomic-context">Genomic context<a class="anchor-link" href="#Genomic-context">&#182;</a></h2><p>You can look directly at the GenBank file see what genes or other features are annotated nearby, and deduce if these genes are part of an operon, or gene locus etc. However, this is much easier to see graphically.</p>
 
 </div>
 </div>
@@ -11928,10 +11936,10 @@ $ more NC_004547.gbk
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="genomic_context_ncbi"></a></p>
-<h2 id="Genomic-context-on-the-NCBI-website">Genomic context on the NCBI website<a class="anchor-link" href="#Genomic-context-on-the-NCBI-website">&#182;</a></h2><p>You might have noticed on the NCBI website display that for the gene <code>ECA0662</code> we searched for there was a clickable database cross-reference link, <a href="https://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&amp;cmd=Retrieve&amp;dopt=full_report&amp;list_uids=2881615">GeneID:2881615</a> - that will show you the gene on the <code>NC_004547.2</code> genome visually:</p>
+<h2 id="Genomic-context-on-the-NCBI-website">Genomic context on the NCBI website<a class="anchor-link" href="#Genomic-context-on-the-NCBI-website">&#182;</a></h2><p>Until May 2017, the GenBank entry for this gene <code>ECA0662</code> we searched for had a clickable database cross-reference link, <a href="https://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&amp;cmd=Retrieve&amp;dopt=full_report&amp;list_uids=2881615">GeneID:2881615</a> - but the NCBI have retired all the GI numbers (public records and databases are often subject to change, which is one reason why it's important to specify accession identifiers, and dates of access in publications). Anyway, for now that link still shows this gene on the <code>NC_004547.2</code> genome visually:</p>
 <p><img src="./images/genome_context_GeneID_2881615.png" alt="Genomic context for GeneID:2881615"></p>
 <p>You can try zooming out etc to examine what else is nearby - is your gene of interest part of an operon? Are the repeat regions nearby or anything else which might be important like an integrated phage?</p>
-<p>However, nice as that is, it is often useful to be able to vizualise the genomic context out with the NCBI website. You might be working on a draft genome which has not been published yet?</p>
+<p>However, nice as that is, it is often useful to be able to vizualise the genomic context outwith the NCBI website. You might be working on a draft genome which has not been published yet, for example.</p>
 <p>For this we will open the downloaded GenBank plain text files in the <a href="http://www.sanger.ac.uk/science/tools/artemis">Sanger Institute's tool Artemis</a>, which is able to view and edit annotation files.</p>
 
 </div>
@@ -11943,12 +11951,14 @@ $ more NC_004547.gbk
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="genomic_context_art"></a></p>
 <h2 id="Genomic-context-using-Artemis">Genomic context using Artemis<a class="anchor-link" href="#Genomic-context-using-Artemis">&#182;</a></h2><p>You should have previously download this GenBank file, in which case you can load it with Artemis via the command <code>art</code> as follows:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/Teaching-IBioIC-Intro-to-Bioinformatics/01-introduction
+<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/2018-03-06-ibioic/01-introduction
 $ ls *.gbk
 NC_004547.gbk
 $ art NC_004547.gbk <span class="p">&amp;</span>
 </pre></div>
-<p>Artemis is a graphical tool written in Java, and should pop up a separate window from this Notebook - or from your terminal window if you run it directly at the command line. After a couple of harmless warnings, you should get a window like this:</p>
+<p>Artemis is a graphical tool written in Java, and should pop up a separate window.</p>
+<p>Windows users, you will instead probably have to launch the <code>artemis.jar</code> file, and then from the "File" menu, pick "Open..." and navigate to the <code>NC_004547.gbk</code> file.</p>
+<p>After a couple of harmless warnings, you should get a window like this:</p>
 <p><img src="images/artemis_NC_004547_default.png" alt="Artemis with NC_004547.gbk loaded"></p>
 <p>The main window should have three regions,</p>
 <ul>
@@ -11958,7 +11968,7 @@ $ art NC_004547.gbk <span class="p">&amp;</span>
 </ul>
 <p>Using the menu entry "Goto", "Navigator..." (or by pressing Ctrl+g), which pops up an "Artemis Navigator" window, tell Artemis to goto feature with the qualifier value <code>ECA0662</code> (the old locus ID), and you should see something like this:</p>
 <p><img src="images/artemis_NC_004547_goto.png" alt="Artemis with NC_004547.gbk loaded showing ECA0662 gene"></p>
-<p>Notice a while gene feature has been outlined in black. Click "Goto" again, and the plane blue CDS feature should be highlighted:</p>
+<p>Notice a white gene feature has been outlined in black. Click "Goto" again, and the pale blue CDS feature should be highlighted:</p>
 <p><img src="images/artemis_NC_004547_goto2.png" alt="Artemis with NC_004547.gbk loaded showing ECA0662 CDS"></p>
 <p>Clicking "Goto" a third time should say "text not found".</p>
 <p>This gene is on the reverse complement strand - Artemis shows these features on the bottom half of the track, with the arrow pointing left. Looking to the left (downstream) there is a gene on the opposite forward strand. Looking to the right (upstream) there is a small gene on the same strand, then a small steel blue repeat region.</p>
