@@ -51,7 +51,7 @@ Provide an introduction to
 * basic computing skills in bioinformatics
 * common bioinformatics tools
 * automation and reproducible research
-* best proactices in scientific computing
+* best practices in scientific computing
 
 ## Best practices in scientific computing
 
