@@ -11842,7 +11842,7 @@ An assumption can be made that the function carried out by that feature was impo
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show plots as part of the notebook</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show plots as part of the notebook and make tools available</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
@@ -11891,7 +11891,7 @@ An assumption can be made that the function carried out by that feature was impo
 <h4 id="5.-Identify-RBH">5. Identify RBH<a class="anchor-link" href="#5.-Identify-RBH">&#182;</a></h4><ul>
 <li>Consider each query sequence (call this $p_1$) from $S_1$ in turn, and from the <em>forward best hits</em> table identify its 'best match' in $S_2$ (call this $p_2$).</li>
 <li>Check the <em>reverse best hits table</em> to find the 'best match' in the reverse direction for $p_2$.</li>
-<li><strong>If this 'best match' is $p_1$, then $p_1$ and $p_2$ are <em>reciprocal best matches</em>. </strong></li>
+<li><strong>If this 'best match' in the <em>reverse direction</em> is $p_1$, then $p_1$ and $p_2$ are <em>reciprocal best matches</em>. </strong></li>
 </ul>
 <p>We will write code to do this analysis in the cells below.</p>
 
@@ -11946,7 +11946,7 @@ An assumption can be made that the function carried out by that feature was impo
 <b>`BLASTP` allows the definition of `-query` and `-subject` sequence sets, so you don't have to build a database every time. However database searches are, in general, much faster</b>
 </div><p>We can use two features of command-line <code>BLAST</code> that make our job easier later.</p>
 <ul>
-<li>We will restrict the number of matches to be returned to 1, by using the <code>-max_target_seqs</code> argument. This will only report the best database hit to each query.</li>
+<li>We will restrict the number of matches to be returned to 1, by using the <code>-max_target_seqs</code> argument. This will only report the best database hit to each query. <em>We will not need to build a separate "best hit table".</em></li>
 <li>We will ask only for specific information in the returned results, using the <code>-outfmt</code> argument to recover: query ID, subject ID, percentage identity, percentage coverage, alignment score, and alignment E-value. (See the <code>blastp -help</code> output for more information on these options).</li>
 </ul>
 
@@ -12081,7 +12081,7 @@ REVERSE: blastp -out output/kitasatospora/05-rev-results.tab -outfmt &#39;6 qseq
 <b>Before you examine the `BLAST` results themselves, it is useful to define a new quantity: the <i>normalised bitscore</i>.
 </div><p>The bitscore reported by <code>BLAST</code> is the sum of the qualities of the aligned symbols over the whole alignment. This is an accurate measure of the alignment strength, but long sequences tend to have higher bitscores than short sequences, even when the matches are of about the same quality. To correct for this length effect, we can calculate a <em>normalised bitscore</em> where:</p>
 <p>$$\textrm{normalised bitscore} = \frac{\textrm{bitscore}}{\textrm{query length}}$$</p>
-<p>This makes comparisons of bitscore between proteins of different lengths a bit more fair.</p>
+<p>This makes comparisons of bitscore between proteins of different lengths fairer.</p>
 <h4 id="Calculations-using-pandas-columns">Calculations using <code>pandas</code> columns<a class="anchor-link" href="#Calculations-using-pandas-columns">&#182;</a></h4><p>Rather than looping over every item in a <code>pandas</code> dataframe column, it is possible to carry out calculations on entire columns in one action. So, to divide the contents of the <code>bitscore</code> column by the contents of the <code>qlength</code> column in the <code>fwd_results</code> dataframe, on a row-by-row basis, we can use the Python code:</p>
 <div class="highlight"><pre><span></span><span class="n">norm_bitscore</span> <span class="o">=</span> <span class="n">fwd_results</span><span class="o">.</span><span class="n">bitscore</span><span class="o">/</span><span class="n">fwd_results</span><span class="o">.</span><span class="n">qlength</span>
 </pre></div>
@@ -13161,15 +13161,15 @@ gBbhSBoAAAAAtAhFGgAAAAC0CEUaAAAAALQIRRoAAAAAtAhFGgAAAAC0CEUaAAAAALTI/wJvci3s
 <p><a id="reciprocal"></a></p>
 <h3 id="Identifying-reciprocal-best-matches">Identifying reciprocal best matches<a class="anchor-link" href="#Identifying-reciprocal-best-matches">&#182;</a></h3><p><p></p></p>
 <div class="alert-success">
-<b>There is more than one way to programmatically identify reciprocal best matches. In this lesson, you will use the dataframe structure to help you. The logic of this is as follows:</b>
+<b>There is more than one way to programmatically identify reciprocal best matches. In this lesson, you will use the dataframe structure to help you. The logic of this section is as follows:</b>
 </div><ul>
 <li>For each query sequence named in <code>fwd_results.query</code>, there is a single subject sequence named in the <code>fwd_results.subject</code> column (though there may be several rows, reflecting multiple alignments between the same subject and query).</li>
-<li>The two dataframes <code>fwd_results</code> and <code>rev_results</code> are merged such that rows are combined when <code>fwd_results.subject</code> is the same as <code>rev_results.query</code>. This produces a new dataframe called <code>rbbh</code>, where the <em>forward results</em> query and subject columns are renamed <code>query_x</code> and <code>subject_x</code>, while the <em>reverse results</em> query and subject columns are renamed <code>query_y</code> and <code>subject_y</code>.</li>
+<li>The two dataframes <code>fwd_results</code> and <code>rev_results</code> are merged such that rows are combined when <code>fwd_results.subject</code> is the same as <code>rev_results.query</code>. This produces a new dataframe we will call <code>rbbh</code>, where the <em>forward results</em> query and subject columns are renamed <code>query_x</code> and <code>subject_x</code>, while the <em>reverse results</em> query and subject columns are renamed <code>query_y</code> and <code>subject_y</code>.</li>
 <li>Reciprocal best hits are then those where the value in <code>query_x</code> matches the value in <code>subject_y</code>.</li>
 <li>All rows where <code>query_x</code> does not match <code>subject_y</code> are not reciprocal best hits, so these are discarded.</li>
 <li>All rows containing duplicate hits between the same query and subject sequences are grouped into a single row, taking the largest value for each column in that group.</li>
 </ul>
-<p>Applying this logical approach leaves us with a single dataframe describing the reciprocal best hits for these two gene sets.</p>
+<p>Applying this defined procedure (an <em>algorithm</em>) leaves us with a single dataframe describing the reciprocal best hits for these two gene sets, in the variable <code>rbbh</code>.</p>
 
 </div>
 </div>
@@ -13761,7 +13761,7 @@ AElFTkSuQmCC
 <p>The difference here is even more striking. Almost all the matches along the diagonal, and off the diagonal, have disappeared. Taking reciprocal best matches has restricted the comparison between the two gene sets almost completely to proteins that are similar across almost their entire length. These are likely to be a good starting point for further analysis and transfer of functional annotation.</p>
 <p><p></p></p>
 <div class="alert-success">
-<b>Using reciprocal best hits as a filter, it is possible to discard a large number of low-quality alignments and improve your confidence in having found matches to sequences that are likely to be equivalent (in some way).</b>
+<b>Using reciprocal best hits as a filter, it is possible to discard a large number of low-quality alignments and improve your confidence in having found matches to sequences that are likely to be boilogically equivalent in some way.</b>
 </div>
 </div>
 </div>
