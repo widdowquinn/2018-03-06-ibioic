@@ -11801,7 +11801,7 @@ div#notebook {
 <h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><div class="alert-success">
 <b>Multiple Sequence Alignment is a useful approach to comparing members of a gene family.</b>
 </div><p>To recap, we've downloaded the <em>Pectobacterium atrosepticum</em> genome in GenBank format as <code>NC_004547.gbk</code>, and then extracted eight glycoside hydrolase genes from it as two FASTA files with their nucleotide and protein seqeunces giving files <code>nucleotides.fasta</code> and <code>proteins.fasta</code>.</p>
-<p>When you have a set of gene you think form a gene family, a natural thing to do it compare the sequences to each other. A standard approach here is to build a multiple sequence alignment, and while there are many tools for this we will use <code>Muscle</code>.</p>
+<p>When you have a set of genes you think form a gene family, a natural thing to do it compare the sequences to each other. A standard approach here is to build a multiple sequence alignment, and while there are many tools for this we will use <code>muscle</code>.</p>
 <p>These tools will generally work even on a pair of sequences, but here there even more options and ways to visualise the similarities or differences in a pairwise alignment. You should probably start with a <a href="https://en.wikipedia.org/wiki/Dot_plot_%40bioinformatics%41">dotplot</a>.</p>
 
 </div>
@@ -11812,8 +11812,8 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="muscle"></a></p>
-<h2 id="Running-Muscle">Running Muscle<a class="anchor-link" href="#Running-Muscle">&#182;</a></h2><p><a href="http://www.drive5.com/muscle/">Muscle</a> is a popular tool for multiple sequence alignment of nucleotides or proteins. By default it expects the input sequences in FASTA format, and will produce the output alignment in FASTA format where minus signs <code>-</code> have been inserted into the sequences as gap character. Let's try this with our proteins:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/Teaching-IBioIC-Intro-to-Bioinformatics/01-introduction/data
+<h2 id="Running-Muscle">Running Muscle<a class="anchor-link" href="#Running-Muscle">&#182;</a></h2><p><a href="http://www.drive5.com/muscle/">Muscle</a> is a popular tool for multiple sequence alignment of nucleotides or proteins. By default it expects the input sequences in FASTA format, and will produce the output alignment in FASTA format where minus signs <code>-</code> have been inserted into the sequences to indicate gaps the alignment introduces. Let's try this with our proteins:</p>
+<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/2018-03-06-ibioic/01-introduction/
 $ muscle -in proteins.fasta -out proteins_aligned.fasta
 
 MUSCLE v3.8.31 by Robert C. Edgar
@@ -11834,8 +11834,8 @@ proteins <span class="m">8</span> seqs, max length <span class="m">1473</span>, 
 <span class="m">00</span>:00:02     <span class="m">15</span> MB<span class="o">(</span><span class="m">0</span>%<span class="o">)</span>  Iter   <span class="m">4</span>  <span class="m">100</span>.00%  Refine biparts
 <span class="m">00</span>:00:02     <span class="m">15</span> MB<span class="o">(</span><span class="m">0</span>%<span class="o">)</span>  Iter   <span class="m">5</span>  <span class="m">100</span>.00%  Refine biparts
 </pre></div>
-<p>You should now have a new file <code>proteins_aligned.fasta</code> which you can look at within the command line terminal using more:</p>
-<div class="highlight"><pre><span></span>$ more proteins_aligned.fasta 
+<p>You should now have a new file <code>proteins_aligned.fasta</code> which you can look at within the command line terminal using <code>less</code>:</p>
+<div class="highlight"><pre><span></span>$ less proteins_aligned.fasta 
 &gt;ECA3646
 ATGAGTAAGGTTTCACTGAC------TA---TTCCCCCAGATTTTATTCTGGGTGCGGCG
 GCATCGGCATGGCAAACGGAAGGATGGAGCGGCAAGAAGGCAGGGCAGGAT--TCCTATT
@@ -11852,8 +11852,9 @@ TGGATCTC-------------------------------------TGGTACAAGCAG---
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="jalview"></a></p>
-<h3 id="Running-Jalview">Running Jalview<a class="anchor-link" href="#Running-Jalview">&#182;</a></h3><p>We're just going to use <a href="http://www.jalview.org">Jalview</a> as a multiple sequence aligment viewer, but it is capable of much more.</p>
-<p>You could run <code>jalview</code> via the command line, and then using the application menu "File", "Input Alignment", "from File" to pick our <code>proteins_aligned.fasta</code> file. But that's a lot of clicks and its quicker and easier to open the file directly via the command line:</p>
+<h3 id="Running-Jalview">Running Jalview<a class="anchor-link" href="#Running-Jalview">&#182;</a></h3><p>In thsi workshop, we're going to use <a href="http://www.jalview.org">Jalview</a> only as a multiple sequence aligment viewer, but it is capable of much more.</p>
+<p>If it is not installed locally (or you are using Windows) try this <a href="http://www.jalview.org/webstart/jalview.jnlp">Jalview Launch</a> link, then use the application menu "File", "Input Alignment", "from File" to pick your <code>proteins_aligned.fasta</code> file.</p>
+<p>However, if it is installed locally on Linux or macOS, the quickest and easiest way to open the file directly in Jalview is via the command line:</p>
 <div class="highlight"><pre><span></span>$ jalview -open proteins_aligned.fasta
 ...
 </pre></div>
