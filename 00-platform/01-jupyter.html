@@ -11786,10 +11786,10 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ol>
 <li><a href="#introduction">Introduction to Juypter</a></li>
-<li><a href="#starting_jupyter">Lauching Jupyter</a></li>
+<li><a href="#starting_jupyter">Launching Jupyter</a></li>
 <li><a href="#opening_notebook">Opening a Jupyter notebook</a> </li>
 <li><a href="#cells_in_jupyter">Cells inside a Jupyter notebook</a></li>
-<li><a href="#python_in_jupyter">Python inside a Jupter notebook</a></li>
+<li><a href="#python_in_jupyter">Python inside a Jupyter notebook</a></li>
 </ol>
 
 </div>
@@ -11801,8 +11801,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="introduction"></a></p>
 <h2 id="Introduction-to-Jupyter">Introduction to Jupyter<a class="anchor-link" href="#Introduction-to-Jupyter">&#182;</a></h2><p>In this workshop we're using a software platform call the Jupyter Notebook. This lets you write an electronic notebook combining text (with basic formatting like <em>italics</em> or bullet points) and snippets of functional programming code (here we're using the Python programming language).</p>
-<p>You access a Jupyter Notebook through a webbrowser, but rather than depending on a server out on the internet, you can run Jupyter on your own computer.</p>
-<p>In this case both Jupyter and the webbrowser will run on the Linux server setup for this workshop, and you'll access them from your Windows Desktop.</p>
+<p>You access a Jupyter Notebook through a web browser, but rather than depending on a server out on the internet, you can run Jupyter on your own computer.</p>
+<p>In this case both Jupyter and the web browser will run on the Linux server setup for this workshop, and you'll access them from your Windows Desktop.</p>
 
 </div>
 </div>
@@ -11812,15 +11812,15 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="starting_jupyter"></a></p>
-<h3 id="Launching-Jupyter">Launching Jupyter<a class="anchor-link" href="#Launching-Jupyter">&#182;</a></h3><p>Using <a href="http://mobaxterm.mobatek.net">MobaXterm</a> connect to the class server, and then at the command line prompt run:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/Teaching-IBioIC-Intro-to-Bioinformatics
-$ <span class="nb">source</span> venv-IBioIC/bin/activate
+<h3 id="Launching-Jupyter">Launching Jupyter<a class="anchor-link" href="#Launching-Jupyter">&#182;</a></h3><p>Open your command line terminal (i.e. <code>Git Bash</code> on Windows), and then at the command line prompt run:</p>
+<div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/2018-03-06-ibioic
+$ <span class="nb">source</span> activate <span class="m">2018</span>-03-06-ibioic
 $ jupyter notebook
 ...
 </pre></div>
 <p>The first command <code>cd</code> is short for "change directory", and just changes into the course directory so that all our sample data and the course notebooks are easy to find.</p>
 <p>The second command <code>source</code> activates something called a Python Virtual Environment, which takes care of all the Python library dependencies we'll be using - including Jupyter.</p>
-<p>The final command starts Jupyter. It should print various output to screen, and launch the web-browser Firefox showing the Jupyter Notebook Dashboard.</p>
+<p>The final command starts Jupyter. It should print various outputs to screen, and launch your default web browser, showing the Jupyter Notebook Dashboard.</p>
 <p>This should show a file list coresponding to the course directory which we looked at earlier:</p>
 <p><img src="images/jupyter_startup.png" alt="Jupyter showing the course folder"></p>
 <p>Notice in the web-browser address bar that the URL starts <code>localhost:8888/</code> where <code>localhost</code> is a special address for the local machine itself (not somewhere else on the network or internet).</p>
@@ -11833,9 +11833,9 @@ $ jupyter notebook
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="opening_notebook"></a></p>
-<h3 id="Opening-a-Jupyter-notebook">Opening a Jupyter notebook<a class="anchor-link" href="#Opening-a-Jupyter-notebook">&#182;</a></h3><p>From the Jupyter file listing (the "Jupter Notebook Dashboard"), trying clicking on the <code>00-platform</code> entry (which has a folder icon). This should show you the contents of the directory <code>~/Teaching-IBioIC-Intro-to-Bioinformatics/00-platform/</code>.</p>
-<p>Confirm Jupyter is showing the same files using <code>ls</code> at the Linux command line. Like many of the core Unix/Linux command this an extreme shortening, <code>ls</code> is short for "list":</p>
-<div class="highlight"><pre><span></span>$ ls Teaching-IBioIC-Intro-to-Bioinformatics/00-platform
+<h3 id="Opening-a-Jupyter-notebook">Opening a Jupyter notebook<a class="anchor-link" href="#Opening-a-Jupyter-notebook">&#182;</a></h3><p>From the Jupyter file listing (the "Jupyter Notebook Dashboard"), click on the <code>00-platform</code> entry (which has a folder icon). This should show you the contents of the directory <code>~/2018-03-06-ibioic/00-platform/</code>.</p>
+<p>Confirm Jupyter is showing the same files as when you used <code>ls</code> at the Linux command line. Like many of the core Unix/Linux command this an extreme shortening, <code>ls</code> is short for "list":</p>
+<div class="highlight"><pre><span></span>$ ls ~/2018-03-06-ibioic/00-platform
 </pre></div>
 <p>Back in our browser looking at the "Jupter Notebook Dashboard", clicking on the  <code>01-jupyter.ipynb</code> entry should open in a new tab. You're now looking at <em>this</em> file run from inside Jupyter.</p>
 
@@ -11847,7 +11847,7 @@ $ jupyter notebook
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="cells_in_jupyter"></a></p>
-<h3 id="Cells-inside-a-Jupter-notebook">Cells inside a Jupter notebook<a class="anchor-link" href="#Cells-inside-a-Jupter-notebook">&#182;</a></h3><p>So far we've not taken advantage of the key feature of Jupyter Notebooks - in addition to blocks of pretty text, you can have real live code too. 
+<h3 id="Cells-inside-a-Jupyter-notebook">Cells inside a Jupyter notebook<a class="anchor-link" href="#Cells-inside-a-Jupyter-notebook">&#182;</a></h3><p>So far we've not taken advantage of the key feature of Jupyter Notebooks - in addition to blocks of pretty text, you can have real live code too. 
 Jupyter calls each block a "Cell", and here we'll use two main kinds of cells:</p>
 <ul>
 <li>Markdown - Pretty text which can include simple formatting like <em>italics</em>, bullet point lists, and images.</li>
@@ -11905,7 +11905,7 @@ Jupyter calls each block a "Cell", and here we'll use two main kinds of cells:</
 <li>This text which was in <em>italics</em> now has asterisks around it.</li>
 <li>This text which was in <strong>bold</strong> has double asterisks.</li>
 </ul>
-<p>From Jupter's edit mode in a markdown cell:</p>
+<p>From Jupyter's edit mode in a markdown cell:</p>
 <ul>
 <li>Pressing "Enter" will start a new line of text</li>
 <li>Pretting "Ctrl + Enter" will leave edit mode, and show the pretty text.</li>
@@ -11929,9 +11929,9 @@ Jupyter calls each block a "Cell", and here we'll use two main kinds of cells:</
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="python_in_jupyter"></a></p>
 <h3 id="Python-inside-a-Jupyter-notebook">Python inside a Jupyter notebook<a class="anchor-link" href="#Python-inside-a-Jupyter-notebook">&#182;</a></h3><p><p></p></p>
-<div class="alert-warning">We're introducing Python using Python 3 syntax, which has some changes from Python 2 - like how ``print`` works. This is something to be aware of if copying older examples from the internet or books.</div><p>We're going to introduce some programming concepts using the Python programming language.</p>
+<div class="alert-warning"><b>NOTE:</b> We're introducing Python using Python 3 syntax, which has some changes from Python 2 - like how ``print`` works. This is something to be aware of if copying older examples from the internet or books.</div><p>We're going to introduce some programming concepts using the Python programming language.</p>
 <p>Python lets you work with simple data objects like booleans (defined with keywords <code>True</code> and <code>False</code>), numbers (like <code>1</code>, <code>1.3</code>, or <code>1.23e-4</code>), and strings (using double-quotes like <code>"Hello world"</code> or single quotes like <code>'Hello World'</code>), and more complicated objects too including lists, sets, dictionaries.</p>
-<p>Numbers in Python these support the numerical operations you might expect, plus some additional operations were you might not guess the syntax meaning:</p>
+<p>Numbers in Python these support the numerical operations you might expect, plus some additional operations where you might guess the meaning:</p>
 
 </div>
 </div>
@@ -12072,7 +12072,7 @@ Jupyter calls each block a "Cell", and here we'll use two main kinds of cells:</
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For a single line expression like that, you don't need to bother with a <code>print(...)</code> as Jupyter will just show the result. But in general with multiple-line Python snippets you would need the print bits:</p>
+<p>For a single line expression like that, you don't need to bother with a <code>print(...)</code> as Jupyter will just show the result. But in general with multiple-line Python snippets you would need the <code>print()</code> bits:</p>
 
 </div>
 </div>
@@ -12212,10 +12212,10 @@ Jupyter calls each block a "Cell", and here we'll use two main kinds of cells:</
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="new_notebooks"></a></p>
-<h3 id="Making-a-new-Jupter-notebook">Making a new Jupter notebook<a class="anchor-link" href="#Making-a-new-Jupter-notebook">&#182;</a></h3><p>From the Jupyter Notebook Dashboard (the first tab opened back when we started Jupyter), there is a drop-down menu option top right, "New", then "Python 3" (under the "Notebooks" section):</p>
+<h3 id="Making-a-new-Jupyter-notebook">Making a new Jupyter notebook<a class="anchor-link" href="#Making-a-new-Jupyter-notebook">&#182;</a></h3><p>From the Jupyter Notebook Dashboard (the first tab opened back when we started Jupyter), there is a drop-down menu option top right, "New", then "Python 3" (under the "Notebooks" section):</p>
 <p><img src="images/jupyter_new_menu.png" alt="Jupyter Dashboard&#39;s new menu"></p>
 <p>From an existing Jupyter Notebook there is an entry under the menu (top left), "File", "New Notebook", "Python 3".</p>
-<p>Either will create a new initially named <code>Untitled</code> Notebook. By clicking on this default name, you can give it new name (the extension <code>.ipynb</code> is added automatically):</p>
+<p>Either will create a new initially named <code>Untitled</code> Notebook. By clicking on this default name (<strong>Unititled</strong>), you can give it new name (the extension <code>.ipynb</code> is added automatically):</p>
 <p><img src="images/jupyter_untitled.png" alt="New Python 3 notebook in Jupyter"></p>
 <p>To save the new notebook, goto the menu (top left), "File", "Save and Checkpoint" - or use the save icon just underneither the menu.</p>
 <p>We'll ask you to make your own new notebook tomorrow for one of the exercises.</p>
@@ -12228,8 +12228,8 @@ Jupyter calls each block a "Cell", and here we'll use two main kinds of cells:</
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Resources">Resources<a class="anchor-link" href="#Resources">&#182;</a></h3><ul>
-<li><a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html">Jupter Notebook Basics</a></li>
-<li><a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html">Jupter Markdown cells</a></li>
+<li><a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html">Jupyter Notebook Basics</a></li>
+<li><a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html">Jupyter Markdown cells</a></li>
 <li><a href="http://daringfireball.net/projects/markdown/">Markdown</a> (original definition and tool)</li>
 <li><a href="http://commonmark.org/">CommonMark</a> (community effort to formalise the Markdown standard)</li>
 <li><a href="https://www.python.org">Python</a></li>
