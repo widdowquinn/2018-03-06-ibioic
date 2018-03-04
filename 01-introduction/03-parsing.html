@@ -11898,15 +11898,14 @@ qualifiers:
 <pre><code>     CDS             complement(736847..738235)
                      /locus_tag="ECA_RS03295"
                      /old_locus_tag="ECA0662"
-                     /inference="EXISTENCE: similar to AA
-                     sequence:RefSeq:WP_011092278.1"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_010282995.1"
                      /note="Derived by automated computational analysis using
                      gene prediction method: Protein Homology."
                      /codon_start=1
                      /transl_table=11
                      /product="6-phospho-beta-glucosidase"
                      /protein_id="WP_039289952.1"
-                     /db_xref="GeneID:2881615"
                      /translation="MKAFPDGFLWGGSVAANQVEGAWNEDGKGVSTSDLQLKGVHGPV
                      TERDESISCIKDRAIDFYHQYPQDIQLFAEMGFKVLRTSIAWTRIYPEGNEAEPCEAG
                      LAFYDHLFDEMAKHHIQPLITLSHYEMPYGLVKKLGGWGNRAVIDHFEKYARTVFSRY
@@ -11916,7 +11915,7 @@ qualifiers:
                      WQIDPEGLRFLLNELYDRYQKPLFIVENGLGARDVVEEDGSIHDSYRIDYLRRHLIQV
                      REAIDDGVELLGYTSWGPIDLVSAGTAQMSKRYGFIHVDRDDEGKGTLERRRKDSFYW
                      YQDVISSNGKSL"</code></pre>
-<p>Note that because of how we downloaded <code>NC_004547.gbk</code> using NCBI Entrez, the CDS features include the protein translation. You may recall when we looked at these genomes on the NCBI website the translation was not shown.</p>
+<p>Note that because of how we downloaded <code>NC_004547.gbk</code> using NCBI Entrez, the CDS features include the protein translation. Depending on the settings, the NCBI website does not always show the translations here.</p>
 
 </div>
 </div>
@@ -11927,8 +11926,8 @@ qualifiers:
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="locations"></a></p>
 <h3 id="Locations-in-GenBank-format">Locations in GenBank format<a class="anchor-link" href="#Locations-in-GenBank-format">&#182;</a></h3><p>The first line of a GenBank (or EMBL) feature gives the co-ordinates. Simple cases on the forward strand would look like <code>46146..47009</code> or <code>1063081..1063944</code> meaning <code>start..end</code> using inclusive one-based counting.</p>
-<p>Here we have <code>complement(736847..738235)</code> where <code>complement(end..start)</code> for features on the reverse strand. Here the start of the gene is at position <code>738235</code> while the stop codon should be the three bases ending at position <code>736847</code>. If you still have Artemis open, you can check this.</p>
-<p>More complicated CDS locations using <code>join(...)</code> are common in eurkaroytes to describe slicing.</p>
+<p>Here we have <code>complement(736847..738235)</code> where <code>complement(end..start)</code> is for features on the reverse strand. Here the start of the gene is at position <code>738235</code> while the stop codon should be the three bases ending at position <code>736847</code>. If you still have Artemis open, you can check this.</p>
+<p>More complicated CDS locations using <code>join(...)</code> are common in eurkaryotes to describe slicing.</p>
 <p>The way that Python (and many other programming languages) slices strings or arrays of data counts from zero but excludes the end point, which is why in Biopython these locations seem to begin one base earlier.</p>
 
 </div>
@@ -12016,7 +12015,7 @@ Stop codon is TAA
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Notice getting Biopython to extract the sequence has taken care of the reverse completement for us - this nucleotide sequence starts <code>ATG</code> (a start codon) and ends <code>TAA</code> (a stop codon).</p>
+<p>Notice that getting Biopython to extract the sequence has taken care of the reverse complement for us - this nucleotide sequence starts <code>ATG</code> (a start codon) and ends <code>TAA</code> (a stop codon).</p>
 
 </div>
 </div>
@@ -12070,7 +12069,7 @@ MKAFPDGFLWGGSVAANQVEGAWNEDGKGVSTSDLQLKGVHGPVTERDESISCIKDRAIDFYHQYPQDIQLFAEMGFKVL
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Here we also told Biopython to interpret this as a complete CDS, meaning it checks there is a whole number of codons (the sequence is a multiple of three in length), verifies the last codon is a stop codon, and also ensures even if an alternative start codon is used it becomes a methione (<code>M</code>). In this case the start codon is the typical <code>ATG</code> as we saw above.</p>
-<p>Let's double check our translation matches that given in the annotation:</p>
+<p>Let's double check that our translation matches the one given in the annotation:</p>
 
 </div>
 </div>
@@ -12112,7 +12111,7 @@ MKAFPDGFLWGGSVAANQVEGAWNEDGKGVSTSDLQLKGVHGPVTERDESISCIKDRAIDFYHQYPQDIQLFAEMGFKVL
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="ex01"></a>
 <img src="../images/exercise.png" style="width: 40px; float: left;"></p>
-<p>In the same way, for all eight genes of interest, let's find the CDS feature, extract the nucleotide sequence and translate it, and just print this on screen.</p>
+<p>In the same way, for all eight genes of interest, let's find the CDS feature, extract the nucleotide sequence, translate it, and print this on screen.</p>
 
 </div>
 </div>
