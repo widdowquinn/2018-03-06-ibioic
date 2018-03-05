@@ -143,7 +143,7 @@ We provide the course notebooks and slides as webpages, in the links below:
 ​
 **Lessons**
 ​
-* [00. Linux (`terminal`)](00-platform/00-linux.html) - <font color='green'><b>introductory</b></font>
+* [00. The command line and Linux (`terminal`)](00-platform/00-command-line.html) - <font color='green'><b>introductory</b></font>
 * [01. Jupyter Notebooks (`notebook`)](00-platform/01-jupyter.html) - <font color='green'><b>introductory</b></font>
 * [02. Python (`notebook`)](00-platform/02-python.html) - <font color='green'><b>introductory</b></font>
 ​
