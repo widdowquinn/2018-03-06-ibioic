@@ -67,6 +67,12 @@ and macOS Bash shells.
 This will provide you with both ``git`` and ``bash`` in the ``Git Bash`` program, which you can start
 from the Start Menu on your Windows machine.
 
+``git`` should be available in the Git Bash terminal. You can test this by issuing ``git --version``:
+
+.. code-block:: bash
+ 
+    $ git --version
+    git version 2.16....
 
 .. _Git Bash video tutorial: https://www.youtube.com/watch?v=339AEqk9c-8
 .. _Git downloads page: https://git-scm.com/
