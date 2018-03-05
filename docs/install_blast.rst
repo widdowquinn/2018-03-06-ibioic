@@ -24,6 +24,7 @@ Windows installation
 --------------------
 
 1. Download ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/ncbi-blast-2.7.1+-win64.exe with your web browser.
+   If that FTP links does not work, try HTTP instead http://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/ncbi-blast-2.7.1+-win64.exe
 2. Run this installer using the defaults, it should put BLAST under ``C:\Program Files\NCBI\blast-2.7.1+``
 
 .. _Bioconda: https://bioconda.github.io/
