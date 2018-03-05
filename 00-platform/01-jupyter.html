@@ -11814,13 +11814,11 @@ div#notebook {
 <p><a id="starting_jupyter"></a></p>
 <h3 id="Launching-Jupyter">Launching Jupyter<a class="anchor-link" href="#Launching-Jupyter">&#182;</a></h3><p>Open your command line terminal (i.e. <code>Git Bash</code> on Windows), and then at the command line prompt run:</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/2018-03-06-ibioic
-$ <span class="nb">source</span> activate <span class="m">2018</span>-03-06-ibioic
 $ jupyter notebook
 ...
 </pre></div>
 <p>The first command <code>cd</code> is short for "change directory", and just changes into the course directory so that all our sample data and the course notebooks are easy to find.</p>
-<p>The second command <code>source</code> activates something called a Python Virtual Environment, which takes care of all the Python library dependencies we'll be using - including Jupyter.</p>
-<p>The final command starts Jupyter. It should print various outputs to screen, and launch your default web browser, showing the Jupyter Notebook Dashboard.</p>
+<p>The second command starts Jupyter. It should print various outputs to screen, and launch your default web browser, showing the Jupyter Notebook Dashboard.</p>
 <p>This should show a file list coresponding to the course directory which we looked at earlier:</p>
 <p><img src="images/jupyter_startup.png" alt="Jupyter showing the course folder"></p>
 <p>Notice in the web-browser address bar that the URL starts <code>localhost:8888/</code> where <code>localhost</code> is a special address for the local machine itself (not somewhere else on the network or internet).</p>
