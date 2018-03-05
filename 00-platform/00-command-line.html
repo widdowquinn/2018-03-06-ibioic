@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>00-linux</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>00-command-line</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11776,7 +11776,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="../images/JHI_STRAP_Web.png" style="width: 150px; float: right;"></p>
-<h1 id="00---Linux-and-remote-access">00 - Linux and remote access<a class="anchor-link" href="#00---Linux-and-remote-access">&#182;</a></h1>
+<h1 id="00---The-command-line-and-Linux">00 - The command line and Linux<a class="anchor-link" href="#00---The-command-line-and-Linux">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -11786,9 +11786,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ol>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#command_line">Remote access to the command line</a> (text)</li>
-<li><a href="#xwindows">Remote access to graphical programs</a> (showing tools on your screen)</li>
-<li><a href="#remote_desktop">Remote access to the Linux desktop</a> (like seeing the whole screen)</li>
+<li><a href="#command_line">Command line</a></li>
 </ol>
 
 </div>
@@ -11799,9 +11797,10 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="introduction"></a></p>
-<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>In this workshop you will be using a Windows Desktop computer in order to access a remote Linux Server computer, and run programs there.</p>
-<p>What is Linux? It is a free open source operating system replicating the capabilities of earlier commericial Unix systems. While most laptops today run Microsoft Windows or Apple macOS, for servers and clusters Linux is much more common.</p>
-<p>Why use Linux? The majority of cutting edge bioinformatics tools are written for use under Linux. Many of these tools will also work directly on Apple macOS, which is also a type of Unix. Relatively few bioinformatics tools will run under Microsoft Windows - although interestingly Windows 10 has the capability run Ubuntu Linux for a hybrid approach.</p>
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Early computers were text based, while nowadays most are graphical with a mouse or touchscreen. Previously you had to type in commands and see the results on screen as text, working with what is known as the "command line", "terminal" or "shell". Even on modern computers this functionality is still present, and it still has a number of advantages - particularly for automating work.</p>
+<p>What is Linux? It is a free open source operating system replicating the capabilities of earlier commercial Unix systems. While most laptops today run Microsoft Windows or Apple macOS, for servers and clusters Linux is much more common.</p>
+<p>Why use Linux? The majority of cutting edge bioinformatics tools are written for use under Linux, typically at the command line. Many of these tools will also work directly on Apple macOS, which is also a type of Unix. Relatively few bioinformatics tools will run under Microsoft Windows - although interestingly Windows 10 has the capability run Ubuntu Linux for a hybrid approach.</p>
+<p>So that you can use your own laptops, for this workshop we have focused on tools which are available on Linux, Apple macOS and Windows.</p>
 
 </div>
 </div>
@@ -11813,102 +11812,69 @@ div#notebook {
 <p><a id="command_line"></a></p>
 <h3 id="Command-Line">Command Line<a class="anchor-link" href="#Command-Line">&#182;</a></h3><p><p></p></p>
 <div class="alert-success">
-<b>Fundamentals of working at the Linux command line</b>
+<b>Fundamentals of working at the command line</b>
 </div><p>If you were sitting at Linux or Apple computer, there would be a standard "Terminal" application for accessing the (Unix) command line. From this command line terminal you could access remote Unix/Linux servers using the <code>ssh</code> command.</p>
-<p>The name "Terminal" was originally used for physical terminals, which were little more than a black and white screen with keyboard connected to a large shared Unix server computer out of sight, perhaps in the basement.</p>
-<p>However, today we want to access a Linux server from a Windows computer. There are multiple software packages which could be installed to do this,
-but we'll use <a href="http://mobaxterm.mobatek.net">MobaXterm</a> which can also handle graphical tools which we will discuss below.</p>
-<p>It's time for a live demonstation - your instructors will show you how to start MobaXterm, and give out usernames (here represented by <code>userXX</code>) and password to connect to the Linux server setup for this workshop (here represented by <code>servername</code>).</p>
+<p>The name "Terminal" was originally used for physical terminals, which were little more than a black and white screen with keyboard connected to a large shared Unix server computer out of sight, perhaps in the basement. However, today we will be running tools locally on the laptops.</p>
+<p>It's time for a live demonstration - please start your command line "Terminal" running. For those of you on Windows, we have asked you to install <code>Git Bash</code> which provides a Linux like environment. This can be started from the "Start Menu" via "All Programs".</p>
 <p>When you log onto a Linux server you'll generally get a welcome message setup by the server administrator, and a dollar sign prompt something like this:</p>
 
-<pre><code>Last login: Mon Mar  6 16:29:40 2017 from 143.234.97.96
+<pre><code>Last login: Thu Feb 22 10:20:48 2018 from 143.234.99.94
 [userXX@servername ~]$</code></pre>
 <p>You should be able to type and see the letters appear on the screen. Once you press the enter key, the text will be interpreted as a command and executed. e.g. Try typing <code>d</code>, <code>a</code>, <code>t</code>, <code>e</code> and enter - you should see something like this:</p>
 
 <pre><code>[userXX@servername ~]$ date
-Tue Mar  7 16:21:27 GMT 2017</code></pre>
-<p>This command would be run on the Linux server you have connected to, so it might differ slightly from the clock on your Windows desktop computer.</p>
+Tue Mar  6 09:41:27 GMT 2018</code></pre>
+<p>One of the powerful things about the command line is it can be used just as easily on your own machine as on a remote server. You may have access to Linux computer cluster where you work for example? Sending short commands and text output back and forth requires relatively little network bandwidth, so this can even works effectively for command line remote access to computers on the other side of the world.</p>
 <h3 id="Files-and-directories">Files and directories<a class="anchor-link" href="#Files-and-directories">&#182;</a></h3><p>One of the most important commands you will learn is <code>ls</code>, short for list, which by default lists all the files in the current working directory. Try this:</p>
 
 <pre><code>[userXX@servername ~]$ ls
 Desktop           Pictures
 Documents         Public
-Downloads         Teaching-IBioIC-Intro-to-Bioinformatics
+Downloads         2018-03-06-ibioic
 examples.desktop  Templates
 Music             Videos</code></pre>
-<p>Here <code>Teaching-IBioIC-Intro-to-Bioinformatics</code> represents a sub-directory underneath the current working directory. You can tell <code>ls</code> to list files in specific places, e.g.</p>
+<p>Here <code>2018-03-06-ibioic</code> represents a sub-directory underneath the current working directory. You can tell <code>ls</code> to list files in specific places, e.g.</p>
 
-<pre><code>[userXX@servername ~]$ ls Teaching-IBioIC-Intro-to-Bioinformatics/
-00-platform             04-structure        index.ipynb
-01-introduction         Dockerfile          install-apps.sh
-01-sequences            README.md           requirements.txt
-02-sequence_databases   VM_setup.md         users.txt
-03-lipases              create_users.sh</code></pre>
-<p>Here <code>Teaching-IBioIC-Intro-to-Bioinformatics/</code> is being interpreted as a relative path, starting from the current working directory. The command <code>pwd</code> reports the present working directory:</p>
+<pre><code>[userXX@servername ~]$ ls 2018-03-06-ibioic/
+00-platform                 VM_setup.md             linux_notes
+01-introduction             _config.yml             requirements_students.txt
+02-sequence_databases       copy_repo.sh            requirements_tutors.txt
+03-lipases                  docs                    reveal.css
+04-structure                environment.yml         schedule.Rmd
+Dockerfile-notebooks        images                  schedule.html
+Dockerfile-terminal         index.ipynb             three_minute_test.md
+README.md                   install-apps.sh</code></pre>
+<p>Here <code>2018-03-06-ibioic/</code> is being interpreted as a relative path, starting from the current working directory. The command <code>pwd</code> reports the present working directory:</p>
 
 <pre><code>[userXX@servername ~]$ pwd
 /home/userXX</code></pre>
-<p>i.e. Starting from <code>/home/userXX</code>, the relative path <code>Teaching-IBioIC-Intro-to-Bioinformatics/</code> means the same as the absolute path <code>/home/userXXX/Teaching-IBioIC-Intro-to-Bioinformatics/</code>.</p>
+<p>i.e. Starting from <code>/home/userXX</code>, the relative path <code>2018-03-06-ibioic/</code> means the same as the absolute path <code>/home/userXXX/2018-03-06-ibioic/</code>.</p>
+<p>Here <code>/home/userXX</code> represents the typical home directory naming used on Linux. On Apple macOS your home folder would be named something like <code>/Users/userXX</code>. Under <code>Git Bash</code> on Windows you'll probably see <code>/c/Users/userXX</code> or similar where <code>/c</code> represents the Windows <code>C:</code> drive.</p>
 <p>You can change the directory with the <code>cd</code> command,</p>
 
-<pre><code>[userXX@servername ~]$ cd Teaching-IBioIC-Intro-to-Bioinformatics/
-[userXX@servername Teaching-IBioIC-Intro-to-Bioinformatics]$ pwd
-/home/userXX/Teaching-IBioIC-Intro-to-Bioinformatics</code></pre>
+<pre><code>[userXX@servername ~]$ cd 2018-03-06-ibioic/
+[userXX@servername 2018-03-06-ibioic/]$ pwd
+/home/userXX/2018-03-06-ibioic/</code></pre>
 <p>Notice that the <code>cd</code> command did not print out any output (it just silently changed the directory). However, in this example the prompt did change. This example assume a common configuration showing the username, server name, and the final part of the current working directory.</p>
 <p>Now if you run just <code>ls</code>, because the current directory has changed you get:</p>
 
-<pre><code>[userXX@servername Teaching-IBioIC-Intro-to-Bioinformatics]$ ls
-00-platform             04-structure        index.ipynb
-01-introduction         Dockerfile          install-apps.sh
-01-sequences            README.md           requirements.txt
-02-sequence_databases   VM_setup.md         users.txt
-03-lipases              create_users.sh</code></pre>
-<p>And, if you try <code>ls Teaching-IBioIC-Intro-to-Bioinformatics/</code> you'll get an error:</p>
+<pre><code>[userXX@servername 2018-03-06-ibioic]$ ls
+00-platform                 VM_setup.md             linux_notes
+01-introduction             _config.yml             requirements_students.txt
+02-sequence_databases       copy_repo.sh            requirements_tutors.txt
+03-lipases                  docs                    reveal.css
+04-structure                environment.yml         schedule.Rmd
+Dockerfile-notebooks        images                  schedule.html
+Dockerfile-terminal         index.ipynb             three_minute_test.md
+README.md                   install-apps.sh</code></pre>
+<p>And now, if you try <code>ls 2018-03-06-ibioic/</code> you'll get an error:</p>
 
-<pre><code>[userXX@servername Teaching-IBioIC-Intro-to-Bioinformatics]$ ls Teaching-IBioIC-Intro-to-Bioinformatics/
-ls: Teaching-IBioIC-Intro-to-Bioinformatics/: No such file or directory</code></pre>
+<pre><code>[userXX@servername 2018-03-06-ibioic]$ ls 2018-03-06-ibioic/
+ls: 2018-03-06-ibioic/: No such file or directory</code></pre>
 <p>You can go "up" one level in the directory try using the special relative path <code>..</code>, e.g. <code>cd ..</code> which is <code>c</code>, <code>d</code>, space, dot, dot (and then enter).</p>
 <p>You can return to the home directory using just <code>cd</code> on its own.</p>
 <p>For simplicity, in most examples the command prompt will be shown as just <code>$</code>. In the examples above it captured the username, computer name, and the final part of the current directory, or <code>~</code> which is a convention for the current directory.</p>
-<p>Note that Microsoft Windows does include its own command line, both an older system known as DOS and a more recent one called PowerShell, but they work a little differently to the Unix conventions (for example using <code>\</code> rather than <code>/</code> for directory names).</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a id="xwindows"></a></p>
-<h3 id="Graphical-Programs">Graphical Programs<a class="anchor-link" href="#Graphical-Programs">&#182;</a></h3><div class="alert-success">
-<b>Fundamential of running Linux graphical tools via X-Windows</b>
-</div><p>The examples so far have been very simple - our keyboard input has been sent from the Windows computer over the network to the Linux server, and the text output from it has been sent back.</p>
-<p>The Unix and Linux world have something called X-Windows which also allows your computer to send mouse movements and clicks to the remote server, and have it send back graphics to show on your screen.</p>
-<p>We'll try this now using the web-browser Firefox, where as long as the network and server are fast enough, it should feel almost like Firefox is running on your own computer directly.</p>
-
-<pre><code>$ firefox</code></pre>
-<p>This <em>should</em> start up Firefox, and once you quit Firefox you'll get the <code>$</code> interactive command line prompt again.</p>
-<p>A slight variation is as follows:</p>
-
-<pre><code>$ firefox &amp;</code></pre>
-<p>Adding the ampersand tells Linux to run Firefox seprarately without waiting for it to finish, so you immediately get the <code>$</code> prompt again.</p>
-<p>You can pass option to Firefox when starting it this way, for example to open a particular URL:</p>
-
-<pre><code>$ firefox "http://www.bbc.com/news" &amp;</code></pre>
-<p>Note because URLs often include special characters (like ampersands), it is safest to put quote marks round it.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a id="remote_desktop"></a></p>
-<h3 id="Remote-Desktop">Remote Desktop<a class="anchor-link" href="#Remote-Desktop">&#182;</a></h3><div class="alert-success">
-<b>It is possible to have remote access to a Linux graphical desktop</b>
-</div><p>Windows and Apple Mac have ways to remotely access a computer as though you were in front of it - seeing everything which would have been on screen, multiple applications includes the start menu or dock.</p>
-<p>This is possible under Linux, but we're not going to use it here.</p>
+<p>Note that Microsoft Windows does include its own command line, both an older system known as DOS and a more recent one called PowerShell, but they work a little differently to the Unix conventions (for example using <code>\</code> rather than <code>/</code> for directory names, and <code>dir</code> instead of <code>ls</code> to list the contents of a directory).</p>
 
 </div>
 </div>
