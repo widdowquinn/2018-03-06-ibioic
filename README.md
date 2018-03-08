@@ -212,6 +212,8 @@ We provide the course notebooks and slides as webpages, in the links below:
 
 * [00. Challenge (`notebook`/`browser`)](03-lipases/00-Challenge.html) - <font color='green'><b>introductory</b></font>/<font color='orange'><b>intermediate</b></font>
 
+* [`lipase_investigation.ipynb`](03-lipases/lipase_investigation.html) - the notebook developed during the class
+
 ### 4. Structural Bioinformatics
 ​
 **Lessons**
